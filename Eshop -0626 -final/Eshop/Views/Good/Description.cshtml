@@ -1,0 +1,128 @@
+﻿@using System.Web.UI.WebControls
+@model Eshop.Domain.Entities.Goods.Good
+@{
+    ViewBag.Title = "Description";
+}
+
+@Styles.Render("~/Content/rate.css")
+
+<div class="panel">
+    <div class="panel-body description">
+        <div class="order-image">
+            <img alt="NO IMAGE" width="300" height="300" src='@Url.Action("GetImage", "Good", new {id = Model.Id})' />
+
+        </div>
+
+
+        <h3>@Html.DisplayTextFor(g => Model.Name) </h3>
+        <h4>@Html.DisplayTextFor(g => Model.Price)<span>$</span></h4>
+        <label>Category</label>
+        <p>@Html.DisplayTextFor(g => Model.Category.Name)</p>
+        <div class="specification">
+
+            <dl>
+                @foreach (var spec in Model.Specifications)
+                {
+                    <dt>@spec.Property.Name</dt>
+                    <dd>@spec.Name</dd>
+                }
+            </dl>
+        </div>
+    </div>
+    <div class="panel-footer">
+        <button class="button btn btn-primary" onclick="addToCart('@Model.Id')">Add to cart</button>
+        @if (User.IsInRole("Admin") || User.IsInRole("Moderator"))
+        {
+            @Html.ActionLink("Edit", "Edit", "Good", new { id = Model.Id }, new { @class = "btn btn-warning" })
+            @Html.ActionLink("Delete", "DeleteGood", "Good", new { id = Model.Id }, new { @class = "btn btn-danger" })
+        }
+    </div>
+</div>
+<div class="panel">
+
+    @foreach (var review in Model.Reviews)
+    {
+
+        <div class="panel panel-info"></div>
+        <div class="panel-heading">
+            <div>
+                @for (var i = 0; i < review.Rate; i++)
+                {
+                    <img src="~/Content/Images/rate.png" width="30" height="30" />
+                }
+            </div>
+            <div>
+                <span class="date-review">@review.Date</span><br />
+                <span class="author-name">@(review.User == null ? $"deleted Author" : review.User.Login)</span>
+            </div>
+
+        </div>
+        <div class="panel-body">
+            @Html.DisplayTextFor(r => review.Comment)
+        </div>
+    }
+    @if (Request.IsAuthenticated && Model.Reviews.FirstOrDefault(r=>r.User.Login == User.Identity.Name)==null)
+    {
+        using (Html.BeginForm())
+        {
+            <div class="panel-footer">
+                <div class="panel panel-primary">
+
+                    <div class="panel-heading">
+                        <span>Leave your feedback</span>
+                        <button class="btn btn-primary" type="submit">Submit</button>
+                    </div>
+
+                    <div class="panel-body">
+
+                        <input type="hidden" name="goodId" value="@Model.Id" />
+
+                        <div id="reviewStars-input">
+                            <input id="star-4" value="5" type="radio" name="rate" />
+                            <label title="gorgeous"  for="star-4"></label>
+
+                            <input id="star-3" value="4"type="radio" name="rate" />
+                            <label title="good" for="star-3"></label>
+
+                            <input id="star-2" value="3" type="radio" name="rate" />
+                            <label title="regular" for="star-2"></label>
+
+                            <input id="star-1" value="2" type="radio" name="rate" />
+                            <label title="poor" for="star-1"></label>
+
+                            <input id="star-0" value="1" type="radio" name="rate" />
+                            <label title="bad" for="star-0"></label>
+                        </div>
+                        <br />
+                        <textarea name="comment" rows="4" cols="200"></textarea>
+                    </div>
+
+
+                </div>
+            </div>
+        }
+    }
+</div>
+
+@section scripts
+{
+    <script>
+
+        function addToCart(id) {
+            $.ajax({
+                type: "POST",
+                url: '@Url.Action("AddToCart","Home")',
+                data: JSON.stringify({ 'goodId': id }),
+                dataType: "json",
+                contentType: "application/json; charset=utf-8",
+                success: function (data) {
+                },
+                error: function () {
+                    alert("123Error while inserting data");
+                }
+            });
+        }
+
+    </script>
+}
+

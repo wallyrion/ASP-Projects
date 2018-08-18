@@ -1,0 +1,129 @@
+﻿
+@using DBPlatform_v1._0.Models
+@model DBPlatform_v1._0.Models.Company
+@{
+    ViewBag.Title = "Редактировать компанию";
+    // Layout = null;
+}
+@Styles.Render("~/Content/CreateCompany.css")
+
+<h2>Edit company</h2>
+@using (Html.BeginForm("EditCompany", "Companies", FormMethod.Post, new { @class = "clearfix" }))
+{
+    @Html.ValidationSummary(true)
+    <fieldset class="form-create">
+        @Html.HiddenFor(m => m.Id)
+        <p>
+            @Html.LabelFor(model => model.name)
+            @Html.TextBoxFor(model => model.name)
+            @Html.ValidationMessageFor(model => model.name)
+
+        </p>
+        <p>
+            @Html.LabelFor(model => model.employees_min)
+            @Html.TextBoxFor(model => model.employees_min)
+        </p>
+        <p>
+            @Html.LabelFor(model => model.employees_max)
+            @Html.TextBoxFor(model => model.employees_max)
+            @Html.ValidationMessageFor(model => model.employees_max)
+        </p>
+        <p>
+            @Html.LabelFor(model => model.employees_prooflink)
+            @Html.TextBoxFor(model => model.employees_prooflink)
+        </p>
+        <p>
+            @Html.LabelFor(model => model.revenue_min)
+            @Html.TextBoxFor(model => model.revenue_min)
+        </p>
+        <p>
+            @Html.LabelFor(model => model.revenue_max)
+            @Html.TextBoxFor(model => model.revenue_max)
+            @Html.ValidationMessageFor(model => model.revenue_max)
+        </p>
+        <p>
+            @Html.LabelFor(model => model.revenue_prooflink)
+            @Html.TextBoxFor(model => model.revenue_prooflink)
+        </p>
+        <p>
+            @Html.LabelFor(model => model.domain)
+            @Html.TextBoxFor(model => model.domain)
+        </p>
+        <p>
+            @Html.LabelFor(model => model.website)
+            @Html.TextBoxFor(model => model.website)
+        </p>
+        <p>
+            @Html.LabelFor(model => model.parent_id)
+            @Html.DropDownListFor(model => model.parent_id, ViewBag.AllCompanies as SelectList, "--Select parent company--", new {@class="selectpicker"});
+        </p>
+    </fieldset>
+    <fieldset class="industries">
+        <p>@Html.Label("industries")</p>
+        @foreach (Industry ind in ViewBag.Industries)
+        {
+            <input type="checkbox" name="selectedIndustries" value="@ind.Id"
+                   @(Model.Industries.Contains(ind) ? "checked=\"checked\"" : "") />@ind.Name <br />
+            }
+        <p>
+            @Html.Label("Primary Industry")
+            @Html.DropDownListFor(model => model.PrimaryIndustryId, ViewBag.AllIndustries as SelectList, "--Select Primary Industry--");
+        </p>
+
+    </fieldset>
+
+
+
+
+    <br />
+    <p><input type="submit" class="save-btn" name="submitbutton" value="Save" /></p>
+    <p><input type="submit" class="save-btn create-btn" name="submitbutton" value="Create new" /></p>
+}
+
+<button id="btn-show-contacts" type="button" onclick="showContacts()">Show Contacts</button>
+<div class="contacts-list">
+    <table id="table-contacts" style="display:none">
+        @if (Model.Contacts.Count > 0)
+        {
+            <tr>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Email</th>
+
+            </tr>
+
+            foreach (Contact contact in Model.Contacts)
+            {
+                <tr>
+                    <td>@contact.first_name</td>
+                    <td>@contact.last_name</td>
+                    <td>@contact.email</td>
+                </tr>
+            }
+        }
+    </table>
+</div>
+<script>
+    //$(document).ready(function () {
+    //    $('.selectpicker').selectpicker({
+    //        liveSearch: true,
+    //        showSubtext: true
+    //    });
+    //});
+    function showContacts() {
+        var t = document.getElementById('table-contacts');
+        if (t.style.display == 'none') {
+            document.getElementById('btn-show-contacts').innerText = "Hide";
+            t.style.display = 'block';
+
+        }
+        else {
+            t.style.display = 'none';
+            document.getElementById('btn-show-contacts').innerText = "Show Contacts";
+        }
+
+    }
+</script>
+
+
+/**/

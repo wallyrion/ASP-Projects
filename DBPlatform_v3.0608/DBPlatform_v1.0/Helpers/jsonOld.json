@@ -1,0 +1,12 @@
+﻿{
+
+  "installed": {
+    "client_id": "507663023814-4stj4jcuee6bk1ftv5a65k350jskhi4c.apps.googleusercontent.com",
+    "project_id": "rich-channel-175713",
+    "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+    "token_uri": "https://accounts.google.com/o/oauth2/token",
+    "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+    "client_secret": "zWYSSPCMzsBa4ZLziH2rdU2N",
+    "redirect_uris": [ "urn:ietf:wg:oauth:2.0:oob", "http://localhost" ]
+  }
+}

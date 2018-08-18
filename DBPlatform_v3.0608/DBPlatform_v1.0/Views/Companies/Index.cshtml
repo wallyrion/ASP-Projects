@@ -1,0 +1,228 @@
+﻿@model DBPlatform_v1._0.Models.CompaniesSearchView
+@using System.Web.UI.WebControls
+@using DBPlatform_v1._0.Models
+@{
+    ViewBag.Title = "Company tool";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    //Layout = null;
+    //ViewBag.Title = "Home Page";
+
+}
+@Styles.Render("~/Content/indexCompany.css")
+
+<style>
+    .container-criteria input[type=radio] {
+        margin-right: 15px;
+    }
+
+    .container-criteria {
+        float: left;
+        width: auto;
+        margin: 0 auto;
+    }
+
+    .container-companies {
+        margin: 0 auto;
+    }
+
+    td {
+        width: 400px;
+    }
+
+    /*footer {
+        margin-top: 20%;
+    }*/
+
+    .merge-companies {
+        display: none;
+        margin-left: 100px;
+        float: left;
+    }
+
+    .listMergeCompanies {
+        width: 300px;
+    }
+
+    .container-companies {
+        clear: both;
+    }
+
+    .merge-btn {
+        margin: 10px auto;
+    }
+
+    .add-to-merge-btn {
+        width: 50px;
+        height: 30px
+    }
+</style>
+<h2>Company Tool</h2>
+<h4>@Html.ActionLink("Create new Company", "Create")</h4>
+
+<br />
+<div>
+    <div class="container-criteria">
+        @using (Html.BeginForm("Index", "Companies", FormMethod.Post))
+        {
+            <p>
+                <label for="bypartsType">By Parts</label>
+                @Html.RadioButtonFor(model => model.searchType, "By Parts", new { id = "bypartsType", @class = "form-check-input" })
+                <label for="exactType">Exact</label>
+                @Html.RadioButtonFor(model => model.searchType, "Exact", new { id = "exactType" })
+                <label for="allType">All</label>
+                @Html.RadioButtonFor(model => model.searchType, "All", new { id = "allType" })
+
+            </p>
+            <br />
+            <p>
+                @Html.LabelFor(model => model.searchName)
+                @Html.EditorFor(model => model.searchName, new { @class = "form-control form-control-lg" })
+            </p>
+            <p> <button class="btn btn-success" type="submit">search</button> </p>
+        }
+    </div>
+
+    @if (Model.companies != null && Model.companies.Any())
+    {
+
+        <div id="mergeCompanies" class="merge-companies">
+            @using (Html.BeginForm("Merge", "Companies", FormMethod.Post, new{id="formMerge"}))
+            {
+
+                @Html.ListBoxFor(m => m.SelectedCompanies, new List<SelectListItem>(), new { size = 10, @id = "listMergeCompanies", @name = "mergingCompanies", @class = "listMergeCompanies" })
+                @*<select id="listMergeCompanies" name="companiesToMerge" size="10"></select>*@
+                <br />
+                <input type="text" name="primaryMerge" id="mergeCompanyName" />
+                
+                <button type="button" onclick="submitBtn()" class="btn btn-success">Merge</button>
+                
+                @*<input type="submit" Merge/>*@
+                <input type="button" class="btn btn-success" value="Del" onclick="deleteFromMergeList()" />
+
+            }
+        </div>
+        <script>
+            function submitBtn() {
+                var options = document.getElementsByClassName('option-company');
+                for (var i = 0; i < options.length; i++) {
+                    options[i].selected = "selected";
+                }
+                var primaryOption = document.getElementById('mergeCompanyName').value;
+                for (var i = 0; i < options.length; i++) {
+                    if (options[i].innerText == primaryOption) {
+                        options[i].selected = false;
+                        break;
+                    }
+                }
+                
+                    
+                $("#formMerge").submit(); 
+            }
+            /*$('#formMerge').submit(function () {
+                alert("test");
+                var options = document.getElementsByClassName('option-company');
+                for (var i = 0; i < options.length; i++)
+                    options[i].selected = "selected";
+                // DO STUFF...
+                return true; // return false to cancel form action
+            });*/
+        </script>
+    }
+
+
+    <div class="container-companies">
+        <hr />
+        @if (Model.companies.Any())
+        {
+
+            <table>
+                <tr>
+                    <th>Add to merge List</th>
+                    <th>Name</th>
+                    <th>Domain</th>
+                    <th>Employees</th>
+                    <th>Revenue</th>
+                    <th>Industry</th>
+                    <th></th>
+                </tr>
+
+                @foreach (var item in Model.companies)
+                {
+                    <tr>
+                        <td>
+                            <button class="btn btn-success" onclick="addToMergeList('@item.Id','@item.name')">add</button>
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.name)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.domain)
+                        </td>
+
+                        <td>
+                            @item.GetEmployees()
+
+                        </td>
+                        <td>
+                            @item.GetRevenue()
+
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.PrimaryIndustry.Name)
+                        </td>
+
+                        <td>
+                            @Html.ActionLink("Edit", "Edit", new { id = item.Id }) |
+                            @Html.ActionLink("Delete", "DeleteCompany", new { id = item.Id })
+                        </td>
+                    </tr>
+                }
+            </table>
+
+
+        }
+    </div>
+
+    <script>
+
+
+        function addToMergeList(id, name) {
+
+            var s = document.createElement("option");
+
+            s.value = id;
+            s.innerText = name;
+            s.className = "option-company";
+            s.selected = "selected";
+            var options = document.getElementsByClassName('option-company');
+            for (i in options) {
+                if (options[i].value == id) return;
+            }
+
+
+            document.getElementById('mergeCompanies').style.display = "block";
+
+            document.getElementById('listMergeCompanies').appendChild(s);
+            s.ondblclick = function () {
+                document.getElementById('mergeCompanyName').value = name;
+            }
+        }
+        function setCompanyName(name) {
+            alert(name);
+            //document.getElementById('mergeCompanyName').appendChild(s);
+        }
+        function deleteFromMergeList() {
+            var mergeList = document.getElementById('listMergeCompanies');
+            var allOptions = document.getElementsByClassName('option-company');
+            for (var i = 0; i < allOptions.length; i++) {
+                if (allOptions[i].selected) {
+                    mergeList.remove(i);
+                    i--;
+                }
+
+            }
+        }
+    </script>
+</div>
+
+

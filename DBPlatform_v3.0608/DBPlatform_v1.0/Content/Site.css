@@ -1,0 +1,70 @@
+﻿html {
+    min-height: 100vh;
+}
+
+body {
+    padding-top: 50px;
+    /*background: #563c55 url("images/bg-image.jpg")no-repeat  center;*/
+    /*background: radial-gradient(ellipse at center, #f0f9ff 0%, #cbebff 47%, #9bc2f2 100%);*/
+    /*background: linear-gradient(to bottom, #d944ff 0%,#4744ff 18%,#44e9ff 44%,#47ff44 59%,#fff875 72%,#ff3d3d 99%);*/
+    background: linear-gradient(to bottom, #f3ceff 1%,#ceceff 19%,#bff7ff 44%,#ccffcc 61%,#fffac4 73%,#ffb2b2 100%);
+    /*background: #abd6d7;*/
+    background-size: cover;
+}
+
+tr {
+    border: 2px solid #8f96c2;
+}
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+a {
+    color: black;
+}
+
+footer {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+hr {
+    border-color: blue;
+}
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+.all-content {
+    min-height: calc(100vh - 121px);
+}
+
+footer p {
+    margin: 0;
+}
+
+h2 {
+    text-align: center;
+}
+
+input[type="submit"], button {
+    background-color: white;
+    border: 2px solid black;
+}
+
+    input[type="submit"]:hover, button:hover {
+        background-color: #1e90ff;
+        border-color: white;
+    }

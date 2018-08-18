@@ -1,0 +1,70 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title </title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+    <style>
+        .top-anchor {
+            position: fixed;
+            bottom: 16px;
+            right: 16px;
+            font-size: 40px;
+            display: block;
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            background: purple;
+            color: white;
+            text-align: center;
+            line-height: 60px;
+        }
+    </style>
+</head>
+<body id="top">
+    <div  class="all-content">
+
+        <div class="navbar navbar-inverse navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+
+                </div>
+                <div class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav">
+                        <li>@Html.ActionLink("Home", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })</li>
+                        <li>@Html.ActionLink("Company tool", "Index", "Companies")</li>
+                        <li>@Html.ActionLink("Contact tool", "Edit", "Contacts")</li>
+                        <li>@Html.ActionLink("Title tool", "Index", "Titles")</li>
+                    </ul>
+                    @Html.Partial("_LoginPartial")
+                </div>
+            </div>
+        </div>
+        <div class="container body-content">
+            <main>
+                @RenderBody()
+            </main>
+
+        </div>
+    </div>
+    <footer class="container">
+        <hr />
+        <p>&copy; @DateTime.Now.Year - Alexey Korniienko. All Rights Reserved</p>
+    </footer>
+
+    <a class="top-anchor" href="#top">^</a>
+
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+
+</body>
+</html>

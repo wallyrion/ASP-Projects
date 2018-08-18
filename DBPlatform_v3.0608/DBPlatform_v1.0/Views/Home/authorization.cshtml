@@ -1,0 +1,45 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    @Styles.Render("~/Content/login.css")
+    <meta name="viewport" content="width=device-width" />
+    <title>authorization</title>
+    <style>
+
+			
+
+    </style>
+</head>
+<body>
+    <div class="container">
+
+
+
+        <section class="main">
+            <form method="post" class="form-3">
+                <p class="clearfix">
+                    <label for="login">email</label>
+                    <input type="text" name="login" id="login" placeholder="email">
+                </p>
+                <p class="clearfix">
+                    <label for="password">password</label>
+                    <input type="password" name="password" id="password" placeholder="password">
+                </p>
+                <p class="clearfix">
+                    <input type="checkbox" name="remember" id="remember">
+                    <label for="remember">Remember me</label>
+                </p>
+                <p class="clearfix">
+                    <input type="submit" name="submit" value="login">
+                </p>
+            </form>
+        </section>
+
+    </div>
+</body>
+</html>

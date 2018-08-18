@@ -1,0 +1,26 @@
+﻿@model IEnumerable<DBPlatform_v1._0.Models.Companies.Country>
+@{
+    ViewBag.Title = "Countries";
+}
+
+<h2>Countries</h2>
+
+@using (Html.BeginForm())
+{
+    <table>
+        <tr>
+            <th>Name</th>
+            <th></th>
+        </tr>
+        @foreach (DBPlatform_v1._0.Models.Companies.Country item in Model)
+        {
+            <tr>
+                <td>@item.Name</td>
+                <td>@Html.ActionLink("Delete", "DeleteCountry", new { id = item.Id })</td>
+            </tr>
+        }
+    </table>
+    <br/>
+    <p><input type="text" placeholder="new country"name="newName" /></p>
+    <p><button class="btn btn-success"type="submit" value="Add">Add</button></p>
+}

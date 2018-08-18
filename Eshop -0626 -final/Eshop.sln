@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2037
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Eshop", "Eshop\Eshop.csproj", "{EFB669BA-F3C2-4614-8E0A-BD8F52926A5E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Eshop.Domain", "Eshop.Domain\Eshop.Domain.csproj", "{D74327A6-91EB-4B78-A32D-77FE506E5504}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EshopTest", "EshopTest\EshopTest.csproj", "{761B7E9E-35ED-48A2-B155-0C6E86032A90}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EFB669BA-F3C2-4614-8E0A-BD8F52926A5E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EFB669BA-F3C2-4614-8E0A-BD8F52926A5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EFB669BA-F3C2-4614-8E0A-BD8F52926A5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EFB669BA-F3C2-4614-8E0A-BD8F52926A5E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D74327A6-91EB-4B78-A32D-77FE506E5504}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D74327A6-91EB-4B78-A32D-77FE506E5504}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D74327A6-91EB-4B78-A32D-77FE506E5504}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D74327A6-91EB-4B78-A32D-77FE506E5504}.Release|Any CPU.Build.0 = Release|Any CPU
+		{761B7E9E-35ED-48A2-B155-0C6E86032A90}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{761B7E9E-35ED-48A2-B155-0C6E86032A90}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{761B7E9E-35ED-48A2-B155-0C6E86032A90}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{761B7E9E-35ED-48A2-B155-0C6E86032A90}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {707AF63F-8434-4507-A3B3-F0416BAA7944}
+	EndGlobalSection
+EndGlobal

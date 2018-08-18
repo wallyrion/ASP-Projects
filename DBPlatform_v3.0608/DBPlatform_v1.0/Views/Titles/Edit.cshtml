@@ -1,0 +1,97 @@
+﻿@model TitleEditView
+@using DBPlatform_v1._0.Models.Companies
+
+@{
+    ViewBag.Title = "Edit title";
+}
+@Styles.Render("~/Content/CreateCompany.css")
+<h2>Edit title</h2>
+<style>
+    .jobAreas-lbl {
+        display: block;
+    }
+</style>
+@using (Html.BeginForm("Edit", "Titles", FormMethod.Post, new { @class = "clearfix" }))
+{
+    @Html.AntiForgeryToken()
+    @Html.ValidationSummary(true)
+    <fieldset class="form-create">
+        @Html.HiddenFor(m => m.Title.Id)
+        <p>
+            @Html.LabelFor(model => model.Title.Name, htmlAttributes: new { @class = "control-label col-md-2" })
+            @Html.EditorFor(model => model.Title.Name, new { htmlAttributes = new { @class = "form-control form-control-lg" } })
+        </p>
+
+        <p>
+            <label for="selectJobLevel" class="control-label col-md-2">Job Level</label>
+            @Html.DropDownListFor(model => model.Title.JobLevelId, Model.selectListJobLevels, "--Select Job Level--", new { id = "selectJobLevel", @class = "form-control form-control-lg" });
+        </p>
+    </fieldset>
+    if (Model.JobAreas.Any())
+    {
+
+
+        <fieldset class="list-selectlist">
+            <p>@Html.Label("Job Areas")</p>
+            @foreach (JobArea area in Model.JobAreas)
+            {
+                <label class="jobAreas-lbl">
+                <input type="checkbox" name="selectedJobAreas" value="@area.Id"
+                       @(Model.Title.JobAreas.ToList().Contains(area) ? "checked=\"checked\"" : "") />@area.Name <br />
+                </label>
+                }
+
+
+        </fieldset>
+    }
+
+
+
+
+    <br />
+    <p><button type="submit" id="savebtn" class="save-btn btn btn-success" name="submitbutton" value="Save">Save</button></p>
+    <script>
+        if (@Model.Title.Id== 0) document.getElementById("savebtn").setAttribute("disabled", true);
+    </script>
+    <p><button type="submit" class="save-btn create-btn btn btn-success" name="submitbutton" value="Create new">Create</button></p>
+}
+
+<button id="btn-show-contacts" class="btn btn-info" type="button" onclick="showContacts()">Show Contacts</button>
+<div class="contacts-list">
+    <table id="table-contacts" style="display:none">
+        @if (Model.Title.Contacts!=null && Model.Title.Contacts.Any())
+            {
+                <tr>
+                    <th>First Name</th>
+                    <th>Last Name</th>
+                    <th>Email</th>
+
+                </tr>
+
+                foreach (DBPlatform_v1._0.Models.Contact contact in Model.Title.Contacts)
+                {
+                    <tr>
+                        <td>@contact.first_name</td>
+                        <td>@contact.last_name</td>
+                        <td>@contact.email</td>
+                    </tr>
+                }
+            }
+    </table>
+</div>
+<script>
+    function showContacts() {
+        var t = document.getElementById('table-contacts');
+        if (t.style.display == 'none') {
+            document.getElementById('btn-show-contacts').innerText = "Hide";
+            t.style.display = 'block';
+
+        }
+        else {
+            t.style.display = 'none';
+            document.getElementById('btn-show-contacts').innerText = "Show Contacts";
+        }
+
+    }
+</script>
+

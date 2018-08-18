@@ -1,0 +1,94 @@
+﻿@model IEnumerable<Eshop.Domain.Entities.Goods.Good>
+
+@{
+    ViewBag.Title = "My Cart";
+}
+
+@if (Model == null || !Model.Any())
+{
+    <h3>You have no goods in cart</h3>
+}
+else
+{
+
+    var dictionary = (Dictionary<int, int>)ViewBag.GoodQuantites;
+
+
+    <div class="well container-goods">
+        @using (Html.BeginForm("Cart", "Home", FormMethod.Post))
+        {
+            var count = 0;
+            <button type="submit" id="createOrderBtn" @*onclick="createOrder()"*@ class="btn btn-primary">Create order</button>
+            foreach (var good in Model)
+            {
+                <div class="well good" id="count">
+                    @Html.LabelFor(g => good.Name)
+                    <p>@Html.DisplayTextFor(g => good.Name)</p>
+
+                    @Html.LabelFor(g => good.Price)
+                    <p>@Html.DisplayTextFor(g => good.Price)</p>
+
+                    <div class="good-info">
+                        <div class="specifications">
+                            @foreach (var spec in good.Specifications)
+                            {
+                                <dl>
+
+                                    <dt>@spec.Property.Name</dt>
+                                    <dd>@spec.Name</dd>
+                                </dl>
+
+                            }
+                            <label>Count</label>
+                            <input type="hidden" class="good-id-hidden" name="goodQuantity[@count].GoodId" value="@good.Id" />
+
+                            <input type="text" class="quantity-text" name="goodQuantity[@(count++)].Quantity" value="1" />
+                            <button type="button" onclick="location.href = '@Url.Action("RemoveGoodFromCart", "Home", new {id = good.Id})'" class="btn btn-danger">Remove</button>
+                        </div>
+                        <div class="good-image">
+                            <img alt="NO IMAGE" width="150" height="150" src='@Url.Action("GetImage", "Good", new {id = good.Id})' />
+                        </div>
+                    </div>
+
+
+
+
+                </div>
+            }
+        }
+
+    </div>
+}
+
+<style>
+    .container-goods {
+        width: 75%;
+    }
+
+    dl {
+        margin-left: 70px;
+    }
+
+    #createOrderBtn {
+        display: block;
+        margin: 10px auto;
+    }
+
+    .good-info {
+        overflow: hidden;
+    }
+
+    .good-image {
+        float: right;
+        width: 150px;
+        height: 150px;
+    }
+
+    .specifications {
+        width: 60%;
+        float: left
+    }
+</style>
+
+
+

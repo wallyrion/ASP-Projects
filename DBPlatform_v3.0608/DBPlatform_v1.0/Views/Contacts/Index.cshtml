@@ -1,0 +1,107 @@
+﻿@model IEnumerable<DBPlatform_v1._0.Models.Contact>
+
+@{
+                /**/
+
+                ViewBag.Title = "Index";
+}
+<style>
+    .container.body-content {
+        padding: 0;
+        margin: 0;
+    }
+    .contact-table {
+        margin: 50px;
+        max-width: 100%;
+        width: calc(100vw - 100px);
+    }
+
+    th {
+        text-align: center;
+    }
+    td {
+        padding: 0 8px;
+    }
+    td, th {
+        border: 1px solid #8f96c2;
+    }
+    h4 {
+        text-align: center;
+    }
+
+</style>
+<h2>Contacts</h2>
+
+<h4>@Html.ActionLink("Create new contact", "Create")</h4>
+
+
+
+@Html.Partial("_search")
+<table class="contact-table">
+    @if (Model.Any())
+    {
+        <tr>
+            <th>
+                #
+            </th>
+            <th >
+                @Html.DisplayNameFor(model => model.first_name)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.last_name)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.email)
+            </th>
+            <th class="prooflink">
+                @Html.DisplayNameFor(model => model.prooflink)
+            </th>
+            <th>
+                @Html.DisplayName("Country")
+            </th>
+            <th>
+                @Html.DisplayName("Title")
+            </th>
+            <th>
+                @Html.DisplayName("Company")
+            </th>
+            <th></th>
+        </tr>
+        {
+            var count = 0;
+
+            foreach (var item in Model)
+            {
+                <tr>
+                    <td>@(count++)</td>
+                    <td class="first-name">
+                        @Html.DisplayFor(modelItem => item.first_name)
+                    </td>
+                    <td class="last-name">
+                        @Html.DisplayFor(modelItem => item.last_name)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.email)
+                    </td>
+                    <td class="prooflink">
+                        @Html.DisplayFor(modelItem => item.prooflink)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Country.Name)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Title.Name)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Company.name)
+                    </td>
+                    <td>
+                        @Html.ActionLink("Edit", "Edit", new {id = item.Id}) |
+                        @Html.ActionLink("Delete", "Delete", new {id = item.Id})
+                    </td>
+                </tr>
+            }
+        }
+    }
+</table>
+

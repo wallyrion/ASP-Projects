@@ -1,0 +1,317 @@
+﻿@using Eshop.Domain.Entities.Goods
+
+@model Eshop.Models.IndexViewModel
+
+<div>
+    <label for="sortType"></label>
+    <select class="sort-dropdown button btn btn-primary" onchange="applyFilter('1')" id="sortType">
+        <option selected="selected">--Sort By--</option>
+        <option value="By Name Ascending">By Name Ascending</option>
+        <option value="By Name Descending">By Name Descending</option>
+        <option value="By Price Ascending">By Price Ascending</option>
+        <option value="By Price Descending">By Price Descending</option>
+        <option value="By Date Ascending">By Date Ascending</option>
+        <option value="By Date Descending">By Date Descending</option>
+    </select>
+    <ul id="pagingList" class="paging"></ul>
+    <label for="goodsOnPage">Goods on page: </label>
+    <input placeholder="@Model.PageSize" value="@Model.PageSize" id="goodsOnPage" type="text" size="2" />
+    <button type="button" onclick="applyFilter()" class="button btn btn-primary" id="btnApply" value="Apply">Apply</button>
+
+
+</div>
+<div id="goodsList" class="well goods-list col-xs-9">
+
+</div>
+
+<div class="well filters sidebar sidebar-right col-xs-3">
+    @if (Model.Properties != null)
+    {
+        using (Html.BeginForm("Category", "Home", FormMethod.Post))
+        {
+            <div class="priceFilter">
+                <div>
+                    <label class="des-price-lbl des-price-lbl-left" for="minPrice">From</label>
+                    <input onchange="applyFilter()" name="minPrice" class="des-price des-price-min" id="minPrice" type="text" />
+
+                </div>
+                <br />
+                <div>
+                    <label class="des-price-lbl des-price-lbl-right" for="maxPrice">To</label>
+                    <input onchange="applyFilter()" name="maxPrice" class="des-price des-price-max" id="maxPrice" type="text" />
+                </div>
+
+
+            </div>
+            <hr class="hr-filters" />
+            <input type="hidden" value='@Model.CategoryName' name='category' />
+            <br />
+            foreach (var prop in Model.Properties)
+            {
+                <ul>
+                    <h5 class="prop-name">@prop.Name</h5>
+                    @foreach (var spec in prop.Specifications)
+                    {
+                        <li class="spec-li"><input type="checkbox" onclick="applyFilter()" class="spec-check" name="specification" value="@spec.Id" id="@spec.Id" /><label for="@spec.Id">@spec.Name</label></li>
+                    }
+                </ul>
+                <hr class="hr-filters" />
+            }
+        }
+
+    }
+
+
+</div>
+
+
+<style>
+    .good {
+        position: relative;
+        float: left;
+        width: 33%;
+        margin: 1px;
+        text-align: center;
+        border: 1px solid #d3d3d3;
+        padding: 8px;
+        background: white;
+    }
+
+        .good button {
+            display: block;
+            margin: 0 auto;
+        }
+
+    .price {
+        font-weight: bold;
+    }
+
+    .sort-dropdown {
+        margin: 10px auto;
+    }
+
+    .paging, .page, .sort-dropdown {
+        display: inline;
+    }
+
+    .d-image {
+        height: 150px;
+        text-align: center;
+    }
+
+    #btnSort {
+        width: 200px;
+    }
+
+    .des-price {
+        width: 100px;
+    }
+
+    .imgEdit {
+        position: absolute;
+        left: 2px;
+        bottom: 2px;
+    }
+
+    .imgDelete {
+        position: absolute;
+        right: 2px;
+        bottom: 2px;
+    }
+
+    .des-price-lbl {
+        width: 50px;
+        display: inline-block;
+    }
+
+    .hr-filters {
+        border: 0.5px solid #778899
+    }
+</style>
+
+@section Scripts{
+    <script type="text/javascript">
+
+        $(function() {
+            LoadData('@Model.CategoryName'); // load goods when updating page
+        });
+
+
+        function addToCart(id) { // Add good to cart
+            $.ajax({
+                type: "POST",
+                url: '@Url.Action("AddToCart")',
+                data: JSON.stringify({ 'goodId': id }),
+                    dataType: "json",
+                contentType: "application/json; charset=utf-8",
+                success: function() {
+                },
+                error: function() {
+                    console.log("Error while adding to cart");
+                }
+            });
+        }
+
+        function appendGoodsData(data) { // update table with goods
+            $("#goodsList div").remove();
+            var container = document.getElementById('goodsList');
+
+            $.each(data,
+                function(i, item) {
+
+                    var d = document.createElement('div');
+                    $(d).addClass('good');
+
+                    var divImage = document.createElement('div');
+                    $(divImage).addClass('d-image');
+                    d.appendChild(divImage);
+
+                    $('<img />',
+                        {
+                                src: '@Url.Action("GetImage", "Good", new {id = "JSVar"})'.replace("JSVar", item.Id),
+                                width: 150,
+                                heigth: 150,
+                                alt: "NO IMAGE"
+                            })
+                        .appendTo(divImage);
+
+
+                    var name = document.createElement('p'); //good's name
+                    $(name).addClass('good-name block-with-text').html(item.Name).appendTo(d);
+
+                    var pr = document.createElement('p'); //good's price
+                    $(pr).addClass('price').html(item.Price + "$").appendTo(d);
+
+                    $("<a />",
+                        {
+                            id: "5",
+                            name: "link",
+                            href: '@Url.Action("Description", "Good", new {id = "JSVar"})'.replace("JSVar", item.Id),
+                            text: "View more info"
+                        }).appendTo(d);
+                    $('<button/>')
+                        .text('Add to cart')
+                        .addClass('button btn btn-info')
+                        .click(function() {
+                            addToCart(item.Id);
+                        }).appendTo(d);
+
+
+                    @if (User.IsInRole("Admin") || User.IsInRole("Moderator"))
+                    {
+                        <text>
+                            var img = new Image(25,25);
+                            img.src = "/Content/Images/edit.png";
+                            img.className = "imgEdit";
+
+                            var aTag = document.createElement('a');
+                            aTag.href = '@Url.Action("Edit", "Good", new {id = "JSVar"})'.replace("JSVar", item.Id),
+                                aTag.appendChild(img);
+                             d.appendChild(aTag);
+
+                            img = new Image(25,25);
+                            img.src = "/Content/Images/delete.png";
+                            img.className = "imgDelete";
+
+                    var aTag2 = document.createElement('a');
+                    console.log(item.id);
+                            aTag2.href = '@Url.Action("DeleteGood", "Good", new {id = "JSVar"})'.replace("JSVar", item.Id),
+
+                            /*aTag2.href = "/Good/Delete/" + 5235;*/
+                           
+                            aTag2.appendChild(img);
+                            d.appendChild(aTag2);
+
+
+                          </text>
+                    }
+
+                    container.appendChild(d);
+
+
+                });
+        }
+
+        function applyFilter(page = 1) {
+            var specCkecked = [];
+            var minPrice = $("#minPrice").val();
+            var maxPrice = $("#maxPrice").val();
+
+            $("input.spec-check:checkbox").each(function() {
+                var $this = $(this);
+
+                if ($this.is(":checked")) {
+                    specCkecked.push($this.attr("id"));
+                }
+            });
+            var sortedType = $('#sortType :selected').text();
+            var goodsOnPage = $('#goodsOnPage').val();
+            console.log('goods on page ' + goodsOnPage)
+            $.ajax({
+                type: "POST",
+                url: '@Url.Action("ApplyFilter")',
+                data: JSON.stringify({
+                    'specificationIds': specCkecked,
+                    'category': '@Model.CategoryName',
+                    'minPrice': minPrice,
+                    'maxPrice': maxPrice,
+                    'page': page,
+                    'sortType': sortedType,
+                    'pageSize': goodsOnPage
+                }),
+                dataType: "json",
+                contentType: "application/json; charset=utf-8",
+                success: function(data) {
+
+                    createPaging(data.TotalPages, data.CurrentPage);
+                    appendGoodsData(data.Goods);
+                },
+                error: function() {
+                    alert("123Error while inserting data");
+                }
+            });
+        }
+
+        function createPaging(totalPages, currentPage) {
+            $('#pagingList li').remove();
+
+            for (var p = 1; p <= totalPages; p++) {
+                (function(p) {
+                    var page = $('<li/>').addClass('page').appendTo('#pagingList');
+
+                    var btn = $('<button/>').addClass(currentPage === p ? 'btn btn-primary' : 'btn btn-default').text(p)
+                        .click(function() { applyFilter(p) }).appendTo(page);
+                })(p);
+
+
+            }
+
+        }
+
+        function LoadData(category) {
+            $("#tblJobAreas tbody tr").remove();
+            var goodsOnPage = $('#goodsOnPage').val();
+
+            $.ajax({
+                type: 'GET',
+                url: '@Url.Action("ApplyFilter")',
+                dataType: 'json',
+                data: { 'category': category, 'pageSize' : goodsOnPage },
+
+                success: function(data) {
+                    appendGoodsData(data.Goods);
+                    createPaging(data.TotalPages, data.CurrentPage);
+                },
+                error: function() {
+                    console.log('error ');
+                }
+
+            });
+            return false;
+        }
+
+
+    </script>
+}
+
+

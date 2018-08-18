@@ -1,0 +1,150 @@
+﻿@model Eshop.Domain.Entities.Goods.Good
+@{
+    ViewBag.Title = "Create Good";
+}
+
+@using (Html.BeginForm("Create", "Good",
+    FormMethod.Post, new { enctype = "multipart/form-data" }))
+{
+    @Html.ValidationSummary(true)
+    @Html.AntiForgeryToken()
+    <button type="submit" id="btnCreate" class="btn btn-lg btn-primary">Create</button>
+
+    <div class="form-group">
+        @Html.LabelFor(m => m.Name, htmlAttributes: new { @class = "control-label col-md-2" })
+        @Html.TextAreaFor(m => m.Name, new { @class = "form-control", @required = "required" })
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(m => m.Price, htmlAttributes: new { @class = "control-label col-md-2" })
+        @Html.TextBoxFor(m => m.Price, new { @class = "form-control", @required = "required" })
+    </div>
+    <div class="form-group">
+        <label for="selectCategory" class="control-label col-md-2">Category</label>
+        <select id='selectCategory' onchange="getProperties()" name="categoryName" class="form-control">
+            <option selected>----</option>
+        </select>
+    </div>
+    <div id="propList" class="form-group properties">
+
+    </div>
+    <div class="form-group" style="position:relative;">
+        <label>Image</label>
+        <a class='btn' href='javascript:;'>
+            Choose File...
+            <input type="file" name="Image" size="40"
+                   style="position:absolute;z-index:2;top:0;
+                    left:0;filter: alpha(opacity=0); opacity:0;
+                     background-color:transparent;color:transparent;"
+                   onchange='$("#upload-file-info").html($(this).val());'>
+        </a>
+        <span class='label label-info' id="upload-file-info"></span>
+    </div>
+
+
+
+
+}
+
+<style>
+    textarea {
+        min-width: 20%;
+        min-height: 20px;
+        max-width: 50%;
+        max-height: 100px;
+    }
+
+    .properties {
+        margin-left: 100px;
+    }
+
+    #btnCreate {
+        margin: 5px auto;
+    }
+</style>
+
+<script type="text/javascript">
+    /*getCategories();*/
+    $(function () {
+        getCategories();
+    });
+
+
+    function getCategories() {
+        $.ajax({
+            type: "GET",
+            url: '@Url.Action("GetCategories")',
+            data: {},
+            dataType: "json",
+            contentType: "application/json; charset=utf-8",
+            success: function (data) {
+                appendSelect('#selectCategory',data);
+            },
+            error: function() {
+                alert("123Error while inserting data");
+            }
+        });
+    }
+    function getProperties() {
+        var categ = $('#selectCategory').val();
+        console.log(categ);
+        $('#propList').empty();
+        $.ajax({
+            type: "GET",
+            url: '@Url.Action("GetProperties")',
+            data: {category : categ},
+            dataType: "json",
+            contentType: "application/json; charset=utf-8",
+            success: function (data) {
+
+
+                $.each(data,
+                    function(i, item) {
+                        console.log('property :' + item.Name);
+                        var label = $("<label>").addClass('control-label').attr('for', item.Id).text(item.Name).appendTo('#propList');
+                        var sel = $('<select>').addClass('form-control').attr('id', item.Id).attr('name', 'specificationIds').appendTo('#propList');
+
+                        $(sel).append($("<option/>",
+                            {
+                                selected: true,
+                                value: -1,
+                                text: '---'
+                            }));
+                        $.each(item.Specifications,
+                            function(j, spec) {
+                                $(sel).append($("<option/>",
+                                    {
+                                        value: spec.Id,
+                                        text: spec.Name
+                                    }));
+                            });
+                    });
+                /*console.log('    spec id' + spec.Id + '  spec name = ' + spec.Name);#1#
+            });
+
+    });
+    /*appendSelect('#selectCategory',data);*/
+            },
+            error: function() {
+                alert("123Error while inserting data");
+            }
+        });
+
+    }
+    function appendSelect(selectId, data) {
+
+        $.each(data, function(key, value) {
+            $(selectId).append($("<option/>", {
+                value: value,
+                text: value
+            }));
+        });
+
+        /*if (!data) return;
+        console.log(data);
+        console.log(typeof data)
+        for (var i = 0; i < data.length; i++) {
+            $('#selectCategory').append($('<option>', { value: data[i], text: data[i] }));
+        }*/
+
+    }
+</script>

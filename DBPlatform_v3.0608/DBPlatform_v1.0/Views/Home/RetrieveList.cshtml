@@ -1,0 +1,72 @@
+﻿@model IEnumerable<DBPlatform_v1._0.Models.Contact>
+@{
+    ViewBag.Title = "Retrieved List";
+}
+<style>
+    .container.body-content {
+        padding: 0;
+        margin: 15px;
+    }
+
+    td {
+        width: 100px;
+    }
+
+    th, td {
+        border: 1px solid #0000cd;
+        text-align: center;
+    }
+</style>
+
+<h3>Contacts found: @Model.Count()</h3>
+@if (Model != null && Model.Any())
+{
+    <div>
+
+        @Html.ActionLink("Download as CSV File", "ExportList", new {@id= ViewBag.listId})
+            @*<a class="btnExport" href='@Url.Action("ExportList", "Home", new {@id = ViewBag.listId})'>Download as CSV File</a>*@
+
+    </div>
+
+
+    <table>
+        <tr>
+            <th>first_name</th>
+            <th>last_name</th>
+            <th>email</th>
+            <th>company</th>
+            <th>country</th>
+            <th>title</th>
+            <th>industry</th>
+            <th>prooflink</th>
+            <th>employees</th>
+            <th>employees_proof</th>
+            <th>revenue</th>
+            <th>revenue_proof</th>
+        </tr>
+        @foreach (var cont in Model)
+        {
+
+            <tr>
+                @{
+                    var country = cont.Country == null ? "" : cont.Country.Name;
+                    var industry = cont.Company.PrimaryIndustry == null ? "" : cont.Company.PrimaryIndustry.Name;
+                }
+                <td>@cont.first_name</td>
+                <td>@cont.last_name</td>
+                <td>@cont.email</td>
+                <td>@cont.Company.name</td>
+                <td>@country</td>
+                <td>@cont.Title.Name</td>
+                <td>@industry</td>
+                <td>@cont.prooflink</td>
+                <td>@cont.Company.GetEmployees()</td>
+                <td>@cont.Company.employees_prooflink</td>
+                <td>@cont.Company.GetRevenue()</td>
+                <td>@cont.Company.revenue_prooflink</td>
+            </tr>
+
+        }
+    </table>
+}
+

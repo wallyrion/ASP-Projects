@@ -1,0 +1,117 @@
+﻿@using System.Web.UI.WebControls
+
+@{
+    /**/
+
+    ViewBag.Title = "Create list";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    //Layout = null;
+}
+<style>
+
+    .dropdown-list {
+        display: inline-block;
+        max-width: none;
+        width: 40%;
+    }
+
+    h3, form {
+        text-align: center
+    }
+
+    .btn-info {
+        margin: 0 auto;
+        display: block;
+    }
+    .text-count {
+        width: 50px;
+        display: inline-block;
+    }
+    .btn-info {
+        margin-left: 40%;
+        display: inline-block;
+    }
+    
+</style>
+<h3>@Html.ActionLink("Create New List", "GenerateList", "Home")</h3>
+@{
+    List<SelectListItem> lists = ViewBag.retrievedLists;
+}
+@using (Html.BeginForm())
+{
+    <label for="retrievedLists">Choose existing list</label>
+    @Html.DropDownList("retrievedListId", lists, "Select List name", new { id = "retrievedLists", @class = "dropdown-list form-control form-control-lg" })
+    <button type="submit" class="btn btn-success">Select List</button>
+}
+<br />
+
+<button id="btnLastAddedCompanies" class="btn btn-info" type="button">Show last added companies</button>
+<input type="text" id="takeContactsCount" class="text-count form-control" />
+
+<table id="tblCompanies" class="table table-striped">
+    <thead>
+        <tr id="tblCompaniesHeaders"></tr>
+    </thead>
+
+
+    <tbody id="tblCompaniesBody"></tbody>
+</table>
+
+@section Scripts{
+    <script type="text/javascript">
+        $('#tblCompanies').css("display", "none");
+
+        $("#btnLastAddedCompanies").click(function() {
+            $("#tblCompanies thead th").remove();
+            $("#tblCompanies tbody tr").remove();
+
+            if ($('#tblCompanies').css("display") != "none") {
+                $('#tblCompanies').css("display", "none");
+                return;
+            }
+            else $('#tblCompanies').css("display", "block");
+
+            var companyCount = $('#takeContactsCount').val();
+            if (! (companyCount > 0)) companyCount = 10; 
+            $.ajax({
+                type: 'GET',
+                url: '@Url.Action("GetLastAddedCompanies")',
+                dataType: 'json',
+                data: { count: companyCount },
+                success: function (data) {
+                    console.log(data);
+                    $('#tblCompaniesHeaders').append($('<th />', { text: 'Name' }));
+                    $('#tblCompaniesHeaders').append($('<th />', { text: 'Domain' }));
+                    $('#tblCompaniesHeaders').append($('<th />', { text: 'Contacts' }));
+                    $('#tblCompaniesHeaders').append($('<th />', { text: 'Industry' }));
+                    $('#tblCompaniesHeaders').append($('<th />', { text: 'Employees' }));
+                    $('#tblCompaniesHeaders').append($('<th />', { text: 'Employees Prooflink' }));
+                    $('#tblCompaniesHeaders').append($('<th />', { text: 'Revenue' }));
+                    $('#tblCompaniesHeaders').append($('<th />', { text: 'Revenue Prooflink' }));
+                    $('#tblCompaniesHeaders').append($('<th />', { text: 'Date Created' }));
+                    $.each(data,
+                        function(i, item) {
+                            var tr = $('<tr>');
+                            ($('<td />', { text: item.Name })).appendTo(tr);
+                            ($('<td />', { text: item.Domain })).appendTo(tr);
+                            ($('<td />', { text: item.ContactCount })).appendTo(tr);
+                            ($('<td />', { text: item.Industry })).appendTo(tr);
+                            ($('<td />', { text: item.Employees })).appendTo(tr);
+                            ($('<td />', { text: item.EmployeesProoflink })).appendTo(tr);
+                            ($('<td />', { text: item.Revenue })).appendTo(tr);
+                            ($('<td />', { text: item.RevenueProoflink })).appendTo(tr);
+                            ($('<td />', { text: item.DateCreated })).appendTo(tr);
+                            $('#tblCompaniesBody').append(tr);
+
+
+                        });
+                },
+                error: function(ex) {
+                    console.log('error');
+                }
+
+            });
+        })
+
+    </script>
+}

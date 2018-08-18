@@ -1,0 +1,74 @@
+﻿@model DBPlatform_v1._0.Models.Contact
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Contact</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.first_name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.first_name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.last_name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.last_name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.email)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.email)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.prooflink)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.prooflink)
+        </dd>
+
+        @*<dt>
+            @Html.DisplayNameFor(model => model.company_id_FK)
+        </dt>*@
+
+        @*<dd>
+            @Html.DisplayFor(model => model.company_id_FK)
+        </dd>*@
+
+        <dt>
+            @Html.DisplayNameFor(model => model.title_id_FK)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.title_id_FK)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.country_id_FK)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.country_id_FK)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.contact_id }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

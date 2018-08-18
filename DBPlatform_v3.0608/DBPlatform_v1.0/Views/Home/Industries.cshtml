@@ -1,0 +1,71 @@
+﻿@using DBPlatform_v1._0.Models.Alias
+@model IEnumerable<DBPlatform_v1._0.Models.Industry>
+@{
+    ViewBag.Title = "Industries";
+}
+
+<h2>Industries</h2>
+
+@using (Html.BeginForm())
+{
+    <p><input type="text" placeholder="Industry Name" name="newName" /></p>
+    <p><button class="btn btn-success"type="submit" value="Add">Add</button></p>
+
+    <table>
+        <tr>
+            <th>Name</th>
+            <th></th>
+            <th>Aliases</th>
+            <th></th>
+        </tr>
+        <form class="test-form"></form>
+        @foreach (DBPlatform_v1._0.Models.Industry item in Model)
+        {
+            <tr>
+                <td>@item.Name</td>
+                <td>@Html.ActionLink("Delete", "DeleteIndustry", new { id = item.Id })</td>
+                <td>
+                    @if (item.Aliases.Any())
+                    {
+                        <ul>
+                            @foreach (var alias in item.Aliases)
+                            {
+                                <li>@alias.Name</li>
+                            }
+                        </ul>
+
+                    }
+                </td>
+                <td >
+
+                    @using (Html.BeginForm("AddIndustryAlias", "Home", new {Id = item.Id}, FormMethod.Post, new {@class = "add-ind-alias-form"}))
+                    {
+                        <input type="hidden" id="@item.Id"/>
+                        <input type="text" id="@item.Id" placeholder="alias name" name="aliasName"/>
+                        <button class="btn btn-success" type="submit" value="Add alias">Add alias</button>
+                    }
+
+                </td>
+            </tr>
+        }
+    </table> <br />
+
+    <div>
+        @{
+            var unmappedaliases = ViewBag.unmappedAliases as List<IndustryAlias>;
+        }
+        @if (unmappedaliases != null && unmappedaliases.Any())
+        {
+            <h5>Unmapped industries</h5>
+
+            <ul>
+                @foreach (var unmapped in unmappedaliases)
+                {
+                    <li>@unmapped.Name</li>
+                }
+            </ul>
+        }
+
+
+    </div>
+}

@@ -1,0 +1,58 @@
+﻿@model System.Collections.Generic.IEnumerable<Eshop.Domain.Entities.User>
+
+@{
+    ViewBag.Title = "Manage Users";
+}
+<style>
+    h2 {
+        text-align: center;
+    }
+
+    td {
+        width: 250px;
+    }
+</style>
+
+@if (Model != null && Model.Any())
+{
+    <table>
+        <tr>
+            <th>Login</th>
+            <th>Role</th>
+            <th>Status</th>
+            <th>Up</th>
+            <th>Down</th>
+            <th></th>
+        </tr>
+        @foreach (var user in Model)
+        {
+            string imgStatusSrc;
+            if (user.Status==1)
+            {
+                imgStatusSrc = "/Content/images/good.png";
+            }
+            else
+            {
+                imgStatusSrc = "/Content/images/blocked.png";
+            }
+
+
+            <tr>
+                <td>@user.Login</td>
+                <td>@user.Role</td>
+                <td>
+                    <img src=@imgStatusSrc width="25" height="25" />
+                </td>
+                <td><button onclick="location.href = '@Url.Action("PromoteUser","Manage", new {id = user.Id})'"><img src="~/Content/Images/arrowUp.png" width="25" height="25" /></button></td>
+                <td><button onclick="location.href = '@Url.Action("DemodeUser","Manage", new {id = user.Id})'"><img src="~/Content/Images/arrowDown.png" width="25" height="25" /></button></td>
+                <td><button class="btn btn-warning" onclick="location.href = '@Url.Action("BlockUser","Manage", new {id = user.Id})'">Block</button></td>
+                <td><button class="btn btn-success" onclick="location.href = '@Url.Action("UnblockUser","Manage", new {id = user.Id})'">Unblock</button></td>
+
+
+
+                <td>@Html.ActionLink("Delete", "DeleteUser", "Manage", new { id = user.Id },new{@class="btn btn-danger"})</td>
+            </tr>
+
+        }
+    </table>
+}

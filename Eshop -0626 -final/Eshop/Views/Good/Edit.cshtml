@@ -1,0 +1,91 @@
+﻿@model Eshop.Models.GoodEditView
+@{
+    ViewBag.Title = "Edit Good";
+}
+
+@{
+    var categories = ViewBag.categories as List<string>;
+}
+@if (categories != null && categories.Any())
+{
+    <datalist id="categoryName">
+        @foreach (var category in categories)
+        {
+            <option value="@category"> </option>
+        }
+
+    </datalist>
+}
+<div class="panel">
+
+
+    @using (Html.BeginForm("Edit", "Good",
+        FormMethod.Post, new { enctype = "multipart/form-data" }))
+    {
+        <div class="panel-body">
+            @Html.HiddenFor(m => m.Good.Id)
+
+            <div class="form-group">
+                @Html.Label("Category", htmlAttributes: new { @class = "control-label col-md-2" })
+                @Html.DisplayTextFor(m => m.Good.Category.Name)
+            </div>
+            <div class="form-group">
+                @Html.LabelFor(m => m.Good.Name, htmlAttributes: new { @class = "control-label col-md-2" })
+                @Html.TextAreaFor(m => m.Good.Name, new { @class = "form-control", @required = "required" })
+            </div>
+            <div class="form-group">
+                @Html.LabelFor(m => m.Good.Price, htmlAttributes: new { @class = "control-label col-md-2" })
+                @Html.EditorFor(m => m.Good.Price, new { @class = "form-control", @required = "required" })
+            </div>
+
+            <div class="g-properties">
+                @foreach (var prop in Model.GoodListSpecifications)
+                {
+                    <div class="property form-group">
+                        @Html.LabelFor(m => prop.Key, prop.Key, htmlAttributes: new { @class = "control-label col-md-2" })
+                        @Html.DropDownListFor(model => Model.GoodSpecifications[prop.Key], prop.Value, "--Select--", new { @class = "form-control" })
+                    </div>
+
+                }
+            </div>
+
+            <div class="form-group">
+                <div style="position:relative;">
+                    <label>Image</label>
+                    <a class='btn' href='javascript:;'>
+                        Choose file...
+                        <input type="file" name="Image" size="40"
+                               style="position:absolute;z-index:2;top:0;
+                               left:0;filter: alpha(opacity=0); opacity:0;
+                                background-color:transparent;color:transparent;"
+                               onchange='$("#upload-file-info").html($(this).val());'>
+                    </a>
+                    <span class='label label-info' id="upload-file-info"></span>
+                </div>
+                @if (Model.Good.ImageData == null)
+                {
+                    <div class="form-control-static">No Image</div>
+                }
+                else
+                {
+                    <img class="img-thumbnail" width="150" height="150"
+                         src="@Url.Action("GetImage", "Good",
+                                  new {id= Model.Good.Id })" />
+                }
+            </div>
+        </div>
+        <div class="panel-footer">
+            <input type="submit" value="Save" class="btn btn-info" />
+            @Html.ActionLink("Delete this item", "DeleteGood", "Good", new { id = Model.Good.Id }, new { @class = "btn btn-danger" })
+        </div>
+    }
+</div>
+<style>
+    textarea {
+        min-width: 20%;
+        min-height: 20px;
+        max-width: 60%;
+        max-height: 100px;
+        font-size: 16px;
+    }
+</style>

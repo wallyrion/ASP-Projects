@@ -1,0 +1,35 @@
+﻿
+@{
+    ViewBag.Title = "Downloads";
+}
+
+<script>
+    $(document).on('click','.btnExport',function (e) {
+            e.preventDefault();
+
+            var link = $(this);
+            $(this).hide();
+            var url = link.attr('data-src');
+            $.ajax(
+                {
+                    url: url,
+                    contentType: 'application/json; charset=utf-8',
+                    dataType: 'json',
+
+                    data: {
+
+                    },
+                    type: "GET",
+                    success: function () {
+                        link.show();
+                        window.location = url;
+                    }
+
+                });
+        });
+</script>
+
+<div>
+    <a class="btnExport" href="" data-src="@Url.Action("ExportList")">Download as CSV File</a>
+</div>
+

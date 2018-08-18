@@ -1,0 +1,60 @@
+﻿@model DBPlatform_v1._0.Models.Company
+@{
+    ViewBag.Title = "Create Company";
+
+}
+
+@Styles.Render("~/Content/CreateCompany.css")
+<h2>Create Company</h2>
+
+@using (Html.BeginForm())
+{
+    @Html.ValidationSummary(true)
+    @Html.AntiForgeryToken()
+    <fieldset class="form-create">
+        <p>
+            @Html.LabelFor(model => model.name)
+            @Html.TextBoxFor(model => model.name)
+            @Html.ValidationMessageFor(model=>model.name)
+        </p>
+        <p>
+            @Html.LabelFor(model => model.employees_min)
+            @Html.TextBoxFor(model => model.employees_min)
+        </p>
+        <p>
+            @Html.LabelFor(model => model.employees_max)
+            @Html.TextBoxFor(model => model.employees_max)
+        </p>
+        <p>
+            @Html.LabelFor(model => model.employees_prooflink)
+            @Html.TextBoxFor(model => model.employees_prooflink)
+        </p>
+        <p>
+            @Html.LabelFor(model => model.revenue_min)
+            @Html.TextBoxFor(model => model.revenue_min)
+        </p>
+        <p>
+            @Html.LabelFor(model => model.revenue_max)
+            @Html.TextBoxFor(model => model.revenue_max)
+        </p>
+        <p>
+            @Html.LabelFor(model => model.revenue_prooflink)
+            @Html.TextBoxFor(model => model.revenue_prooflink)
+        </p>
+        <p>
+            @Html.LabelFor(model => model.domain)
+            @Html.TextBoxFor(model => model.domain)
+        </p>
+        <p>
+            @Html.LabelFor(model => model.website)
+            @Html.TextBoxFor(model => model.website)
+        </p>
+        <p>
+            @Html.LabelFor(model => model.parent_id)
+            @Html.DropDownListFor(model => model.parent_id, ViewBag.AllCompanies as SelectList, "-- Select --");
+        </p>
+        <p>
+            <input type="submit" value="Create new company" />
+        </p>
+    </fieldset>
+}

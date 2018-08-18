@@ -1,0 +1,230 @@
+﻿@using System.ComponentModel
+@using Eshop.Domain.Entities.Goods
+@using Microsoft.AspNet.Identity
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title</title>
+    @*<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>*@
+    <script src="~/scripts/jquery-3.3.1.min.js"></script>
+    @*<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">*@
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+
+    <style>
+        .top-anchor {
+            position: fixed;
+            bottom: 16px;
+            right: 16px;
+            font-size: 40px;
+            display: block;
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            background: purple;
+            color: white;
+            text-align: center;
+            line-height: 60px;
+        }
+
+        .sidebar {
+            margin-left: 1%;
+            width: 19%;
+        }
+
+        .main {
+            width: 79%;
+            margin-right: 1%;
+        }
+
+        .footer {
+            position: fixed;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            text-align: center;
+        }
+
+        .sidebar-right {
+            float: right;
+        }
+
+        .prop-name {
+            text-align: center;
+            font-weight: bold;
+        }
+
+        li.spec-li {
+            list-style-type: none;
+        }
+
+
+        .sidebar-right {
+            width: 24%;
+        }
+
+
+
+        .cart-img:hover {
+            cursor: pointer;
+        }
+
+        .well {
+            background: transparent;
+            border: 2px solid black;
+        }
+
+            .well:before {
+                filter: blur(5px);
+            }
+
+        body {
+            height: 100vh;
+        }
+
+
+            .nav-item a {
+                color: white;
+            }
+
+        select.form-control {
+            height: 30px;
+            line-height: 30px;
+            padding: 6px;
+        }
+
+        .count-goods {
+            display: inline;
+        }
+
+        .navbar-default {
+            background-color: #0a5898;
+        }
+
+        .navbar-nav > li > a {
+            color: #9cd200;
+        }
+
+            .navbar-nav > li > a :hover {
+                color: white;
+            }
+
+        .nav-item.cart :hover {
+            background-color: blanchedalmond;
+        }
+        .li-catalog {
+            margin: 2px;
+        }
+        .btn-catalog {
+            width: 100%;
+        }
+        .validation-summary-errors {
+            font-size: 16px;
+            color: red;
+        }
+
+    </style>
+</head>
+
+<body id="top">
+
+
+
+<nav class="navbar navbar-default">
+    @Html.ActionLink("FIRST FEDERAL E-SHOP","Category","Home",null,new {@class="navbar-brand"})
+    <ul class="nav navbar-nav">
+        <li>
+            @if (User.IsInRole("Admin") || User.IsInRole("Moderator"))
+            {
+                @Html.ActionLink("Add new item","Create","Good")
+            }
+        </li>
+    </ul>
+    <ul class="nav navbar-nav navbar-right">
+        <li class="nav-item">
+
+        </li>
+
+        <li class="nav-item cart">
+            <button class="btn btn-default" onclick="location.href = '@Url.Action("Cart", "Home")'">
+                <img class="cart-img" width="40" height="40" alt="cart" src="~/Content/Images/Cart-1.png"/>
+            </button>
+           
+            @*<div id="countGoods" class="count-goods">
+
+            </div>*@
+        </li>
+        @if (Request.IsAuthenticated)
+        {
+            if (User.IsInRole("Admin"))
+            {
+                <li class="nav-item">
+                    @Html.ActionLink("Manage", "Index", "Manage")
+                </li>
+            }
+            <li class="nav-item">
+                @Html.ActionLink("My Orders", "Orders", "Home")
+            </li>
+            <li class="nav-item">
+                @Html.ActionLink("Hello " + User.Identity.GetUserName() + "!", "Cart", "Home", routeValues: null, htmlAttributes: new {title = "Manage"})
+            </li>
+                @*<li class="nav-item"><a href="javascript:document.getElementById('logoutForm').submit()">Log out</a></li>*@
+            <li class="nav-item">
+                @Html.ActionLink("Log Out", "Logout", "Account")
+            </li>
+        }
+        else
+        {
+            <li class="nav-item">@Html.ActionLink("Register", "Register", "Account", routeValues: null, htmlAttributes: new {id = "registerLink"})</li>
+            <li class="nav-item">@Html.ActionLink("Log in", "Login", "Account", routeValues: null, htmlAttributes: new {id = "loginLink"})</li>
+        }
+        @*<li class="nav-item">*@
+        @*<li>@Html.Partial("_AccountPartial")</li>*@
+        @*</li>*@
+    </ul>
+</nav>
+
+    @{
+        var allCategories = (List<string>)ViewBag.AllCategories;
+    }
+
+    <div class="all-content">
+        <div class="body-content">
+            <div class="row">
+                <div class="well sidebar col-xs-3">
+                    <ul>
+                        <li class="li-catalog">@Html.ActionLink("All", "Category", "Home", new { categoryName = "" }, new {@class="btn-catalog btn btn-success"}) </li>
+
+                        @foreach (var category in allCategories)
+                        {
+                            <li class="li-catalog">@Html.ActionLink(category, "Category", "Home", new {categoryName = category}, new {@class = "btn-catalog btn btn-success" }) </li>
+                        }
+                    </ul>
+                </div>
+                <div class="main col-xs-9">
+                    @RenderBody()
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <footer class="container">
+        <hr />
+        <p>&copy; @DateTime.UtcNow.Year - Alexey Korniienko. All Rights Reserved</p>
+    </footer>
+    <a class="top-anchor" href="#top">^</a>
+
+    @Scripts.Render("~/bundles/site")
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+
+
+</body>
+</html>

@@ -1,0 +1,13 @@
+﻿
+@{
+    ViewBag.Title = "Admin";
+}
+<style>
+    p {
+        font-size: 18px;
+    }
+</style>
+<p>@Html.ActionLink("Add new good","Create","Good", null,new{@class="btn btn-info"})</p>
+<p>@Html.ActionLink("Manage Users", "Users", "Manage",null, new { @class = "btn btn-info" })</p>
+<p>@Html.ActionLink("Manage Orders", "Orders", "Manage",null, new { @class = "btn btn-info" })</p>
+<p>@Html.ActionLink("Manage Categories/Properties/Specifications", "Categories", "Manage", null,new { @class = "btn btn-info" })</p>

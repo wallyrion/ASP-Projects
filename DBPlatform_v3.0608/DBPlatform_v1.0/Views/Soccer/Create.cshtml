@@ -1,0 +1,42 @@
+﻿@model DBPlatform_v1._0.Models.Player
+
+@{
+    ViewBag.Title = "Добавление игрока";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Добавление нового игрока</h2>
+
+@using (Html.BeginForm())
+{
+    <fieldset>
+        <legend>Футболист</legend>
+
+        <p>
+            Имя игрока <br />
+            @Html.EditorFor(model => model.Name)
+        </p>
+
+        <p>
+            Возраст <br />
+            @Html.EditorFor(model => model.Age)
+        </p>
+
+        <p>
+            Позиция на поле  <br />
+            @Html.EditorFor(model => model.Position)
+        </p>
+        <p>
+            Команда <br />
+            @Html.DropDownListFor(model => model.TeamId, ViewBag.Teams as SelectList)
+        </p>
+
+        <p>
+            <input type="submit" value="Добавить игрока" />
+        </p>
+    </fieldset>
+}
+
+<div>
+    @Html.ActionLink("К списку игроков", "Index")
+</div>

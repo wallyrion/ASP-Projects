@@ -1,0 +1,44 @@
+﻿@using DBPlatform_v1._0.Models
+@model DBPlatform_v1._0.Models.Companies.SearchView
+@{
+    /**/
+
+    /**/
+
+    ViewBag.Title = "Edit";
+}
+
+<style>
+    .container-criteria {
+        width: 40%;
+        margin: 10px auto;
+        
+    }
+    .btn.btn-success{
+        width: auto;
+        display: inline-block;
+    }
+</style>
+<div class="container-criteria">
+    @using (Html.BeginForm("Index", "Titles", FormMethod.Post))
+    {
+        <p>
+            <label for="bypartsType">By Parts</label>
+            @Html.RadioButtonFor(model => model.searchType, "By Parts" , new{id="bypartsType", @class="form-check-input"})
+            <label for="exactType">Exact</label>
+            @Html.RadioButtonFor(model => model.searchType, "Exact", new { id = "exactType" })
+            <label for="allType">All</label>
+            @Html.RadioButtonFor(model => model.searchType, "All", new { id = "allType" })
+        </p>
+
+
+        <p>
+            @Html.LabelFor(model => model.searchName, "Title name")
+            @Html.EditorFor(model => model.searchName, new{@class= "form-control form-control-lg"})
+        </p>
+        <p>
+            <button class="form-control btn btn-success" type="submit" value="search">Search</button>
+        </p>
+
+    }
+</div>

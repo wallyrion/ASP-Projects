@@ -1,0 +1,48 @@
+﻿@using DBPlatform_v1._0.Models.Companies
+@model IEnumerable<Title>
+@{
+    ViewBag.Title = "Search";
+}
+<style>
+
+    .container-list {
+        margin: 5px auto;
+    }
+
+    td {
+        width: 200px;
+    }
+    h4 {
+        text-align: center;
+    }
+</style>
+<h2>Search</h2>
+
+<h4>@Html.ActionLink("Create new title", "Edit")</h4>
+@Html.Partial("_Search", new SearchView{searchType = "All"})
+
+@if (Model != null && Model.Any())
+{
+
+
+    <table class="container-list">
+        <tr>
+            <th>Title</th>
+            <th>Job Level</th>
+            <th></th>
+            
+        </tr>
+        @foreach (Title t in Model)
+        {
+            <tr>
+                <td>@Html.DisplayFor(model => t.Name)</td>
+                <td>@Html.DisplayFor(model => t.JobLevel.Name)</td>
+                <td>
+                    @Html.ActionLink("Edit", "Edit", new { id = t.Id }) |
+                    @Html.ActionLink("Delete", "Delete", new { id = t.Id })
+                </td>
+
+            </tr>
+        }
+    </table>
+}

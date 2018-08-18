@@ -1,0 +1,36 @@
+﻿@model Eshop.Models.RenameView
+@{
+    ViewBag.Title = "Rename";
+}
+
+<style>
+    h2 {
+        text-align: center;
+    }
+    .rename.well {
+        width: 400px;
+    }
+</style>
+
+@using (Html.BeginForm())
+{
+    <div class="well rename">
+        @Html.AntiForgeryToken()
+        @Html.ValidationSummary(true)
+
+        @Html.HiddenFor(m => Model.ItemId)
+        @Html.HiddenFor(m => Model.OldName)
+        @Html.HiddenFor(m=>Model.ActionName)
+
+        <div class="well">
+            @Html.LabelFor(m => Model.OldName)
+            @Html.DisplayTextFor(m => Model.OldName)
+        </div>
+        <div class="well">
+            @Html.LabelFor(m => Model.NewName)
+            @Html.TextBoxFor(m => Model.NewName, new{@required="required"})
+        </div>
+        <button class="btn btn-success" type="submit">Save</button>
+    </div>
+}
+

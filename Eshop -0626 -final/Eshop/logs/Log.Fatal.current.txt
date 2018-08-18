@@ -1,0 +1,1 @@
+2018-06-25 11:47:34.3315 Eshop.MvcApplication.Application_Start Fatal: fatal message  RuntimeMethodInfo.UnsafeInvokeInternal => RuntimeMethodHandle.InvokeMethod => MvcApplication.Application_Start

@@ -1,0 +1,52 @@
+﻿@model Eshop.Models.Account.RegisterModel
+
+
+@{
+    ViewBag.Title = "Register";
+    Layout = null;
+}
+@Styles.Render("~/Content/login.css")
+
+
+<div class="container">
+    <section class="form-3">
+        @using (Html.BeginForm("Register", "Account", new { ReturnUrl = ViewBag.ReturnUrl }, FormMethod.Post, new {role = "form" }))
+        {
+            @Html.AntiForgeryToken()
+
+            @Html.ValidationSummary(true)
+
+            <div class="clearfix">
+                @Html.LabelFor(model => model.Login, new { @class = "control-label col-md-2" })
+                @Html.EditorFor(model => model.Login)
+                @Html.ValidationMessageFor(model => model.Login)
+
+            </div>
+
+
+            <div class="clearfix">
+                @Html.LabelFor(model => model.Password, new { @class = "control-label col-md-2" })
+                @Html.EditorFor(model => model.Password)
+                @Html.ValidationMessageFor(model => model.Password)
+
+            </div>
+
+            <div class="clearfix">
+                @Html.LabelFor(model => model.ConfirmPassword, new { @class = "control-label col-md-2" })
+                @Html.EditorFor(model => model.ConfirmPassword)
+                @Html.ValidationMessageFor(model => model.ConfirmPassword)
+
+            </div>
+
+
+
+            <div class="clearfix">
+                <input type="submit" value="Register" class="btn btn-default" />
+            </div>
+
+
+        }
+        <div><button class="register-login-btn" onclick="location.href='@Url.Action("Login", "Account")'">Login</button></div>
+
+    </section>
+</div>

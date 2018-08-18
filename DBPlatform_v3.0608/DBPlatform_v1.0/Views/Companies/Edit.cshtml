@@ -1,0 +1,142 @@
+﻿
+@using DBPlatform_v1._0.Models
+@model DBPlatform_v1._0.Models.CompanyEditView
+@{
+    ViewBag.Title = "Редактировать компанию";
+    // Layout = null;
+}
+@Styles.Render("~/Content/CreateCompany.css")
+<style>
+    .validation-summary-errors {
+        color: red;
+    }
+
+    .container-list {
+        margin: 5px auto;
+    }
+
+    td {
+        width: 200px;
+    }
+    .industry-lb {
+        display: block;
+    }
+</style>
+<h2>Edit company</h2>
+@using (Html.BeginForm("Edit", "Companies", FormMethod.Post, new { @class = "clearfix" }))
+{
+    @Html.AntiForgeryToken()
+    @Html.ValidationSummary(true)
+    <fieldset class="form-create">
+        @Html.HiddenFor(m => m.company.Id)
+        <p>
+
+            @Html.LabelFor(model => model.company.name, htmlAttributes: new { @class = "control-label col-md-2" })
+            @Html.EditorFor(model => model.company.name, new { htmlAttributes = new { @class = "form-control form-control-lg" } })
+        </p>
+        <p>
+            @Html.LabelFor(model => model.company.employees_min, htmlAttributes: new { @class = "control-label col-md-2" })
+            @Html.EditorFor(model => model.company.employees_min, new { htmlAttributes = new { @class = "form-control form-control-lg" } })
+        </p>
+        <p>
+            @Html.LabelFor(model => model.company.employees_max, htmlAttributes: new { @class = "control-label col-md-2" })
+            @Html.EditorFor(model => model.company.employees_max, new { htmlAttributes = new { @class = "form-control form-control-lg" } })
+
+        </p>
+        <p>
+            @Html.LabelFor(model => model.company.employees_prooflink, htmlAttributes: new { @class = "control-label col-md-2" })
+            @Html.EditorFor(model => model.company.employees_prooflink, new { htmlAttributes = new { @class = "form-control form-control-lg" } })
+        </p>
+        <p>
+            @Html.LabelFor(model => model.company.revenue_min, htmlAttributes: new { @class = "control-label col-md-2" })
+            @Html.EditorFor(model => model.company.revenue_min, new { htmlAttributes = new { @class = "form-control form-control-lg" } })
+        </p>
+        <p>
+            @Html.LabelFor(model => model.company.revenue_max, htmlAttributes: new { @class = "control-label col-md-2" })
+            @Html.EditorFor(model => model.company.revenue_max, new { htmlAttributes = new { @class = "form-control form-control-lg" } })
+
+        </p>
+        <p>
+            @Html.LabelFor(model => model.company.revenue_prooflink, htmlAttributes: new { @class = "control-label col-md-2" })
+            @Html.EditorFor(model => model.company.revenue_prooflink, new { htmlAttributes = new { @class = "form-control form-control-lg" } })
+        </p>
+        <p>
+            @Html.LabelFor(model => model.company.domain, htmlAttributes: new { @class = "control-label col-md-2" })
+            @Html.EditorFor(model => model.company.domain, new { htmlAttributes = new { @class = "form-control form-control-lg" } })
+        </p>
+        <p>
+            @Html.LabelFor(model => model.company.website, htmlAttributes: new { @class = "control-label col-md-2" })
+            @Html.EditorFor(model => model.company.website, new { htmlAttributes = new { @class = "form-control form-control-lg" } })
+        </p>
+        <p>
+            <label for="selectParent" class="control-label col-md-2">Parent company</label>
+            @Html.DropDownListFor(model => model.company.parent_id, Model.selectListCompanies, "--Select parent Company--", new { id = "selectParent", @class = "form-control form-control-lg" })
+        </p>
+    </fieldset>
+    <fieldset class="list-selectlist">
+        <h5>Industries</h5>
+        @foreach (Industry ind in Model.industries)
+        {
+            <label class="industry-lbl">
+                <input type="checkbox" class="form-check-input" name="selectedIndustries" value="@ind.Id"
+                       @(Model.company.Industries.ToList().Contains(ind) ? "checked=\"checked\"" : "") />@ind.Name <br />
+            </label> <br/>
+            }
+        <p>
+            <label for="selectPrimary" class="control-label col-md-2">Primary industry</label>
+            @Html.DropDownListFor(model => model.company.PrimaryIndustryId, Model.selectListIndustries, "--Select Primary Industry--", new { id = "selectPrimary", @class = "form-control form-control-lg" })
+        </p>
+
+    </fieldset>
+
+
+
+
+    <br />
+    <p><button type="submit" id="savebtn" class="save-btn btn btn-success" name="submitbutton" value="Save">Save</button></p>
+    <script>
+        if (@Model.company.Id== 0) { document.getElementById("savebtn").setAttribute("disabled", true); }
+    </script>
+    <p><button type="submit" class="save-btn create-btn btn btn-success" name="submitbutton" value="Sumbit">Create new</button></p>
+}
+@if (Model.company.Contacts.Count > 0)
+{
+    <button id="btn-show-contacts" class="btn btn-info" type="button" onclick="showContacts()">Show Contacts</button>
+    <div class="contacts-list">
+        <table id="table-contacts" style="display:none">
+            <tr>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Email</th>
+
+            </tr>
+
+            @foreach (Contact contact in Model.company.Contacts)
+            {
+                <tr>
+                    <td>@contact.first_name</td>
+                    <td>@contact.last_name</td>
+                    <td>@contact.email</td>
+                </tr>
+            }
+
+        </table>
+    </div>
+}
+<script>
+    function showContacts() {
+        var t = document.getElementById('table-contacts');
+        if (t.style.display == 'none') {
+            document.getElementById('btn-show-contacts').innerText = "Hide";
+            t.style.display = 'block';
+
+        }
+        else {
+            t.style.display = 'none';
+            document.getElementById('btn-show-contacts').innerText = "Show Contacts";
+        }
+
+    }
+</script>
+
+

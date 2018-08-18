@@ -1,0 +1,88 @@
+﻿@using Microsoft.Ajax.Utilities
+@model IEnumerable<Eshop.Domain.Entities.Order>
+@{
+    ViewBag.Title = "Orders";
+}
+<style>
+    .panel {
+        border: 1px solid black;
+        width: 70%;
+    }
+</style>
+<div class="panel-group">
+    @foreach (var order in Model)
+    {
+        <div class="panel panel-info">
+            <div class="panel-heading">
+
+                <div class="">
+                    @Html.LabelFor(g => order.Date)
+                    @Html.DisplayTextFor(g => order.Date)
+                </div>
+                <div class="">
+                    @Html.LabelFor(g => order.Id)
+                    @Html.DisplayTextFor(g => order.Id)
+                </div>
+                <div class="">
+                    @Html.LabelFor(g => order.User)
+                    @Html.DisplayTextFor(g => order.User.Login)
+                </div>
+
+
+
+                @using (Html.BeginForm())
+                {
+                    <input type="hidden" name="id" value="@order.Id" />
+                    <label for="orderStatus">Status</label>
+                    <select class="btn btn-default" id="orderStatus" onchange="this.form.submit()" name="status">
+                        <option @{ if (order.Status == 0) { <text> selected</text>
+                                   }
+                                } value="0">
+                            Canceled
+                        </option>
+                        <option @{ if (order.Status == 1) { <text> selected</text>
+                                   }
+                                } value="1">
+                            Registered
+                        </option>
+                        <option @{ if (order.Status == 2) { <text> selected</text>
+                                   }
+                                }value="2">
+                            Paid
+                        </option>
+                    </select>
+                    <br />
+                }
+
+
+            </div>
+
+            <div class="panel-body">
+                @foreach (var good in order.GoodsQuantities)
+                {
+                    <div >
+                        @Html.DisplayTextFor(g => good.GoodName)
+                    </div>
+                    <div >
+                        @Html.DisplayTextFor(g => good.TotalPrice)<span>$</span>
+                    </div>
+                    <div >
+                        @Html.Label("Quantity")
+                        @Html.DisplayTextFor(g => good.GoodCount)
+                    </div>
+                    <hr />
+                }
+                <div class="panel-footer">
+                    @Html.Label("Total price")
+                    @{
+                        var sum = order.GoodsQuantities.Sum(g => g.TotalPrice).ToString();
+                        <span>@sum</span><span>$</span>
+                    }
+
+                </div>
+            </div>
+
+
+        </div>
+    }
+</div>

@@ -1,0 +1,43 @@
+﻿@model DBPlatform_v1._0.Models.LoginModel
+
+@{
+    Layout = null;
+    ViewBag.Title = "ВОЙТИ";
+}
+
+@Styles.Render("~/Content/login.css")
+<div class="container">
+    <section class="form-3">
+        @using (Html.BeginForm("Login", "Account", new { ReturnUrl = ViewBag.ReturnUrl }, FormMethod.Post, new { @class = "form-3-old", role = "form" }))
+        {
+            @Html.AntiForgeryToken()
+
+
+            @Html.ValidationSummary(true)
+
+            <div class="clearfix">
+                @Html.LabelFor(model => model.login, new { @class = "control-label col-md-2" })
+
+                @Html.EditorFor(model => model.login, new { id = "login" })
+                @Html.ValidationMessageFor(model => model.login)
+
+            </div>
+
+            <div class="clearfix">
+                @Html.LabelFor(model => model.Password, new { @class = "control-label col-md-2" })
+
+                @Html.EditorFor(model => model.Password, new { id = "password" })
+                @Html.ValidationMessageFor(model => model.Password)
+
+            </div>
+
+
+
+            <div class="clearfix">
+                <input type="submit" value="Log in" class="clearfix" />
+            </div>
+        }
+        <div><button class="register-login-btn" onclick="location.href='@Url.Action("Register", "Account")'">Register</button></div>
+
+    </section>
+</div>

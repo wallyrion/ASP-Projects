@@ -1,0 +1,52 @@
+﻿@model DBPlatform_v1._0.Models.User
+@{
+    ViewBag.Title = "Manage";
+}
+<style>
+
+    p {
+        font-size: 18px;
+    }
+
+    button {
+        margin-top: 10px;
+    }
+
+    p label {
+        font-size: 14px;
+    }
+</style>
+<h2>Manage account</h2>
+
+<p>
+    @Html.LabelFor(model => model.login)
+    @Html.DisplayFor(model => model.login)
+</p>
+<p>
+    @Html.LabelFor(model => model.Name)
+    @Html.DisplayFor(model => model.Name)
+</p>
+@if (User.IsInRole("Moderator") || User.IsInRole("Admin"))
+{
+    <div>
+        <p>@Html.ActionLink("Manage Industries", "Industries", "Home")</p>
+        <p>@Html.ActionLink("Manage Countries", "Countries", "Home")</p>
+        <p>@Html.ActionLink("Manage Job Areas", "JobAreas", "Home")</p>
+        <p>@Html.ActionLink("Manage Job Levels", "JobLevels", "Home")</p>
+    </div>
+}
+@if (User.IsInRole("Admin"))
+{
+    <div>
+        <p>@Html.ActionLink("Manage Users", "Users", "Account")</p>
+    </div>
+}
+
+
+<div>
+    @using (Html.BeginForm("GSheet", "Home", FormMethod.Post))
+    {
+        <input class="form-control form-control-lg" type="text" size="300" placeholder="Input the link to the google-spreadsheet" name="gSheetUrl" />
+        <button type="submit" class="btn btn-success" value="Upload data from g-sheet">Upload</button>
+    }
+</div>

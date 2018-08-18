@@ -1,0 +1,17 @@
+﻿
+
+@model List<DBPlatform_v1._0.Models.Book>
+@{
+}
+@using (Html.BeginForm())
+{
+    for (int i = 0; i < Model.Count; i++)
+    {
+        <h4>Книга № @(i + 1)</h4>
+
+        @: Name: @Html.EditorFor(m => m[i].Name)
+        @: Author: @Html.EditorFor(m => m[i].Author)
+        @: Price: @Html.EditorFor(m => m[i].Price)
+    }
+    <input type="submit" />
+}

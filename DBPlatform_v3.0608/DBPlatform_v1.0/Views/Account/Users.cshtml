@@ -1,0 +1,42 @@
+﻿@model IEnumerable<DBPlatform_v1._0.Models.User>
+
+@{
+    ViewBag.Title = "Manage users";
+
+}
+<style>
+    h2 {
+        text-align: center;
+    }
+    td {
+       
+        width: 250px;
+    }
+</style>
+<h2>Users</h2>
+
+@if (Model != null && Model.Any())
+{
+    <table>
+        <tr>
+            <th>Login</th>
+            <th>Name</th>
+            <th>Role</th>
+            <th>Up</th>
+            <th>Down</th>
+            <th></th>
+        </tr>
+        @foreach (var user in Model)
+        {
+        <tr>
+            <td>@user.login</td>
+            <td>@user.Name</td>
+            <td>@user.Role</td>
+            <td><button onclick="location.href = '@Url.Action("PromoteUser","Account", new {id = user.Id})'"><img src="~/Content/images/arrowUp.png" width="25" height="25" /></button></td>
+            <td><button onclick="location.href = '@Url.Action("DemodeUser","Account", new {id = user.Id})'"><img src="~/Content/images/arrowDown.png"width="25" height="25" /></button></td>
+            <td>@Html.ActionLink("Delete", "DeleteUser", new {id = user.Id })</td>
+        </tr>
+        }
+    </table>
+
+}

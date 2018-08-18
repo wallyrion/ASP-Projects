@@ -1,0 +1,33 @@
+﻿
+<style>
+    .form-search {
+        display: inline;
+    }
+
+    .container-search {
+        width: 70%;
+        margin: 15px auto;
+    }
+
+    .all-contacts-btn {
+        display: inline;
+        margin: 0 auto;
+    }
+
+    .form-search input[type=text] {
+        width: 50%;
+    }
+    .email-input {
+        display: inline-block;
+    }
+</style>
+<div class="container-search">
+    @using (Html.BeginForm("SearchByEmail", "Contacts", FormMethod.Post, new { @class = "form-search" }))
+    {
+        <label for="email">Email</label>
+        <input type="text" class = "email-input form-control form-control-lg" name="email" id="email" />
+        <button type="submit" class="btn btn-success" id="search-btn" value="Search">Search</button>
+
+    }
+    <button class="all-contacts-btn btn btn-success" onclick="location.href='@Url.Action("Index", "Contacts")'">Show all contacts</button>
+</div>

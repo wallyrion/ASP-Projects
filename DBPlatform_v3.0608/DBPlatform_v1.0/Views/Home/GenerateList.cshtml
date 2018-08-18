@@ -1,0 +1,149 @@
+﻿@model DBPlatform_v1._0.Models.GenerateList
+@{
+    /**/
+
+    ViewBag.Title = "Create list";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    //Layout = null;
+}
+<style>
+    html {
+        height: auto;
+    }
+
+    .compLabel {
+        width: 200px;
+    }
+
+    .criteria {
+        font-size: 16px;
+        margin: 10px;
+    }
+
+    input[type="checkbox"] {
+        width: 15px;
+        height: 15px;
+    }
+
+    label {
+        font-size: 15px;
+    }
+
+    h3, h4 {
+        text-align: center;
+    }
+    .form-control.form-control-lg {
+        display: inline-block;
+    }
+</style>
+<h3>Сreate new list</h3>
+
+@using (Html.BeginForm())
+{
+    <div class="criteria">
+        <label class="compLabel" for="listName">List Name</label>
+        <input required type="text" class="form-control form-control-lg" id="listName" name="listName" /> <br />
+        <hr />
+    </div>
+    <div class="criteria">
+        <label class="compLabel" for="employeesMin">Employees min:</label>
+        <input type="text" class="form-control form-control-lg" id="employeesMin" name="employeesMin" />
+
+        <label class="compLabel" for="employeesMax">Employees Max:</label>
+        <input type="text" class="form-control form-control-lg" id="employeesMax" name="employeesMax" />
+
+        <hr />
+    </div>
+    <div class="criteria">
+        <label class="compLabel" for="revenueMin">Revenue min:</label>
+        <input type="text" class="form-control form-control-lg" id="revenueMin" name="revenueMin" />
+
+        <label class="compLabel" for="revenueMax"> Revenue Max: </label>
+        <input type="text" class="form-control form-control-lg" id="revenueMax" name="revenueMax" />
+
+        <hr />
+    </div>
+    <div class="criteria">
+        <h4>Countries</h4> <br />
+        @if (Model.Countries != null && Model.Countries.Any())
+        {
+            foreach (var country in Model.Countries)
+            {
+                <label><input type="checkbox" class="countries" name="countries" value="@country.Id" />@country.Name </label>
+                <br />
+            }
+            <div class="buttonsSelect">
+                <button type="button" class="btn btn-primary"onclick="SelectAll('countries')">Select all</button>
+                <button type="button" class="btn btn-info"onclick="deselectAll('countries')">Deselect all</button>
+            </div>
+        }
+        <hr />
+    </div>
+    <div class="criteria">
+        <h4>Industries</h4> <br />
+        @if (Model.Industries != null && Model.Industries.Any())
+        {
+            foreach (var industry in Model.Industries)
+            {
+                <label><input type="checkbox" class="industries" name="industries" value="@industry.Id" />@industry.Name</label>
+                <br />
+            }
+            <div class="buttonsSelect">
+                <button type="button"class="btn btn-primary onclick="SelectAll('industries')">Select all</button>
+                <button type="button"class="btn btn-info" onclick="deselectAll('industries')">Deselect all</button>
+            </div>
+        }
+        <hr />
+    </div>
+    <div class="criteria">
+        <h4>Job Levels</h4> <br />
+        @if (Model.JobLevels != null && Model.JobLevels.Any())
+        {
+            foreach (var jobLevel in Model.JobLevels)
+            {
+                <label><input type="checkbox" name="jobLevels" class="jobLevels" value="@jobLevel.Id" />@jobLevel.Name</label>
+                <br />
+            }
+            <div class="buttonsSelect">
+                <button type="button"class="btn btn-primary onclick="SelectAll('jobLevels')">Select all</button>
+                <button type="button"class="btn btn-info" onclick="deselectAll('jobLevels')">Deselect all</button>
+            </div>
+        }
+        <hr />
+    </div>
+    <div class="criteria">
+        <h4>Job Areas</h4> <br />
+        @if (Model.JobAreas != null && Model.JobAreas.Any())
+        {
+            foreach (var jobArea in Model.JobAreas)
+            {
+                <label><input type="checkbox" name="jobAreas" class="jobAreas" value="@jobArea.Id" />@jobArea.Name</label>
+                <br />
+            }
+            <div class="buttonsSelect">
+                <button type="button"class="btn btn-primary onclick="SelectAll('jobAreas')">Select all</button>
+                <button type="button"class="btn btn-info" onclick="deselectAll('jobAreas')">Deselect all</button>
+            </div>
+        }
+        <hr />
+    </div>
+    <button type="submit" class="btn btn-danger" value="Create List">CREATE LIST</button>
+
+}
+
+
+<script>
+    function SelectAll(name) {
+        var allInputs = document.getElementsByClassName(name);
+        for (var i = 0; i < allInputs.length; i++) {
+            allInputs[i].checked = true;
+        }
+    }
+    function deselectAll(name) {
+        var allInputs = document.getElementsByClassName(name);
+        for (var i = 0; i < allInputs.length; i++) {
+            allInputs[i].checked = false;
+        }
+    }
+</script>
+

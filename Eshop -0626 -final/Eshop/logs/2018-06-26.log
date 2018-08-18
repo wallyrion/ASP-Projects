@@ -1,0 +1,1502 @@
+2018-06-26 00:00:00.7066 | INFO | Eshop.Controllers.HomeController | Get goods from category: Monitors | 
+2018-06-26 00:00:01.2105 | INFO | Eshop.Controllers.HomeController | Try to apply filters | 
+2018-06-26 00:00:01.2623 | INFO | Eshop.Controllers.HomeController | Sort goods success | 
+2018-06-26 00:00:01.2681 | INFO | Eshop.Controllers.HomeController | Filters applied successfully | 
+2018-06-26 00:00:02.6382 | INFO | Eshop.Controllers.HomeController | Get goods from category: CellPhones | 
+2018-06-26 00:00:03.1539 | INFO | Eshop.Controllers.HomeController | Try to apply filters | 
+2018-06-26 00:00:03.1988 | INFO | Eshop.Controllers.HomeController | Sort goods success | 
+2018-06-26 00:00:03.2066 | INFO | Eshop.Controllers.HomeController | Filters applied successfully | 
+2018-06-26 00:00:10.6373 | INFO | Eshop.Controllers.HomeController | Try to apply filters | 
+2018-06-26 00:00:10.6764 | INFO | Eshop.Controllers.HomeController | Sort goods success | 
+2018-06-26 00:00:10.6764 | INFO | Eshop.Controllers.HomeController | Filters applied successfully | 
+2018-06-26 00:00:13.1578 | INFO | Eshop.Controllers.HomeController | Try to apply filters | 
+2018-06-26 00:00:13.2057 | INFO | Eshop.Controllers.HomeController | Sort goods success | 
+2018-06-26 00:00:13.2057 | INFO | Eshop.Controllers.HomeController | Filters applied successfully | 
+2018-06-26 00:00:23.1129 | INFO | Eshop.Controllers.HomeController | Get goods from category: All | 
+2018-06-26 00:00:23.3795 | INFO | Eshop.Controllers.HomeController | Try to apply filters | 
+2018-06-26 00:00:23.4215 | INFO | Eshop.Controllers.HomeController | Sort goods success | 
+2018-06-26 00:00:23.4215 | INFO | Eshop.Controllers.HomeController | Filters applied successfully | 
+2018-06-26 00:00:27.2262 | INFO | Eshop.Controllers.HomeController | Get goods from category: All | 
+2018-06-26 00:00:27.5036 | INFO | Eshop.Controllers.HomeController | Try to apply filters | 
+2018-06-26 00:00:27.5436 | INFO | Eshop.Controllers.HomeController | Sort goods success | 
+2018-06-26 00:00:27.5505 | INFO | Eshop.Controllers.HomeController | Filters applied successfully | 
+2018-06-26 00:00:35.3191 | INFO | Eshop.Controllers.HomeController | Get goods from category: All | 
+2018-06-26 00:00:35.5827 | INFO | Eshop.Controllers.HomeController | Try to apply filters | 
+2018-06-26 00:00:35.6374 | INFO | Eshop.Controllers.HomeController | Sort goods success | 
+2018-06-26 00:00:35.6462 | INFO | Eshop.Controllers.HomeController | Filters applied successfully | 
+2018-06-26 00:00:39.7790 | INFO | Eshop.Controllers.HomeController | Get goods from category: All | 
+2018-06-26 00:00:40.0261 | INFO | Eshop.Controllers.HomeController | Try to apply filters | 
+2018-06-26 00:00:40.0759 | INFO | Eshop.Controllers.HomeController | Sort goods success | 
+2018-06-26 00:00:40.0828 | INFO | Eshop.Controllers.HomeController | Filters applied successfully | 
+2018-06-26 00:00:41.2576 | INFO | Eshop.Controllers.HomeController | Get goods from category: All | 
+2018-06-26 00:00:41.6482 | INFO | Eshop.Controllers.HomeController | Try to apply filters | 
+2018-06-26 00:00:41.6990 | INFO | Eshop.Controllers.HomeController | Sort goods success | 
+2018-06-26 00:00:41.7078 | INFO | Eshop.Controllers.HomeController | Filters applied successfully | 
+2018-06-26 00:00:49.4148 | INFO | Eshop.Controllers.HomeController | Get goods from category: All | 
+2018-06-26 00:00:49.8758 | INFO | Eshop.Controllers.HomeController | Try to apply filters | 
+2018-06-26 00:00:49.9324 | INFO | Eshop.Controllers.HomeController | Sort goods success | 
+2018-06-26 00:00:49.9432 | INFO | Eshop.Controllers.HomeController | Filters applied successfully | 
+2018-06-26 00:00:57.9510 | INFO | Eshop.Controllers.HomeController | Get goods from category: All | 
+2018-06-26 00:00:58.3338 | INFO | Eshop.Controllers.HomeController | Try to apply filters | 
+2018-06-26 00:00:58.3807 | INFO | Eshop.Controllers.HomeController | Sort goods success | 
+2018-06-26 00:00:58.3807 | INFO | Eshop.Controllers.HomeController | Filters applied successfully | 
+2018-06-26 00:01:37.8028 | INFO | Eshop.Controllers.HomeController | Get goods from category: All | 
+2018-06-26 00:01:38.2373 | INFO | Eshop.Controllers.HomeController | Try to apply filters | 
+2018-06-26 00:01:38.3018 | INFO | Eshop.Controllers.HomeController | Sort goods success | 
+2018-06-26 00:01:38.3018 | INFO | Eshop.Controllers.HomeController | Filters applied successfully | 
+2018-06-26 00:01:49.9298 | INFO | Eshop.Controllers.HomeController | Try to apply filters | 
+2018-06-26 00:01:49.9786 | INFO | Eshop.Controllers.HomeController | Sort goods success | 
+2018-06-26 00:01:49.9884 | INFO | Eshop.Controllers.HomeController | Filters applied successfully | 
+2018-06-26 00:01:55.8751 | INFO | Eshop.Controllers.HomeController | Try to apply filters | 
+2018-06-26 00:01:55.9220 | INFO | Eshop.Controllers.HomeController | Sort goods success | 
+2018-06-26 00:01:55.9220 | INFO | Eshop.Controllers.HomeController | Filters applied successfully | 
+2018-06-26 00:01:58.1066 | INFO | Eshop.Controllers.HomeController | Try to apply filters | 
+2018-06-26 00:01:58.1613 | INFO | Eshop.Controllers.HomeController | Sort goods success | 
+2018-06-26 00:01:58.1613 | INFO | Eshop.Controllers.HomeController | Filters applied successfully | 
+2018-06-26 00:02:11.5500 | INFO | Eshop.MvcApplication | Application Dispose | 
+2018-06-26 00:02:41.5629 | INFO | Eshop.MvcApplication | Application Dispose | 
+2018-06-26 00:04:48.1426 | INFO | Eshop.MvcApplication | Application Start | 
+2018-06-26 00:04:49.1592 | INFO | Eshop.MvcApplication | Application Init | 
+2018-06-26 00:04:49.2305 | INFO | Eshop.MvcApplication | Application Init | 
+2018-06-26 00:04:56.5694 | INFO | Eshop.Controllers.HomeController | Get goods from category: All | 
+2018-06-26 00:05:01.4024 | INFO | Eshop.Controllers.HomeController | Try to apply filters | 
+2018-06-26 00:05:01.5401 | INFO | Eshop.Controllers.HomeController | Sort goods success | 
+2018-06-26 00:05:01.5538 | INFO | Eshop.Controllers.HomeController | Filters applied successfully | 
+2018-06-26 00:05:01.7042 | INFO | Eshop.MvcApplication | Application Init | 
+2018-06-26 00:05:01.7042 | INFO | Eshop.MvcApplication | Application Init | 
+2018-06-26 00:05:01.7042 | INFO | Eshop.MvcApplication | Application Init | 
+2018-06-26 00:05:49.0267 | INFO | Eshop.MvcApplication | Application Start | 
+2018-06-26 00:05:49.9603 | INFO | Eshop.MvcApplication | Application Init | 
+2018-06-26 00:05:49.9837 | INFO | Eshop.MvcApplication | Application Init | 
+2018-06-26 00:05:53.3431 | INFO | Eshop.Controllers.HomeController | Get goods from category: All | 
+2018-06-26 00:05:58.3050 | INFO | Eshop.Controllers.HomeController | Try to apply filters | 
+2018-06-26 00:05:58.4642 | INFO | Eshop.Controllers.HomeController | Sort goods success | 
+2018-06-26 00:05:58.4818 | INFO | Eshop.Controllers.HomeController | Filters applied successfully | 
+2018-06-26 00:05:58.6390 | INFO | Eshop.MvcApplication | Application Init | 
+2018-06-26 00:05:58.6839 | INFO | Eshop.MvcApplication | Application Init | 
+2018-06-26 00:05:58.7396 | INFO | Eshop.MvcApplication | Application Init | 
+2018-06-26 00:06:27.8559 | INFO | Eshop.Controllers.HomeController | Try to apply filters | 
+2018-06-26 00:06:27.9643 | INFO | Eshop.Controllers.HomeController | Sort goods success | 
+2018-06-26 00:06:27.9741 | INFO | Eshop.Controllers.HomeController | Filters applied successfully | 
+2018-06-26 00:06:28.0757 | INFO | Eshop.MvcApplication | Application Init | 
+2018-06-26 00:06:59.3258 | INFO | Eshop.Controllers.HomeController | Get goods from category: All | 
+2018-06-26 00:07:00.0133 | INFO | Eshop.Controllers.HomeController | Try to apply filters | 
+2018-06-26 00:07:00.0621 | INFO | Eshop.Controllers.HomeController | Sort goods success | 
+2018-06-26 00:07:00.0621 | INFO | Eshop.Controllers.HomeController | Filters applied successfully | 
+2018-06-26 00:07:08.4137 | INFO | Eshop.Controllers.HomeController | Try to apply filters | 
+2018-06-26 00:07:08.4518 | INFO | Eshop.Controllers.HomeController | Sort goods success | 
+2018-06-26 00:07:08.4616 | INFO | Eshop.Controllers.HomeController | Filters applied successfully | 
+2018-06-26 00:07:46.6229 | INFO | Eshop.MvcApplication | Application Dispose | 
+2018-06-26 00:08:54.8859 | INFO | Eshop.MvcApplication | Application Start | 
+2018-06-26 00:08:54.9816 | INFO | Eshop.MvcApplication | Application Init | 
+2018-06-26 00:08:55.0285 | INFO | Eshop.MvcApplication | Application Init | 
+2018-06-26 00:08:59.0432 | INFO | Eshop.Controllers.HomeController | Get goods from category: All | 
+2018-06-26 00:09:01.2629 | INFO | Eshop.Controllers.HomeController | Try to apply filters | 
+2018-06-26 00:09:01.3938 | INFO | Eshop.Controllers.HomeController | Sort goods success | 
+2018-06-26 00:09:01.3938 | INFO | Eshop.Controllers.HomeController | Filters applied successfully | 
+2018-06-26 00:09:01.4807 | INFO | Eshop.MvcApplication | Application Init | 
+2018-06-26 00:09:01.4807 | INFO | Eshop.MvcApplication | Application Init | 
+2018-06-26 00:09:01.5051 | INFO | Eshop.MvcApplication | Application Init | 
+2018-06-26 00:09:26.4037 | INFO | Eshop.Controllers.HomeController | Get goods from category: All | 
+2018-06-26 00:09:26.6761 | INFO | Eshop.Controllers.HomeController | Try to apply filters | 
+2018-06-26 00:09:26.7347 | INFO | Eshop.Controllers.HomeController | Sort goods success | 
+2018-06-26 00:09:26.7347 | INFO | Eshop.Controllers.HomeController | Filters applied successfully | 
+2018-06-26 00:09:26.8832 | INFO | Eshop.MvcApplication | Application Init | 
+2018-06-26 00:09:40.3979 | INFO | Eshop.Controllers.HomeController | Get goods from category: All | 
+2018-06-26 00:09:40.7211 | INFO | Eshop.Controllers.HomeController | Try to apply filters | 
+2018-06-26 00:09:40.8002 | INFO | Eshop.Controllers.HomeController | Sort goods success | 
+2018-06-26 00:09:40.8002 | INFO | Eshop.Controllers.HomeController | Filters applied successfully | 
+2018-06-26 00:09:45.5082 | INFO | Eshop.Controllers.HomeController | Get goods from category: All | 
+2018-06-26 00:09:45.7680 | INFO | Eshop.Controllers.HomeController | Try to apply filters | 
+2018-06-26 00:09:45.8481 | INFO | Eshop.Controllers.HomeController | Sort goods success | 
+2018-06-26 00:09:45.8481 | INFO | Eshop.Controllers.HomeController | Filters applied successfully | 
+2018-06-26 00:09:49.2964 | INFO | Eshop.Controllers.HomeController | Get goods from category: All | 
+2018-06-26 00:09:49.5952 | INFO | Eshop.Controllers.HomeController | Try to apply filters | 
+2018-06-26 00:09:49.6704 | INFO | Eshop.Controllers.HomeController | Sort goods success | 
+2018-06-26 00:09:49.6850 | INFO | Eshop.Controllers.HomeController | Filters applied successfully | 
+2018-06-26 00:09:54.1772 | INFO | Eshop.Controllers.HomeController | Get goods from category: All | 
+2018-06-26 00:09:54.5874 | INFO | Eshop.Controllers.HomeController | Try to apply filters | 
+2018-06-26 00:09:54.6704 | INFO | Eshop.Controllers.HomeController | Sort goods success | 
+2018-06-26 00:09:54.6841 | INFO | Eshop.Controllers.HomeController | Filters applied successfully | 
+2018-06-26 00:09:55.3237 | INFO | Eshop.Controllers.HomeController | Get goods from category: All | 
+2018-06-26 00:09:55.8501 | INFO | Eshop.Controllers.HomeController | Try to apply filters | 
+2018-06-26 00:09:55.9624 | INFO | Eshop.Controllers.HomeController | Sort goods success | 
+2018-06-26 00:09:55.9731 | INFO | Eshop.Controllers.HomeController | Filters applied successfully | 
+2018-06-26 00:09:58.6255 | INFO | Eshop.Controllers.HomeController | Get goods from category: Monitors | 
+2018-06-26 00:09:59.0571 | INFO | Eshop.Controllers.HomeController | Try to apply filters | 
+2018-06-26 00:09:59.1304 | INFO | Eshop.Controllers.HomeController | Sort goods success | 
+2018-06-26 00:09:59.1411 | INFO | Eshop.Controllers.HomeController | Filters applied successfully | 
+2018-06-26 00:10:00.4409 | INFO | Eshop.Controllers.HomeController | Get goods from category: All | 
+2018-06-26 00:10:00.8833 | INFO | Eshop.Controllers.HomeController | Try to apply filters | 
+2018-06-26 00:10:00.9497 | INFO | Eshop.Controllers.HomeController | Sort goods success | 
+2018-06-26 00:10:00.9585 | INFO | Eshop.Controllers.HomeController | Filters applied successfully | 
+2018-06-26 00:10:52.4070 | INFO | Eshop.MvcApplication | Application Dispose | 
+2018-06-26 00:11:22.4257 | INFO | Eshop.MvcApplication | Application Dispose | 
+2018-06-26 00:11:52.4268 | INFO | Eshop.MvcApplication | Application Dispose | 
+2018-06-26 00:12:22.4406 | INFO | Eshop.MvcApplication | Application Dispose | 
+2018-06-26 00:12:26.9485 | INFO | Eshop.Controllers.HomeController | Get goods from category: All | 
+2018-06-26 00:12:27.4006 | INFO | Eshop.Controllers.HomeController | Try to apply filters | 
+2018-06-26 00:12:27.4758 | INFO | Eshop.Controllers.HomeController | Sort goods success | 
+2018-06-26 00:12:27.4954 | INFO | Eshop.Controllers.HomeController | Filters applied successfully | 
+2018-06-26 00:12:27.5715 | INFO | Eshop.MvcApplication | Application Init | 
+2018-06-26 00:12:27.5959 | INFO | Eshop.MvcApplication | Application Init | 
+2018-06-26 00:12:27.5715 | INFO | Eshop.MvcApplication | Application Init | 
+2018-06-26 00:12:27.5715 | INFO | Eshop.MvcApplication | Application Init | 
+2018-06-26 00:12:27.6164 | INFO | Eshop.MvcApplication | Application Init | 
+2018-06-26 00:12:45.8343 | INFO | Eshop.Controllers.HomeController | Try to apply filters | 
+2018-06-26 00:12:45.9056 | INFO | Eshop.Controllers.HomeController | Sort goods success | 
+2018-06-26 00:12:45.9163 | INFO | Eshop.Controllers.HomeController | Filters applied successfully | 
+2018-06-26 00:12:49.9945 | INFO | Eshop.Controllers.HomeController | Try to apply filters | 
+2018-06-26 00:12:50.0599 | INFO | Eshop.Controllers.HomeController | Sort goods success | 
+2018-06-26 00:12:50.0687 | INFO | Eshop.Controllers.HomeController | Filters applied successfully | 
+2018-06-26 00:12:54.0922 | INFO | Eshop.Controllers.HomeController | Get goods from category: Monitors | 
+2018-06-26 00:12:54.5209 | INFO | Eshop.Controllers.HomeController | Try to apply filters | 
+2018-06-26 00:12:54.5765 | INFO | Eshop.Controllers.HomeController | Sort goods success | 
+2018-06-26 00:12:54.5873 | INFO | Eshop.Controllers.HomeController | Filters applied successfully | 
+2018-06-26 00:12:56.4955 | INFO | Eshop.Controllers.HomeController | Try to apply filters | 
+2018-06-26 00:12:56.7084 | INFO | Eshop.Controllers.HomeController | Sort goods success | 
+2018-06-26 00:12:56.7084 | INFO | Eshop.Controllers.HomeController | Filters applied successfully | 
+2018-06-26 00:12:57.5472 | INFO | Eshop.Controllers.HomeController | Try to apply filters | 
+2018-06-26 00:12:57.5902 | INFO | Eshop.Controllers.HomeController | Sort goods success | 
+2018-06-26 00:12:57.6000 | INFO | Eshop.Controllers.HomeController | Filters applied successfully | 
+2018-06-26 00:12:59.0726 | INFO | Eshop.Controllers.HomeController | Try to apply filters | 
+2018-06-26 00:12:59.1146 | INFO | Eshop.Controllers.HomeController | Sort goods success | 
+2018-06-26 00:12:59.1146 | INFO | Eshop.Controllers.HomeController | Filters applied successfully | 
+2018-06-26 00:13:01.4496 | INFO | Eshop.Controllers.HomeController | Try to apply filters | 
+2018-06-26 00:13:01.4955 | INFO | Eshop.Controllers.HomeController | Sort goods success | 
+2018-06-26 00:13:01.5053 | INFO | Eshop.Controllers.HomeController | Filters applied successfully | 
+2018-06-26 00:13:04.1147 | INFO | Eshop.Controllers.HomeController | Try to apply filters | 
+2018-06-26 00:13:04.1557 | INFO | Eshop.Controllers.HomeController | Sort goods success | 
+2018-06-26 00:13:04.1645 | INFO | Eshop.Controllers.HomeController | Filters applied successfully | 
+2018-06-26 00:13:07.1205 | INFO | Eshop.Controllers.HomeController | Try to apply filters | 
+2018-06-26 00:13:07.1645 | INFO | Eshop.Controllers.HomeController | Sort goods success | 
+2018-06-26 00:13:07.1742 | INFO | Eshop.Controllers.HomeController | Filters applied successfully | 
+2018-06-26 00:13:22.4536 | INFO | Eshop.MvcApplication | Application Dispose | 
+2018-06-26 00:13:28.0415 | INFO | Eshop.Controllers.HomeController | Get goods from category: CellPhones | 
+2018-06-26 00:13:28.5630 | INFO | Eshop.Controllers.HomeController | Try to apply filters | 
+2018-06-26 00:13:28.6568 | INFO | Eshop.Controllers.HomeController | Sort goods success | 
+2018-06-26 00:13:28.6568 | INFO | Eshop.Controllers.HomeController | Filters applied successfully | 
+2018-06-26 00:13:34.7212 | INFO | Eshop.Controllers.HomeController | Try to apply filters | 
+2018-06-26 00:13:34.7818 | INFO | Eshop.Controllers.HomeController | Sort goods success | 
+2018-06-26 00:13:34.7818 | INFO | Eshop.Controllers.HomeController | Filters applied successfully | 
+2018-06-26 00:13:37.0113 | INFO | Eshop.Controllers.HomeController | Try to apply filters | 
+2018-06-26 00:13:37.0738 | INFO | Eshop.Controllers.HomeController | Sort goods success | 
+2018-06-26 00:13:37.0855 | INFO | Eshop.Controllers.HomeController | Filters applied successfully | 
+2018-06-26 00:13:38.1031 | INFO | Eshop.Controllers.HomeController | Try to apply filters | 
+2018-06-26 00:13:38.1734 | INFO | Eshop.Controllers.HomeController | Sort goods success | 
+2018-06-26 00:13:38.1880 | INFO | Eshop.Controllers.HomeController | Filters applied successfully | 
+2018-06-26 00:13:38.4683 | INFO | Eshop.Controllers.HomeController | Try to apply filters | 
+2018-06-26 00:13:38.5250 | INFO | Eshop.Controllers.HomeController | Sort goods success | 
+2018-06-26 00:13:38.5357 | INFO | Eshop.Controllers.HomeController | Filters applied successfully | 
+2018-06-26 00:13:41.3004 | INFO | Eshop.Controllers.HomeController | Try to apply filters | 
+2018-06-26 00:13:41.3580 | INFO | Eshop.Controllers.HomeController | Sort goods success | 
+2018-06-26 00:13:41.3668 | INFO | Eshop.Controllers.HomeController | Filters applied successfully | 
+2018-06-26 00:13:42.1744 | INFO | Eshop.Controllers.HomeController | Get goods from category: All | 
+2018-06-26 00:13:42.6617 | INFO | Eshop.Controllers.HomeController | Try to apply filters | 
+2018-06-26 00:13:42.7262 | INFO | Eshop.Controllers.HomeController | Sort goods success | 
+2018-06-26 00:13:42.7379 | INFO | Eshop.Controllers.HomeController | Filters applied successfully | 
+2018-06-26 00:14:52.4999 | INFO | Eshop.MvcApplication | Application Dispose | 
+2018-06-26 00:14:54.1435 | INFO | Eshop.Controllers.HomeController | Get goods from category: All | 
+2018-06-26 00:14:54.7294 | INFO | Eshop.Controllers.HomeController | Try to apply filters | 
+2018-06-26 00:14:54.8163 | INFO | Eshop.Controllers.HomeController | Sort goods success | 
+2018-06-26 00:14:54.8280 | INFO | Eshop.Controllers.HomeController | Filters applied successfully | 
+2018-06-26 00:15:12.5147 | INFO | Eshop.Controllers.HomeController | Get goods from category: All | 
+2018-06-26 00:15:12.9668 | INFO | Eshop.Controllers.HomeController | Try to apply filters | 
+2018-06-26 00:15:13.0283 | INFO | Eshop.Controllers.HomeController | Sort goods success | 
+2018-06-26 00:15:13.0391 | INFO | Eshop.Controllers.HomeController | Filters applied successfully | 
+2018-06-26 00:15:13.1416 | INFO | Eshop.MvcApplication | Application Init | 
+2018-06-26 00:15:13.1416 | INFO | Eshop.MvcApplication | Application Init | 
+2018-06-26 00:15:22.9395 | INFO | Eshop.Controllers.HomeController | Get goods from category: All | 
+2018-06-26 00:15:23.5586 | INFO | Eshop.Controllers.HomeController | Try to apply filters | 
+2018-06-26 00:15:23.6202 | INFO | Eshop.Controllers.HomeController | Sort goods success | 
+2018-06-26 00:15:23.6299 | INFO | Eshop.Controllers.HomeController | Filters applied successfully | 
+2018-06-26 00:15:28.2481 | INFO | Eshop.Controllers.HomeController | Get goods from category: All | 
+2018-06-26 00:15:28.8800 | INFO | Eshop.Controllers.HomeController | Try to apply filters | 
+2018-06-26 00:15:28.9464 | INFO | Eshop.Controllers.HomeController | Sort goods success | 
+2018-06-26 00:15:28.9581 | INFO | Eshop.Controllers.HomeController | Filters applied successfully | 
+2018-06-26 00:15:34.0401 | INFO | Eshop.Controllers.HomeController | Get goods from category: All | 
+2018-06-26 00:15:34.4884 | INFO | Eshop.Controllers.HomeController | Try to apply filters | 
+2018-06-26 00:15:34.5548 | INFO | Eshop.Controllers.HomeController | Sort goods success | 
+2018-06-26 00:15:34.5646 | INFO | Eshop.Controllers.HomeController | Filters applied successfully | 
+2018-06-26 00:16:18.1165 | INFO | Eshop.Controllers.HomeController | Get goods from category: All | 
+2018-06-26 00:16:18.5101 | INFO | Eshop.Controllers.HomeController | Try to apply filters | 
+2018-06-26 00:16:18.6048 | INFO | Eshop.Controllers.HomeController | Sort goods success | 
+2018-06-26 00:16:18.6146 | INFO | Eshop.Controllers.HomeController | Filters applied successfully | 
+2018-06-26 00:16:32.0482 | INFO | Eshop.Controllers.HomeController | Get goods from category: All | 
+2018-06-26 00:16:32.4740 | INFO | Eshop.Controllers.HomeController | Try to apply filters | 
+2018-06-26 00:16:32.5472 | INFO | Eshop.Controllers.HomeController | Sort goods success | 
+2018-06-26 00:16:32.5472 | INFO | Eshop.Controllers.HomeController | Filters applied successfully | 
+2018-06-26 00:16:38.8734 | INFO | Eshop.Controllers.HomeController | Get goods from category: All | 
+2018-06-26 00:16:39.3080 | INFO | Eshop.Controllers.HomeController | Try to apply filters | 
+2018-06-26 00:16:39.3822 | INFO | Eshop.Controllers.HomeController | Sort goods success | 
+2018-06-26 00:16:39.3939 | INFO | Eshop.Controllers.HomeController | Filters applied successfully | 
+2018-06-26 00:16:46.2621 | INFO | Eshop.Controllers.HomeController | Get goods from category: All | 
+2018-06-26 00:16:46.7123 | INFO | Eshop.Controllers.HomeController | Try to apply filters | 
+2018-06-26 00:16:46.7807 | INFO | Eshop.Controllers.HomeController | Sort goods success | 
+2018-06-26 00:16:46.7924 | INFO | Eshop.Controllers.HomeController | Filters applied successfully | 
+2018-06-26 00:17:07.7163 | INFO | Eshop.Controllers.HomeController | Get goods from category: All | 
+2018-06-26 00:17:08.1460 | INFO | Eshop.Controllers.HomeController | Try to apply filters | 
+2018-06-26 00:17:08.2066 | INFO | Eshop.Controllers.HomeController | Sort goods success | 
+2018-06-26 00:17:08.2066 | INFO | Eshop.Controllers.HomeController | Filters applied successfully | 
+2018-06-26 00:17:22.5367 | INFO | Eshop.MvcApplication | Application Dispose | 
+2018-06-26 00:17:52.5476 | INFO | Eshop.MvcApplication | Application Dispose | 
+2018-06-26 00:18:02.2732 | INFO | Eshop.Controllers.HomeController | Get goods from category: All | 
+2018-06-26 00:18:02.6951 | INFO | Eshop.Controllers.HomeController | Try to apply filters | 
+2018-06-26 00:18:02.7605 | INFO | Eshop.Controllers.HomeController | Sort goods success | 
+2018-06-26 00:18:02.7732 | INFO | Eshop.Controllers.HomeController | Filters applied successfully | 
+2018-06-26 00:18:02.8738 | INFO | Eshop.MvcApplication | Application Init | 
+2018-06-26 00:18:06.2605 | INFO | Eshop.Controllers.HomeController | Try to apply filters | 
+2018-06-26 00:18:06.3240 | INFO | Eshop.Controllers.HomeController | Sort goods success | 
+2018-06-26 00:18:06.3338 | INFO | Eshop.Controllers.HomeController | Filters applied successfully | 
+2018-06-26 00:18:18.8094 | INFO | Eshop.Controllers.HomeController | Get goods from category: All | 
+2018-06-26 00:18:19.2430 | INFO | Eshop.Controllers.HomeController | Try to apply filters | 
+2018-06-26 00:18:19.3026 | INFO | Eshop.Controllers.HomeController | Sort goods success | 
+2018-06-26 00:18:19.3124 | INFO | Eshop.Controllers.HomeController | Filters applied successfully | 
+2018-06-26 00:18:24.7284 | INFO | Eshop.Controllers.HomeController | Get goods from category: All | 
+2018-06-26 00:18:25.1591 | INFO | Eshop.Controllers.HomeController | Try to apply filters | 
+2018-06-26 00:18:25.2176 | INFO | Eshop.Controllers.HomeController | Sort goods success | 
+2018-06-26 00:18:25.2284 | INFO | Eshop.Controllers.HomeController | Filters applied successfully | 
+2018-06-26 00:18:25.3856 | INFO | Eshop.MvcApplication | Application Init | 
+2018-06-26 00:18:39.5468 | INFO | Eshop.Controllers.HomeController | Get goods from category: All | 
+2018-06-26 00:18:39.9658 | INFO | Eshop.Controllers.HomeController | Try to apply filters | 
+2018-06-26 00:18:40.0468 | INFO | Eshop.Controllers.HomeController | Sort goods success | 
+2018-06-26 00:18:40.0468 | INFO | Eshop.Controllers.HomeController | Filters applied successfully | 
+2018-06-26 00:18:58.2930 | INFO | Eshop.Controllers.HomeController | Get goods from category: All | 
+2018-06-26 00:18:58.6904 | INFO | Eshop.Controllers.HomeController | Try to apply filters | 
+2018-06-26 00:18:58.7803 | INFO | Eshop.Controllers.HomeController | Sort goods success | 
+2018-06-26 00:18:58.7930 | INFO | Eshop.Controllers.HomeController | Filters applied successfully | 
+2018-06-26 00:19:52.5784 | INFO | Eshop.MvcApplication | Application Dispose | 
+2018-06-26 00:20:03.1507 | INFO | Eshop.Controllers.HomeController | Get goods from category: All | 
+2018-06-26 00:20:03.4163 | INFO | Eshop.Controllers.HomeController | Try to apply filters | 
+2018-06-26 00:20:03.4788 | INFO | Eshop.Controllers.HomeController | Sort goods success | 
+2018-06-26 00:20:03.4886 | INFO | Eshop.Controllers.HomeController | Filters applied successfully | 
+2018-06-26 00:20:03.5960 | INFO | Eshop.MvcApplication | Application Init | 
+2018-06-26 00:20:52.5815 | INFO | Eshop.MvcApplication | Application Dispose | 
+2018-06-26 00:21:04.3882 | INFO | Eshop.Controllers.HomeController | Get goods from category: All | 
+2018-06-26 00:21:04.7574 | INFO | Eshop.Controllers.HomeController | Try to apply filters | 
+2018-06-26 00:21:04.8150 | INFO | Eshop.Controllers.HomeController | Sort goods success | 
+2018-06-26 00:21:04.8150 | INFO | Eshop.Controllers.HomeController | Filters applied successfully | 
+2018-06-26 00:21:09.3472 | INFO | Eshop.Controllers.HomeController | Try to apply filters | 
+2018-06-26 00:21:09.4224 | INFO | Eshop.Controllers.HomeController | Sort goods success | 
+2018-06-26 00:21:09.4224 | INFO | Eshop.Controllers.HomeController | Filters applied successfully | 
+2018-06-26 00:21:17.3697 | INFO | Eshop.Controllers.HomeController | Get goods from category: All | 
+2018-06-26 00:21:17.8277 | INFO | Eshop.Controllers.HomeController | Try to apply filters | 
+2018-06-26 00:21:17.8912 | INFO | Eshop.Controllers.HomeController | Sort goods success | 
+2018-06-26 00:21:17.8912 | INFO | Eshop.Controllers.HomeController | Filters applied successfully | 
+2018-06-26 00:21:23.7321 | INFO | Eshop.Controllers.HomeController | Get goods from category: All | 
+2018-06-26 00:21:24.4635 | INFO | Eshop.Controllers.HomeController | Try to apply filters | 
+2018-06-26 00:21:24.5788 | INFO | Eshop.Controllers.HomeController | Sort goods success | 
+2018-06-26 00:21:24.5788 | INFO | Eshop.Controllers.HomeController | Filters applied successfully | 
+2018-06-26 00:21:24.7145 | INFO | Eshop.MvcApplication | Application Init | 
+2018-06-26 00:21:28.1315 | INFO | Eshop.Controllers.HomeController | Try to apply filters | 
+2018-06-26 00:21:28.2067 | INFO | Eshop.Controllers.HomeController | Sort goods success | 
+2018-06-26 00:21:28.2067 | INFO | Eshop.Controllers.HomeController | Filters applied successfully | 
+2018-06-26 00:22:22.5946 | INFO | Eshop.MvcApplication | Application Dispose | 
+2018-06-26 00:22:28.7978 | INFO | Eshop.Controllers.HomeController | Get goods from category: Laptops | 
+2018-06-26 00:22:29.2187 | INFO | Eshop.Controllers.HomeController | Try to apply filters | 
+2018-06-26 00:22:29.2675 | INFO | Eshop.Controllers.HomeController | Sort goods success | 
+2018-06-26 00:22:29.2675 | INFO | Eshop.Controllers.HomeController | Filters applied successfully | 
+2018-06-26 00:22:47.2266 | INFO | Eshop.Controllers.HomeController | Get goods from category: All | 
+2018-06-26 00:22:47.4990 | INFO | Eshop.Controllers.HomeController | Try to apply filters | 
+2018-06-26 00:22:47.5576 | INFO | Eshop.Controllers.HomeController | Sort goods success | 
+2018-06-26 00:22:47.5684 | INFO | Eshop.Controllers.HomeController | Filters applied successfully | 
+2018-06-26 00:22:47.6397 | INFO | Eshop.MvcApplication | Application Init | 
+2018-06-26 00:23:22.6115 | INFO | Eshop.MvcApplication | Application Dispose | 
+2018-06-26 00:23:52.6126 | INFO | Eshop.MvcApplication | Application Dispose | 
+2018-06-26 00:24:22.6284 | INFO | Eshop.MvcApplication | Application Dispose | 
+2018-06-26 00:24:38.8179 | INFO | Eshop.Controllers.HomeController | Get goods from category: All | 
+2018-06-26 00:24:39.2857 | INFO | Eshop.Controllers.HomeController | Try to apply filters | 
+2018-06-26 00:24:39.3872 | INFO | Eshop.Controllers.HomeController | Sort goods success | 
+2018-06-26 00:24:39.4028 | INFO | Eshop.Controllers.HomeController | Filters applied successfully | 
+2018-06-26 00:24:39.5054 | INFO | Eshop.MvcApplication | Application Init | 
+2018-06-26 00:24:39.5181 | INFO | Eshop.MvcApplication | Application Init | 
+2018-06-26 00:24:39.5601 | INFO | Eshop.MvcApplication | Application Init | 
+2018-06-26 00:25:09.7086 | INFO | Eshop.Controllers.HomeController | Get goods from category: Displays | 
+2018-06-26 00:25:10.0358 | INFO | Eshop.Controllers.HomeController | Try to apply filters | 
+2018-06-26 00:25:10.0797 | INFO | Eshop.Controllers.HomeController | Sort goods success | 
+2018-06-26 00:25:10.0797 | INFO | Eshop.Controllers.HomeController | Filters applied successfully | 
+2018-06-26 00:25:22.6530 | INFO | Eshop.MvcApplication | Application Dispose | 
+2018-06-26 00:25:47.3914 | INFO | Eshop.Controllers.HomeController | Get goods from category: All | 
+2018-06-26 00:25:47.6434 | INFO | Eshop.Controllers.HomeController | Try to apply filters | 
+2018-06-26 00:25:47.7049 | INFO | Eshop.Controllers.HomeController | Sort goods success | 
+2018-06-26 00:25:47.7049 | INFO | Eshop.Controllers.HomeController | Filters applied successfully | 
+2018-06-26 00:25:47.8524 | INFO | Eshop.MvcApplication | Application Init | 
+2018-06-26 00:26:22.6591 | INFO | Eshop.MvcApplication | Application Dispose | 
+2018-06-26 00:26:52.6729 | INFO | Eshop.MvcApplication | Application Dispose | 
+2018-06-26 00:27:20.3059 | INFO | Eshop.MvcApplication | Application Init | 
+2018-06-26 00:27:52.6751 | INFO | Eshop.MvcApplication | Application Dispose | 
+2018-06-26 00:27:54.8744 | INFO | Eshop.Controllers.HomeController | Get goods from category: All | 
+2018-06-26 00:27:55.5433 | INFO | Eshop.Controllers.HomeController | Try to apply filters | 
+2018-06-26 00:27:55.6117 | INFO | Eshop.Controllers.HomeController | Sort goods success | 
+2018-06-26 00:27:55.6117 | INFO | Eshop.Controllers.HomeController | Filters applied successfully | 
+2018-06-26 00:27:55.6703 | INFO | Eshop.MvcApplication | Application Init | 
+2018-06-26 00:27:55.6703 | INFO | Eshop.MvcApplication | Application Init | 
+2018-06-26 00:28:09.5229 | INFO | Eshop.MvcApplication | Application Error | 
+2018-06-26 00:28:42.9664 | INFO | Eshop.MvcApplication | Application Error | 
+2018-06-26 00:28:46.4078 | INFO | Eshop.MvcApplication | Application Error | 
+2018-06-26 00:28:52.6901 | INFO | Eshop.MvcApplication | Application Dispose | 
+2018-06-26 00:29:10.1628 | INFO | Eshop.Controllers.HomeController | Get goods from category: All | 
+2018-06-26 00:29:10.6520 | INFO | Eshop.Controllers.HomeController | Try to apply filters | 
+2018-06-26 00:29:10.7390 | INFO | Eshop.Controllers.HomeController | Sort goods success | 
+2018-06-26 00:29:10.7390 | INFO | Eshop.Controllers.HomeController | Filters applied successfully | 
+2018-06-26 00:29:10.8513 | INFO | Eshop.MvcApplication | Application Init | 
+2018-06-26 00:29:52.7050 | INFO | Eshop.MvcApplication | Application Dispose | 
+2018-06-26 00:30:22.7207 | INFO | Eshop.MvcApplication | Application Dispose | 
+2018-06-26 00:30:29.1739 | INFO | Eshop.Controllers.HomeController | Get goods from category: All | 
+2018-06-26 00:30:29.6123 | INFO | Eshop.Controllers.HomeController | Try to apply filters | 
+2018-06-26 00:30:29.6719 | INFO | Eshop.Controllers.HomeController | Sort goods success | 
+2018-06-26 00:30:29.6719 | INFO | Eshop.Controllers.HomeController | Filters applied successfully | 
+2018-06-26 00:30:29.7852 | INFO | Eshop.MvcApplication | Application Init | 
+2018-06-26 00:30:29.8350 | INFO | Eshop.MvcApplication | Application Init | 
+2018-06-26 00:30:40.2325 | INFO | Eshop.Controllers.HomeController | Get goods from category: All | 
+2018-06-26 00:30:40.6788 | INFO | Eshop.Controllers.HomeController | Try to apply filters | 
+2018-06-26 00:30:40.7520 | INFO | Eshop.Controllers.HomeController | Sort goods success | 
+2018-06-26 00:30:40.7667 | INFO | Eshop.Controllers.HomeController | Filters applied successfully | 
+2018-06-26 00:31:11.4533 | INFO | Eshop.Controllers.HomeController | Get goods from category: All | 
+2018-06-26 00:31:11.8401 | INFO | Eshop.Controllers.HomeController | Try to apply filters | 
+2018-06-26 00:31:11.9348 | INFO | Eshop.Controllers.HomeController | Sort goods success | 
+2018-06-26 00:31:11.9455 | INFO | Eshop.Controllers.HomeController | Filters applied successfully | 
+2018-06-26 00:31:16.2952 | INFO | Eshop.Controllers.HomeController | Get goods from category: All | 
+2018-06-26 00:31:16.7122 | INFO | Eshop.Controllers.HomeController | Try to apply filters | 
+2018-06-26 00:31:16.7922 | INFO | Eshop.Controllers.HomeController | Sort goods success | 
+2018-06-26 00:31:16.8030 | INFO | Eshop.Controllers.HomeController | Filters applied successfully | 
+2018-06-26 00:31:22.7513 | INFO | Eshop.MvcApplication | Application Dispose | 
+2018-06-26 00:31:26.5267 | INFO | Eshop.Controllers.HomeController | Get goods from category: All | 
+2018-06-26 00:31:26.9104 | INFO | Eshop.Controllers.HomeController | Try to apply filters | 
+2018-06-26 00:31:26.9700 | INFO | Eshop.Controllers.HomeController | Sort goods success | 
+2018-06-26 00:31:26.9700 | INFO | Eshop.Controllers.HomeController | Filters applied successfully | 
+2018-06-26 00:31:33.7767 | INFO | Eshop.Controllers.HomeController | Get goods from category: All | 
+2018-06-26 00:31:34.2171 | INFO | Eshop.Controllers.HomeController | Try to apply filters | 
+2018-06-26 00:31:34.2796 | INFO | Eshop.Controllers.HomeController | Sort goods success | 
+2018-06-26 00:31:34.2923 | INFO | Eshop.Controllers.HomeController | Filters applied successfully | 
+2018-06-26 00:31:34.3568 | INFO | Eshop.MvcApplication | Application Init | 
+2018-06-26 00:32:22.7808 | INFO | Eshop.MvcApplication | Application Dispose | 
+2018-06-26 00:32:30.2047 | INFO | Eshop.Controllers.HomeController | Try to apply filters | 
+2018-06-26 00:32:30.2613 | INFO | Eshop.Controllers.HomeController | Sort goods success | 
+2018-06-26 00:32:30.2730 | INFO | Eshop.Controllers.HomeController | Filters applied successfully | 
+2018-06-26 00:32:52.7790 | INFO | Eshop.Controllers.HomeController | Get goods from category: All | 
+2018-06-26 00:32:53.1794 | INFO | Eshop.Controllers.HomeController | Try to apply filters | 
+2018-06-26 00:32:53.2360 | INFO | Eshop.Controllers.HomeController | Sort goods success | 
+2018-06-26 00:32:53.2360 | INFO | Eshop.Controllers.HomeController | Filters applied successfully | 
+2018-06-26 00:32:53.3708 | INFO | Eshop.MvcApplication | Application Init | 
+2018-06-26 00:33:52.8027 | INFO | Eshop.MvcApplication | Application Dispose | 
+2018-06-26 00:34:22.8126 | INFO | Eshop.MvcApplication | Application Dispose | 
+2018-06-26 00:34:52.8137 | INFO | Eshop.MvcApplication | Application Dispose | 
+2018-06-26 00:35:22.8177 | INFO | Eshop.MvcApplication | Application Dispose | 
+2018-06-26 00:35:52.8296 | INFO | Eshop.MvcApplication | Application Dispose | 
+2018-06-26 00:36:01.8892 | INFO | Eshop.Controllers.HomeController | Get goods from category: All | 
+2018-06-26 00:36:02.4322 | INFO | Eshop.Controllers.HomeController | Try to apply filters | 
+2018-06-26 00:36:03.3706 | INFO | Eshop.Controllers.HomeController | Sort goods success | 
+2018-06-26 00:36:03.3843 | INFO | Eshop.Controllers.HomeController | Filters applied successfully | 
+2018-06-26 00:36:03.4497 | INFO | Eshop.MvcApplication | Application Init | 
+2018-06-26 00:36:03.4497 | INFO | Eshop.MvcApplication | Application Init | 
+2018-06-26 00:36:03.4497 | INFO | Eshop.MvcApplication | Application Init | 
+2018-06-26 00:36:16.1363 | INFO | Eshop.Controllers.HomeController | Get goods from category: All | 
+2018-06-26 00:36:16.8443 | INFO | Eshop.Controllers.HomeController | Try to apply filters | 
+2018-06-26 00:36:16.9400 | INFO | Eshop.Controllers.HomeController | Sort goods success | 
+2018-06-26 00:36:16.9566 | INFO | Eshop.Controllers.HomeController | Filters applied successfully | 
+2018-06-26 00:36:17.4791 | INFO | Eshop.MvcApplication | Application Init | 
+2018-06-26 00:36:17.5016 | INFO | Eshop.MvcApplication | Application Init | 
+2018-06-26 00:36:52.8318 | INFO | Eshop.MvcApplication | Application Dispose | 
+2018-06-26 00:36:55.6003 | INFO | Eshop.MvcApplication | Application Init | 
+2018-06-26 00:37:02.0310 | INFO | Eshop.Controllers.HomeController | Get goods from category: All | 
+2018-06-26 00:37:02.5379 | INFO | Eshop.Controllers.HomeController | Try to apply filters | 
+2018-06-26 00:37:02.5984 | INFO | Eshop.Controllers.HomeController | Sort goods success | 
+2018-06-26 00:37:02.6111 | INFO | Eshop.Controllers.HomeController | Filters applied successfully | 
+2018-06-26 00:37:29.6737 | INFO | Eshop.Controllers.HomeController | Get goods from category: All | 
+2018-06-26 00:37:30.1239 | INFO | Eshop.Controllers.HomeController | Try to apply filters | 
+2018-06-26 00:37:30.1825 | INFO | Eshop.Controllers.HomeController | Sort goods success | 
+2018-06-26 00:37:30.1952 | INFO | Eshop.Controllers.HomeController | Filters applied successfully | 
+2018-06-26 00:37:47.2295 | INFO | Eshop.Controllers.HomeController | Get goods from category: All | 
+2018-06-26 00:37:47.7265 | INFO | Eshop.Controllers.HomeController | Try to apply filters | 
+2018-06-26 00:37:47.7842 | INFO | Eshop.Controllers.HomeController | Sort goods success | 
+2018-06-26 00:37:47.7842 | INFO | Eshop.Controllers.HomeController | Filters applied successfully | 
+2018-06-26 00:37:49.3750 | INFO | Eshop.Controllers.HomeController | Get goods from category: CellPhones | 
+2018-06-26 00:37:49.8584 | INFO | Eshop.Controllers.HomeController | Try to apply filters | 
+2018-06-26 00:37:49.9209 | INFO | Eshop.Controllers.HomeController | Sort goods success | 
+2018-06-26 00:37:49.9355 | INFO | Eshop.Controllers.HomeController | Filters applied successfully | 
+2018-06-26 00:38:20.4689 | INFO | Eshop.Controllers.HomeController | Try to apply filters | 
+2018-06-26 00:38:20.5509 | INFO | Eshop.Controllers.HomeController | Sort goods success | 
+2018-06-26 00:38:20.5656 | INFO | Eshop.Controllers.HomeController | Filters applied successfully | 
+2018-06-26 00:38:52.8616 | INFO | Eshop.MvcApplication | Application Dispose | 
+2018-06-26 00:39:22.8666 | INFO | Eshop.MvcApplication | Application Dispose | 
+2018-06-26 00:39:52.8775 | INFO | Eshop.MvcApplication | Application Dispose | 
+2018-06-26 00:40:22.8904 | INFO | Eshop.MvcApplication | Application Dispose | 
+2018-06-26 00:40:52.8915 | INFO | Eshop.MvcApplication | Application Dispose | 
+2018-06-26 01:12:34.1776 | INFO | Eshop.Controllers.HomeController | Get goods from category: All | 
+2018-06-26 01:12:34.5135 | INFO | Eshop.Controllers.HomeController | Try to apply filters | 
+2018-06-26 01:12:34.5829 | INFO | Eshop.Controllers.HomeController | Sort goods success | 
+2018-06-26 01:12:34.5956 | INFO | Eshop.Controllers.HomeController | Filters applied successfully | 
+2018-06-26 01:12:34.6454 | INFO | Eshop.MvcApplication | Application Init | 
+2018-06-26 01:12:34.6620 | INFO | Eshop.MvcApplication | Application Init | 
+2018-06-26 01:12:34.6757 | INFO | Eshop.MvcApplication | Application Init | 
+2018-06-26 01:12:34.6620 | INFO | Eshop.MvcApplication | Application Init | 
+2018-06-26 01:12:34.6620 | INFO | Eshop.MvcApplication | Application Init | 
+2018-06-26 01:12:41.3720 | INFO | Eshop.MvcApplication | Application Error | 
+2018-06-26 01:14:47.5113 | INFO | Eshop.MvcApplication | Application Start | 
+2018-06-26 01:14:48.4566 | INFO | Eshop.MvcApplication | Application Init | 
+2018-06-26 01:14:48.4849 | INFO | Eshop.MvcApplication | Application Init | 
+2018-06-26 01:14:53.8551 | INFO | Eshop.Controllers.HomeController | Get goods from category: All | 
+2018-06-26 01:15:00.8356 | INFO | Eshop.Controllers.HomeController | Try to apply filters | 
+2018-06-26 01:15:01.0065 | INFO | Eshop.Controllers.HomeController | Sort goods success | 
+2018-06-26 01:15:01.0280 | INFO | Eshop.Controllers.HomeController | Filters applied successfully | 
+2018-06-26 01:15:01.1325 | INFO | Eshop.MvcApplication | Application Init | 
+2018-06-26 01:15:01.1921 | INFO | Eshop.MvcApplication | Application Init | 
+2018-06-26 01:15:01.2868 | INFO | Eshop.MvcApplication | Application Init | 
+2018-06-26 01:15:01.2868 | INFO | Eshop.MvcApplication | Application Init | 
+2018-06-26 01:17:53.7476 | INFO | Eshop.MvcApplication | Application Start | 
+2018-06-26 01:17:55.1539 | INFO | Eshop.MvcApplication | Application Init | 
+2018-06-26 01:17:55.2164 | INFO | Eshop.MvcApplication | Application Init | 
+2018-06-26 01:18:00.4039 | INFO | Eshop.Controllers.HomeController | Get goods from category: All | 
+2018-06-26 01:18:07.4039 | INFO | Eshop.Controllers.HomeController | Try to apply filters | 
+2018-06-26 01:18:07.7067 | INFO | Eshop.Controllers.HomeController | Sort goods success | 
+2018-06-26 01:18:07.7389 | INFO | Eshop.Controllers.HomeController | Filters applied successfully | 
+2018-06-26 01:18:07.8903 | INFO | Eshop.MvcApplication | Application Init | 
+2018-06-26 01:18:07.9205 | INFO | Eshop.MvcApplication | Application Init | 
+2018-06-26 01:18:07.9791 | INFO | Eshop.MvcApplication | Application Init | 
+2018-06-26 01:18:43.5242 | INFO | Eshop.MvcApplication | Application Dispose | 
+2018-06-26 01:19:12.7968 | INFO | Eshop.Controllers.HomeController | Get goods from category: All | 
+2018-06-26 01:19:13.4218 | INFO | Eshop.Controllers.HomeController | Try to apply filters | 
+2018-06-26 01:19:13.5244 | INFO | Eshop.MvcApplication | Application Dispose | 
+2018-06-26 01:19:13.5586 | INFO | Eshop.Controllers.HomeController | Sort goods success | 
+2018-06-26 01:19:13.5732 | INFO | Eshop.Controllers.HomeController | Filters applied successfully | 
+2018-06-26 01:19:13.6767 | INFO | Eshop.MvcApplication | Application Init | 
+2018-06-26 01:19:13.6767 | INFO | Eshop.MvcApplication | Application Init | 
+2018-06-26 01:19:18.4424 | INFO | Eshop.Controllers.HomeController | Get goods from category: All | 
+2018-06-26 01:19:19.1426 | INFO | Eshop.Controllers.HomeController | Try to apply filters | 
+2018-06-26 01:19:19.2139 | INFO | Eshop.Controllers.HomeController | Sort goods success | 
+2018-06-26 01:19:19.2265 | INFO | Eshop.Controllers.HomeController | Filters applied successfully | 
+2018-06-26 01:19:39.1143 | INFO | Eshop.Controllers.HomeController | Get goods from category: All | 
+2018-06-26 01:19:39.5216 | INFO | Eshop.Controllers.HomeController | Try to apply filters | 
+2018-06-26 01:19:39.5802 | INFO | Eshop.Controllers.HomeController | Sort goods success | 
+2018-06-26 01:19:39.5948 | INFO | Eshop.Controllers.HomeController | Filters applied successfully | 
+2018-06-26 01:19:39.7462 | INFO | Eshop.MvcApplication | Application Init | 
+2018-06-26 01:19:45.0958 | INFO | Eshop.Controllers.HomeController | Get goods from category: All | 
+2018-06-26 01:19:45.5704 | INFO | Eshop.Controllers.HomeController | Try to apply filters | 
+2018-06-26 01:19:45.6290 | INFO | Eshop.Controllers.HomeController | Sort goods success | 
+2018-06-26 01:19:45.6427 | INFO | Eshop.Controllers.HomeController | Filters applied successfully | 
+2018-06-26 01:19:48.6945 | INFO | Eshop.Controllers.HomeController | Try to apply filters | 
+2018-06-26 01:19:48.7736 | INFO | Eshop.Controllers.HomeController | Sort goods success | 
+2018-06-26 01:19:48.7853 | INFO | Eshop.Controllers.HomeController | Filters applied successfully | 
+2018-06-26 01:19:50.5177 | INFO | Eshop.Controllers.HomeController | Try to apply filters | 
+2018-06-26 01:19:50.5724 | INFO | Eshop.Controllers.HomeController | Sort goods success | 
+2018-06-26 01:19:50.5851 | INFO | Eshop.Controllers.HomeController | Filters applied successfully | 
+2018-06-26 01:19:53.3761 | INFO | Eshop.Controllers.HomeController | Try to apply filters | 
+2018-06-26 01:19:53.4279 | INFO | Eshop.Controllers.HomeController | Sort goods success | 
+2018-06-26 01:19:53.4406 | INFO | Eshop.Controllers.HomeController | Filters applied successfully | 
+2018-06-26 01:19:55.6730 | INFO | Eshop.Controllers.HomeController | Try to apply filters | 
+2018-06-26 01:19:55.7316 | INFO | Eshop.Controllers.HomeController | Sort goods success | 
+2018-06-26 01:19:55.7472 | INFO | Eshop.Controllers.HomeController | Filters applied successfully | 
+2018-06-26 01:20:43.5512 | INFO | Eshop.MvcApplication | Application Dispose | 
+2018-06-26 01:21:13.5650 | INFO | Eshop.MvcApplication | Application Dispose | 
+2018-06-26 01:21:43.5710 | INFO | Eshop.MvcApplication | Application Dispose | 
+2018-06-26 01:22:13.5809 | INFO | Eshop.MvcApplication | Application Dispose | 
+2018-06-26 01:44:37.5544 | INFO | Eshop.MvcApplication | Application Start | 
+2018-06-26 01:44:38.5242 | INFO | Eshop.MvcApplication | Application Init | 
+2018-06-26 01:44:38.5515 | INFO | Eshop.MvcApplication | Application Init | 
+2018-06-26 01:44:45.1248 | INFO | Eshop.Controllers.HomeController | Get goods from category: All | 
+2018-06-26 01:44:53.2342 | INFO | Eshop.Controllers.HomeController | Try to apply filters | 
+2018-06-26 01:44:53.4149 | INFO | Eshop.Controllers.HomeController | Sort goods success | 
+2018-06-26 01:44:53.4324 | INFO | Eshop.Controllers.HomeController | Filters applied successfully | 
+2018-06-26 01:44:53.5008 | INFO | Eshop.MvcApplication | Application Init | 
+2018-06-26 01:44:53.5008 | INFO | Eshop.MvcApplication | Application Init | 
+2018-06-26 01:44:53.5662 | INFO | Eshop.MvcApplication | Application Init | 
+2018-06-26 01:45:10.2577 | INFO | Eshop.Controllers.HomeController | Get goods from category: All | 
+2018-06-26 01:45:11.2060 | INFO | Eshop.Controllers.HomeController | Try to apply filters | 
+2018-06-26 01:45:11.4277 | INFO | Eshop.Controllers.HomeController | Sort goods success | 
+2018-06-26 01:45:11.4521 | INFO | Eshop.Controllers.HomeController | Filters applied successfully | 
+2018-06-26 01:45:11.6337 | INFO | Eshop.MvcApplication | Application Init | 
+2018-06-26 01:45:16.0634 | INFO | Eshop.Controllers.HomeController | Get goods from category: All | 
+2018-06-26 01:45:16.8281 | INFO | Eshop.Controllers.HomeController | Try to apply filters | 
+2018-06-26 01:45:16.9072 | INFO | Eshop.Controllers.HomeController | Sort goods success | 
+2018-06-26 01:45:16.9257 | INFO | Eshop.Controllers.HomeController | Filters applied successfully | 
+2018-06-26 09:00:14.9349 | INFO | Eshop.MvcApplication | Application Start | 
+2018-06-26 09:00:15.9769 | INFO | Eshop.MvcApplication | Application Init | 
+2018-06-26 09:00:16.0052 | INFO | Eshop.MvcApplication | Application Init | 
+2018-06-26 09:00:21.1751 | INFO | Eshop.Controllers.HomeController | Get goods from category: All | 
+2018-06-26 09:00:27.3607 | INFO | Eshop.Controllers.HomeController | Try to apply filters | 
+2018-06-26 09:00:27.5590 | INFO | Eshop.Controllers.HomeController | Sort goods success | 
+2018-06-26 09:00:27.5726 | INFO | Eshop.Controllers.HomeController | Filters applied successfully | 
+2018-06-26 09:00:27.6234 | INFO | Eshop.MvcApplication | Application Init | 
+2018-06-26 09:00:27.6234 | INFO | Eshop.MvcApplication | Application Init | 
+2018-06-26 09:00:27.6234 | INFO | Eshop.MvcApplication | Application Init | 
+2018-06-26 09:01:03.1773 | INFO | Eshop.MvcApplication | Application Dispose | 
+2018-06-26 09:01:25.5758 | INFO | Eshop.Controllers.HomeController | Get goods from category: All | 
+2018-06-26 09:01:26.1969 | INFO | Eshop.Controllers.HomeController | Try to apply filters | 
+2018-06-26 09:01:26.2564 | INFO | Eshop.Controllers.HomeController | Sort goods success | 
+2018-06-26 09:01:26.2564 | INFO | Eshop.Controllers.HomeController | Filters applied successfully | 
+2018-06-26 09:01:26.3414 | INFO | Eshop.MvcApplication | Application Init | 
+2018-06-26 09:01:32.8375 | INFO | Eshop.Controllers.HomeController | Get goods from category: All | 
+2018-06-26 09:01:33.2389 | INFO | Eshop.Controllers.HomeController | Try to apply filters | 
+2018-06-26 09:01:33.3170 | INFO | Eshop.Controllers.HomeController | Sort goods success | 
+2018-06-26 09:01:33.3317 | INFO | Eshop.Controllers.HomeController | Filters applied successfully | 
+2018-06-26 09:01:34.0319 | INFO | Eshop.Controllers.HomeController | Get goods from category: Displays | 
+2018-06-26 09:01:34.4869 | INFO | Eshop.Controllers.HomeController | Try to apply filters | 
+2018-06-26 09:01:34.5758 | INFO | Eshop.Controllers.HomeController | Sort goods success | 
+2018-06-26 09:01:34.5944 | INFO | Eshop.Controllers.HomeController | Filters applied successfully | 
+2018-06-26 09:01:35.6930 | INFO | Eshop.Controllers.HomeController | Get goods from category: CellPhones | 
+2018-06-26 09:01:36.0963 | INFO | Eshop.Controllers.HomeController | Try to apply filters | 
+2018-06-26 09:01:36.1579 | INFO | Eshop.Controllers.HomeController | Sort goods success | 
+2018-06-26 09:01:36.1705 | INFO | Eshop.Controllers.HomeController | Filters applied successfully | 
+2018-06-26 09:02:21.2801 | INFO | Eshop.Controllers.HomeController | Get goods from category: Displays | 
+2018-06-26 09:02:21.6414 | INFO | Eshop.Controllers.HomeController | Try to apply filters | 
+2018-06-26 09:02:21.6854 | INFO | Eshop.Controllers.HomeController | Sort goods success | 
+2018-06-26 09:02:21.6981 | INFO | Eshop.Controllers.HomeController | Filters applied successfully | 
+2018-06-26 09:02:22.5067 | INFO | Eshop.Controllers.HomeController | Get goods from category: CellPhones | 
+2018-06-26 09:02:22.9090 | INFO | Eshop.Controllers.HomeController | Try to apply filters | 
+2018-06-26 09:02:22.9862 | INFO | Eshop.Controllers.HomeController | Sort goods success | 
+2018-06-26 09:02:23.0008 | INFO | Eshop.Controllers.HomeController | Filters applied successfully | 
+2018-06-26 09:02:38.2265 | INFO | Eshop.Controllers.HomeController | Get goods from category: All | 
+2018-06-26 09:02:38.6269 | INFO | Eshop.Controllers.HomeController | Try to apply filters | 
+2018-06-26 09:02:38.6874 | INFO | Eshop.Controllers.HomeController | Sort goods success | 
+2018-06-26 09:02:38.7079 | INFO | Eshop.Controllers.HomeController | Filters applied successfully | 
+2018-06-26 09:02:38.8153 | INFO | Eshop.MvcApplication | Application Init | 
+2018-06-26 09:02:38.8222 | INFO | Eshop.MvcApplication | Application Init | 
+2018-06-26 09:02:55.1582 | INFO | Eshop.Controllers.HomeController | Get goods from category: All | 
+2018-06-26 09:02:55.5283 | INFO | Eshop.Controllers.HomeController | Try to apply filters | 
+2018-06-26 09:02:55.5859 | INFO | Eshop.Controllers.HomeController | Sort goods success | 
+2018-06-26 09:02:55.5859 | INFO | Eshop.Controllers.HomeController | Filters applied successfully | 
+2018-06-26 09:03:12.9337 | INFO | Eshop.Controllers.HomeController | Get goods from category: All | 
+2018-06-26 09:03:13.3135 | INFO | Eshop.Controllers.HomeController | Try to apply filters | 
+2018-06-26 09:03:13.3721 | INFO | Eshop.Controllers.HomeController | Sort goods success | 
+2018-06-26 09:03:13.3858 | INFO | Eshop.Controllers.HomeController | Filters applied successfully | 
+2018-06-26 09:04:03.2571 | INFO | Eshop.MvcApplication | Application Dispose | 
+2018-06-26 09:04:06.8314 | INFO | Eshop.Controllers.HomeController | Get goods from category: All | 
+2018-06-26 09:04:07.2366 | INFO | Eshop.Controllers.HomeController | Try to apply filters | 
+2018-06-26 09:04:07.3001 | INFO | Eshop.Controllers.HomeController | Sort goods success | 
+2018-06-26 09:04:07.3157 | INFO | Eshop.Controllers.HomeController | Filters applied successfully | 
+2018-06-26 09:04:07.4837 | INFO | Eshop.MvcApplication | Application Init | 
+2018-06-26 09:05:03.2750 | INFO | Eshop.MvcApplication | Application Dispose | 
+2018-06-26 09:05:33.2761 | INFO | Eshop.MvcApplication | Application Dispose | 
+2018-06-26 09:06:03.2890 | INFO | Eshop.MvcApplication | Application Dispose | 
+2018-06-26 09:06:33.2940 | INFO | Eshop.MvcApplication | Application Dispose | 
+2018-06-26 09:07:03.3029 | INFO | Eshop.MvcApplication | Application Dispose | 
+2018-06-26 09:10:45.8656 | INFO | Eshop.Controllers.HomeController | Get goods from category: All | 
+2018-06-26 09:10:48.0238 | INFO | Eshop.Controllers.HomeController | Try to apply filters | 
+2018-06-26 09:10:48.0970 | INFO | Eshop.Controllers.HomeController | Sort goods success | 
+2018-06-26 09:10:48.1117 | INFO | Eshop.Controllers.HomeController | Filters applied successfully | 
+2018-06-26 09:10:48.2152 | INFO | Eshop.MvcApplication | Application Init | 
+2018-06-26 09:10:48.2152 | INFO | Eshop.MvcApplication | Application Init | 
+2018-06-26 09:10:48.3128 | INFO | Eshop.MvcApplication | Application Init | 
+2018-06-26 09:10:48.4828 | INFO | Eshop.MvcApplication | Application Init | 
+2018-06-26 09:10:48.3910 | INFO | Eshop.MvcApplication | Application Init | 
+2018-06-26 09:11:33.3629 | INFO | Eshop.MvcApplication | Application Dispose | 
+2018-06-26 09:12:03.3650 | INFO | Eshop.MvcApplication | Application Dispose | 
+2018-06-26 09:12:33.3778 | INFO | Eshop.MvcApplication | Application Dispose | 
+2018-06-26 09:13:03.3809 | INFO | Eshop.MvcApplication | Application Dispose | 
+2018-06-26 09:13:33.3820 | INFO | Eshop.MvcApplication | Application Dispose | 
+2018-06-26 09:14:40.9507 | INFO | Eshop.Controllers.HomeController | Get goods from category: All | 
+2018-06-26 09:14:43.0679 | INFO | Eshop.Controllers.HomeController | Try to apply filters | 
+2018-06-26 09:14:43.1256 | INFO | Eshop.Controllers.HomeController | Sort goods success | 
+2018-06-26 09:14:43.1363 | INFO | Eshop.Controllers.HomeController | Filters applied successfully | 
+2018-06-26 09:14:43.1812 | INFO | Eshop.MvcApplication | Application Init | 
+2018-06-26 09:14:43.2105 | INFO | Eshop.MvcApplication | Application Init | 
+2018-06-26 09:14:43.1812 | INFO | Eshop.MvcApplication | Application Init | 
+2018-06-26 09:14:43.2105 | INFO | Eshop.MvcApplication | Application Init | 
+2018-06-26 09:14:43.2281 | INFO | Eshop.MvcApplication | Application Init | 
+2018-06-26 09:15:13.3201 | INFO | Eshop.Controllers.HomeController | Get goods from category: All | 
+2018-06-26 09:15:15.2175 | INFO | Eshop.Controllers.HomeController | Try to apply filters | 
+2018-06-26 09:15:15.2761 | INFO | Eshop.Controllers.HomeController | Sort goods success | 
+2018-06-26 09:15:15.2878 | INFO | Eshop.Controllers.HomeController | Filters applied successfully | 
+2018-06-26 09:15:28.2322 | INFO | Eshop.Controllers.HomeController | Get goods from category: All | 
+2018-06-26 09:15:30.0340 | INFO | Eshop.Controllers.HomeController | Try to apply filters | 
+2018-06-26 09:15:30.0906 | INFO | Eshop.Controllers.HomeController | Sort goods success | 
+2018-06-26 09:15:30.1014 | INFO | Eshop.Controllers.HomeController | Filters applied successfully | 
+2018-06-26 09:15:34.5604 | INFO | Eshop.MvcApplication | Application Error | 
+2018-06-26 09:16:03.4336 | INFO | Eshop.MvcApplication | Application Dispose | 
+2018-06-26 09:16:03.9600 | INFO | Eshop.Controllers.HomeController | Get goods from category: All | 
+2018-06-26 09:16:05.8535 | INFO | Eshop.Controllers.HomeController | Try to apply filters | 
+2018-06-26 09:16:05.9121 | INFO | Eshop.Controllers.HomeController | Sort goods success | 
+2018-06-26 09:16:05.9121 | INFO | Eshop.Controllers.HomeController | Filters applied successfully | 
+2018-06-26 09:16:06.0635 | INFO | Eshop.MvcApplication | Application Init | 
+2018-06-26 09:17:03.4437 | INFO | Eshop.MvcApplication | Application Dispose | 
+2018-06-26 09:17:22.8627 | INFO | Eshop.Controllers.HomeController | Get goods from category: All | 
+2018-06-26 09:17:24.7338 | INFO | Eshop.Controllers.HomeController | Try to apply filters | 
+2018-06-26 09:17:24.8071 | INFO | Eshop.Controllers.HomeController | Sort goods success | 
+2018-06-26 09:17:24.8178 | INFO | Eshop.Controllers.HomeController | Filters applied successfully | 
+2018-06-26 09:17:24.9096 | INFO | Eshop.MvcApplication | Application Init | 
+2018-06-26 09:18:03.4596 | INFO | Eshop.MvcApplication | Application Dispose | 
+2018-06-26 09:18:06.9987 | INFO | Eshop.Controllers.HomeController | Get goods from category: All | 
+2018-06-26 09:18:07.7272 | INFO | Eshop.Controllers.HomeController | Try to apply filters | 
+2018-06-26 09:18:07.7809 | INFO | Eshop.Controllers.HomeController | Sort goods success | 
+2018-06-26 09:18:07.7936 | INFO | Eshop.Controllers.HomeController | Filters applied successfully | 
+2018-06-26 09:18:20.0935 | INFO | Eshop.Controllers.HomeController | Get goods from category: All | 
+2018-06-26 09:18:22.0075 | INFO | Eshop.Controllers.HomeController | Try to apply filters | 
+2018-06-26 09:18:22.0808 | INFO | Eshop.Controllers.HomeController | Sort goods success | 
+2018-06-26 09:18:22.0954 | INFO | Eshop.Controllers.HomeController | Filters applied successfully | 
+2018-06-26 09:18:24.2849 | INFO | Eshop.Controllers.HomeController | Get goods from category: All | 
+2018-06-26 09:18:25.2761 | INFO | Eshop.Controllers.HomeController | Try to apply filters | 
+2018-06-26 09:18:25.3669 | INFO | Eshop.Controllers.HomeController | Sort goods success | 
+2018-06-26 09:18:25.3669 | INFO | Eshop.Controllers.HomeController | Get goods from category: All | 
+2018-06-26 09:18:25.3669 | INFO | Eshop.Controllers.HomeController | Filters applied successfully | 
+2018-06-26 09:18:26.0388 | INFO | Eshop.Controllers.HomeController | Try to apply filters | 
+2018-06-26 09:18:26.0915 | INFO | Eshop.Controllers.HomeController | Sort goods success | 
+2018-06-26 09:18:26.1052 | INFO | Eshop.Controllers.HomeController | Filters applied successfully | 
+2018-06-26 09:18:27.6423 | INFO | Eshop.Controllers.HomeController | Get goods from category: All | 
+2018-06-26 09:18:28.0613 | INFO | Eshop.Controllers.HomeController | Try to apply filters | 
+2018-06-26 09:18:28.1091 | INFO | Eshop.Controllers.HomeController | Sort goods success | 
+2018-06-26 09:18:28.1208 | INFO | Eshop.Controllers.HomeController | Filters applied successfully | 
+2018-06-26 09:20:06.5852 | INFO | Eshop.MvcApplication | Application Start | 
+2018-06-26 09:20:07.5843 | INFO | Eshop.MvcApplication | Application Init | 
+2018-06-26 09:20:07.6223 | INFO | Eshop.MvcApplication | Application Init | 
+2018-06-26 09:20:11.8411 | INFO | Eshop.Controllers.HomeController | Get goods from category: All | 
+2018-06-26 09:20:16.1868 | INFO | Eshop.Controllers.HomeController | Try to apply filters | 
+2018-06-26 09:20:16.3265 | INFO | Eshop.Controllers.HomeController | Sort goods success | 
+2018-06-26 09:20:16.3411 | INFO | Eshop.Controllers.HomeController | Filters applied successfully | 
+2018-06-26 09:20:16.4300 | INFO | Eshop.MvcApplication | Application Init | 
+2018-06-26 09:20:16.4300 | INFO | Eshop.MvcApplication | Application Init | 
+2018-06-26 09:20:21.9242 | INFO | Eshop.Controllers.HomeController | Get goods from category: All | 
+2018-06-26 09:20:22.3070 | INFO | Eshop.Controllers.HomeController | Try to apply filters | 
+2018-06-26 09:20:22.3509 | INFO | Eshop.Controllers.HomeController | Sort goods success | 
+2018-06-26 09:20:22.3509 | INFO | Eshop.Controllers.HomeController | Filters applied successfully | 
+2018-06-26 09:20:27.2592 | INFO | Eshop.MvcApplication | Application Error | 
+2018-06-26 09:20:29.6410 | INFO | Eshop.MvcApplication | Application Error | 
+2018-06-26 09:21:49.2781 | INFO | Eshop.MvcApplication | Application Start | 
+2018-06-26 09:21:50.2400 | INFO | Eshop.MvcApplication | Application Init | 
+2018-06-26 09:21:50.2703 | INFO | Eshop.MvcApplication | Application Init | 
+2018-06-26 09:21:53.7039 | INFO | Eshop.Controllers.HomeController | Get goods from category: All | 
+2018-06-26 09:21:57.6893 | INFO | Eshop.Controllers.HomeController | Try to apply filters | 
+2018-06-26 09:21:57.8397 | INFO | Eshop.Controllers.HomeController | Sort goods success | 
+2018-06-26 09:21:57.8553 | INFO | Eshop.Controllers.HomeController | Filters applied successfully | 
+2018-06-26 09:21:57.9491 | INFO | Eshop.MvcApplication | Application Init | 
+2018-06-26 09:21:57.9491 | INFO | Eshop.MvcApplication | Application Init | 
+2018-06-26 09:22:37.2071 | INFO | Eshop.MvcApplication | Application Error | 
+2018-06-26 09:26:18.3840 | INFO | Eshop.MvcApplication | Application Start | 
+2018-06-26 09:26:19.3820 | INFO | Eshop.MvcApplication | Application Init | 
+2018-06-26 09:26:19.4181 | INFO | Eshop.MvcApplication | Application Init | 
+2018-06-26 09:26:19.6525 | INFO | Eshop.MvcApplication | Application Error | 
+2018-06-26 09:26:19.7502 | INFO | Eshop.MvcApplication | Application Error | 
+2018-06-26 09:26:30.1828 | INFO | Eshop.Controllers.HomeController | Get goods from category: All | 
+2018-06-26 09:26:30.9817 | INFO | Eshop.MvcApplication | Application Init | 
+2018-06-26 09:26:31.1907 | INFO | Eshop.Controllers.HomeController | Get goods from category: All | 
+2018-06-26 09:26:34.0920 | INFO | Eshop.Controllers.HomeController | Try to apply filters | 
+2018-06-26 09:26:34.2327 | INFO | Eshop.Controllers.HomeController | Sort goods success | 
+2018-06-26 09:26:34.2493 | INFO | Eshop.Controllers.HomeController | Filters applied successfully | 
+2018-06-26 09:26:34.3040 | INFO | Eshop.MvcApplication | Application Init | 
+2018-06-26 09:26:37.7053 | INFO | Eshop.Controllers.HomeController | Try to apply filters | 
+2018-06-26 09:26:37.7542 | INFO | Eshop.Controllers.HomeController | Sort goods success | 
+2018-06-26 09:26:37.7717 | INFO | Eshop.Controllers.HomeController | Filters applied successfully | 
+2018-06-26 09:26:39.1272 | INFO | Eshop.MvcApplication | Application Error | 
+2018-06-26 09:26:39.1926 | INFO | Eshop.MvcApplication | Application Error | 
+2018-06-26 09:27:12.2934 | INFO | Eshop.MvcApplication | Application Dispose | 
+2018-06-26 09:28:25.3309 | INFO | Eshop.MvcApplication | Application Start | 
+2018-06-26 09:28:26.6336 | INFO | Eshop.MvcApplication | Application Init | 
+2018-06-26 09:28:26.6610 | INFO | Eshop.MvcApplication | Application Init | 
+2018-06-26 09:28:30.3446 | INFO | Eshop.Controllers.HomeController | Get goods from category: All | 
+2018-06-26 09:28:35.3778 | INFO | Eshop.Controllers.HomeController | Try to apply filters | 
+2018-06-26 09:28:35.5145 | INFO | Eshop.Controllers.HomeController | Sort goods success | 
+2018-06-26 09:28:35.5292 | INFO | Eshop.Controllers.HomeController | Filters applied successfully | 
+2018-06-26 09:28:35.5926 | INFO | Eshop.MvcApplication | Application Init | 
+2018-06-26 09:28:35.6151 | INFO | Eshop.MvcApplication | Application Init | 
+2018-06-26 09:28:58.1416 | INFO | Eshop.Controllers.HomeController | Get goods from category: All | 
+2018-06-26 09:28:58.5420 | INFO | Eshop.Controllers.HomeController | Try to apply filters | 
+2018-06-26 09:28:58.5918 | INFO | Eshop.Controllers.HomeController | Sort goods success | 
+2018-06-26 09:28:58.6084 | INFO | Eshop.Controllers.HomeController | Filters applied successfully | 
+2018-06-26 09:29:03.5430 | INFO | Eshop.MvcApplication | Application Error | 
+2018-06-26 09:29:03.6387 | INFO | Eshop.MvcApplication | Application Error | 
+2018-06-26 09:29:50.4446 | INFO | Eshop.MvcApplication | Application Dispose | 
+2018-06-26 09:30:20.4594 | INFO | Eshop.MvcApplication | Application Dispose | 
+2018-06-26 09:33:08.1028 | INFO | Eshop.MvcApplication | Application Start | 
+2018-06-26 09:33:09.0511 | INFO | Eshop.MvcApplication | Application Init | 
+2018-06-26 09:33:09.0823 | INFO | Eshop.MvcApplication | Application Init | 
+2018-06-26 09:33:12.5179 | INFO | Eshop.Controllers.HomeController | Get goods from category: All | 
+2018-06-26 09:33:16.4320 | INFO | Eshop.Controllers.HomeController | Try to apply filters | 
+2018-06-26 09:33:16.5736 | INFO | Eshop.Controllers.HomeController | Sort goods success | 
+2018-06-26 09:33:16.5902 | INFO | Eshop.Controllers.HomeController | Filters applied successfully | 
+2018-06-26 09:33:16.6400 | INFO | Eshop.MvcApplication | Application Init | 
+2018-06-26 09:33:16.6927 | INFO | Eshop.MvcApplication | Application Init | 
+2018-06-26 09:33:48.2222 | INFO | Eshop.MvcApplication | Application Error | 
+2018-06-26 09:33:50.4565 | INFO | Eshop.Controllers.HomeController | Try to apply filters | 
+2018-06-26 09:33:50.4995 | INFO | Eshop.Controllers.HomeController | Sort goods success | 
+2018-06-26 09:33:50.5122 | INFO | Eshop.Controllers.HomeController | Filters applied successfully | 
+2018-06-26 09:35:08.6581 | INFO | Eshop.MvcApplication | Application Start | 
+2018-06-26 09:35:09.7636 | INFO | Eshop.MvcApplication | Application Init | 
+2018-06-26 09:35:09.7909 | INFO | Eshop.MvcApplication | Application Init | 
+2018-06-26 09:35:13.3574 | INFO | Eshop.Controllers.HomeController | Get goods from category: All | 
+2018-06-26 09:35:17.4511 | INFO | Eshop.Controllers.HomeController | Try to apply filters | 
+2018-06-26 09:35:17.6005 | INFO | Eshop.Controllers.HomeController | Sort goods success | 
+2018-06-26 09:35:17.6162 | INFO | Eshop.Controllers.HomeController | Filters applied successfully | 
+2018-06-26 09:35:17.7011 | INFO | Eshop.MvcApplication | Application Init | 
+2018-06-26 09:35:17.7011 | INFO | Eshop.MvcApplication | Application Init | 
+2018-06-26 09:35:20.6728 | INFO | Eshop.MvcApplication | Application Error | 
+2018-06-26 09:35:27.1865 | INFO | Eshop.Controllers.HomeController | Try to apply filters | 
+2018-06-26 09:35:27.2324 | INFO | Eshop.Controllers.HomeController | Sort goods success | 
+2018-06-26 09:35:27.2461 | INFO | Eshop.Controllers.HomeController | Filters applied successfully | 
+2018-06-26 09:36:03.2297 | INFO | Eshop.MvcApplication | Application Dispose | 
+2018-06-26 09:36:33.2289 | INFO | Eshop.MvcApplication | Application Dispose | 
+2018-06-26 09:40:19.9156 | INFO | Eshop.MvcApplication | Application Start | 
+2018-06-26 09:40:20.9302 | INFO | Eshop.MvcApplication | Application Init | 
+2018-06-26 09:40:20.9576 | INFO | Eshop.MvcApplication | Application Init | 
+2018-06-26 09:40:24.5240 | INFO | Eshop.Controllers.HomeController | Get goods from category: All | 
+2018-06-26 09:40:28.7027 | INFO | Eshop.Controllers.HomeController | Try to apply filters | 
+2018-06-26 09:40:28.8463 | INFO | Eshop.Controllers.HomeController | Sort goods success | 
+2018-06-26 09:40:28.8629 | INFO | Eshop.Controllers.HomeController | Filters applied successfully | 
+2018-06-26 09:40:28.9293 | INFO | Eshop.MvcApplication | Application Init | 
+2018-06-26 09:40:28.9293 | INFO | Eshop.MvcApplication | Application Init | 
+2018-06-26 09:40:33.6422 | INFO | Eshop.MvcApplication | Application Error | 
+2018-06-26 09:41:12.0896 | INFO | Eshop.MvcApplication | Application Dispose | 
+2018-06-26 09:41:42.1035 | INFO | Eshop.MvcApplication | Application Dispose | 
+2018-06-26 09:41:43.9131 | INFO | Eshop.MvcApplication | Application Error | 
+2018-06-26 09:42:26.8654 | INFO | Eshop.Controllers.HomeController | Get goods from category: All | 
+2018-06-26 09:42:27.5353 | INFO | Eshop.Controllers.HomeController | Try to apply filters | 
+2018-06-26 09:42:27.5783 | INFO | Eshop.Controllers.HomeController | Sort goods success | 
+2018-06-26 09:42:27.5920 | INFO | Eshop.Controllers.HomeController | Filters applied successfully | 
+2018-06-26 09:42:27.6555 | INFO | Eshop.MvcApplication | Application Init | 
+2018-06-26 09:42:27.6555 | INFO | Eshop.MvcApplication | Application Init | 
+2018-06-26 09:42:29.6506 | INFO | Eshop.MvcApplication | Application Error | 
+2018-06-26 09:42:33.2502 | INFO | Eshop.Controllers.HomeController | Try to apply filters | 
+2018-06-26 09:42:33.3059 | INFO | Eshop.Controllers.HomeController | Sort goods success | 
+2018-06-26 09:42:33.3196 | INFO | Eshop.Controllers.HomeController | Filters applied successfully | 
+2018-06-26 09:46:24.0609 | INFO | Eshop.MvcApplication | Application Start | 
+2018-06-26 09:46:24.7133 | INFO | Eshop.MvcApplication | Application Init | 
+2018-06-26 09:46:24.7387 | INFO | Eshop.MvcApplication | Application Init | 
+2018-06-26 09:46:27.8402 | INFO | Eshop.Controllers.HomeController | Get goods from category: All | 
+2018-06-26 09:46:31.1469 | INFO | Eshop.Controllers.HomeController | Try to apply filters | 
+2018-06-26 09:46:31.2660 | INFO | Eshop.Controllers.HomeController | Sort goods success | 
+2018-06-26 09:46:31.2797 | INFO | Eshop.Controllers.HomeController | Filters applied successfully | 
+2018-06-26 09:46:31.3276 | INFO | Eshop.MvcApplication | Application Init | 
+2018-06-26 09:46:31.3364 | INFO | Eshop.MvcApplication | Application Init | 
+2018-06-26 09:46:39.1469 | INFO | Eshop.MvcApplication | Application Error | 
+2018-06-26 09:47:21.3981 | INFO | Eshop.MvcApplication | Application Dispose | 
+2018-06-26 09:47:51.4149 | INFO | Eshop.MvcApplication | Application Dispose | 
+2018-06-26 09:47:53.9647 | INFO | Eshop.MvcApplication | Application Error | 
+2018-06-26 09:48:01.4276 | INFO | Eshop.MvcApplication | Application Init | 
+2018-06-26 09:48:01.4276 | INFO | Eshop.MvcApplication | Application Init | 
+2018-06-26 09:48:42.1349 | INFO | Eshop.MvcApplication | Application Error | 
+2018-06-26 09:48:51.4269 | INFO | Eshop.MvcApplication | Application Dispose | 
+2018-06-26 09:49:12.4719 | INFO | Eshop.MvcApplication | Application Dispose | 
+2018-06-26 09:49:12.5130 | INFO | Eshop.MvcApplication | Application Dispose | 
+2018-06-26 09:49:12.5335 | INFO | Eshop.MvcApplication | Application End | 
+2018-06-26 09:49:12.5471 | INFO | Eshop.MvcApplication | Application Dispose | 
+2018-06-26 09:49:23.8685 | INFO | Eshop.MvcApplication | Application Start | 
+2018-06-26 09:49:24.8245 | INFO | Eshop.MvcApplication | Application Init | 
+2018-06-26 09:49:24.8509 | INFO | Eshop.MvcApplication | Application Init | 
+2018-06-26 09:49:28.8529 | INFO | Eshop.Controllers.HomeController | Get goods from category: All | 
+2018-06-26 09:49:33.3217 | INFO | Eshop.Controllers.HomeController | Try to apply filters | 
+2018-06-26 09:49:33.4779 | INFO | Eshop.Controllers.HomeController | Sort goods success | 
+2018-06-26 09:49:33.4935 | INFO | Eshop.Controllers.HomeController | Filters applied successfully | 
+2018-06-26 09:49:33.5433 | INFO | Eshop.MvcApplication | Application Init | 
+2018-06-26 09:49:33.5433 | INFO | Eshop.MvcApplication | Application Init | 
+2018-06-26 09:49:44.2133 | INFO | Eshop.MvcApplication | Application Error | 
+2018-06-26 09:50:15.4693 | INFO | Eshop.MvcApplication | Application Start | 
+2018-06-26 09:50:16.5084 | INFO | Eshop.MvcApplication | Application Init | 
+2018-06-26 09:50:16.5396 | INFO | Eshop.MvcApplication | Application Init | 
+2018-06-26 09:50:46.7566 | INFO | Eshop.Controllers.HomeController | Get goods from category: All | 
+2018-06-26 09:50:47.1795 | INFO | Eshop.MvcApplication | Application Init | 
+2018-06-26 09:50:47.3972 | INFO | Eshop.Controllers.HomeController | Get goods from category: All | 
+2018-06-26 09:50:50.9920 | INFO | Eshop.Controllers.HomeController | Try to apply filters | 
+2018-06-26 09:50:51.1287 | INFO | Eshop.Controllers.HomeController | Sort goods success | 
+2018-06-26 09:50:51.1443 | INFO | Eshop.Controllers.HomeController | Filters applied successfully | 
+2018-06-26 09:50:51.2185 | INFO | Eshop.MvcApplication | Application Init | 
+2018-06-26 09:50:56.8055 | INFO | Eshop.MvcApplication | Application Error | 
+2018-06-26 09:51:03.8407 | INFO | Eshop.MvcApplication | Application Error | 
+2018-06-26 09:54:08.0897 | INFO | Eshop.MvcApplication | Application Start | 
+2018-06-26 09:54:09.6141 | INFO | Eshop.MvcApplication | Application Init | 
+2018-06-26 09:54:09.6942 | INFO | Eshop.MvcApplication | Application Init | 
+2018-06-26 09:54:16.8944 | INFO | Eshop.Controllers.HomeController | Get goods from category: All | 
+2018-06-26 09:54:22.3456 | INFO | Eshop.Controllers.HomeController | Try to apply filters | 
+2018-06-26 09:54:22.4843 | INFO | Eshop.Controllers.HomeController | Sort goods success | 
+2018-06-26 09:54:22.5019 | INFO | Eshop.Controllers.HomeController | Filters applied successfully | 
+2018-06-26 09:54:22.5683 | INFO | Eshop.MvcApplication | Application Init | 
+2018-06-26 09:54:22.5683 | INFO | Eshop.MvcApplication | Application Init | 
+2018-06-26 09:54:34.7070 | INFO | Eshop.MvcApplication | Application Error | 
+2018-06-26 09:54:37.8115 | INFO | Eshop.Controllers.HomeController | Try to apply filters | 
+2018-06-26 09:54:37.8545 | INFO | Eshop.Controllers.HomeController | Sort goods success | 
+2018-06-26 09:54:37.8672 | INFO | Eshop.Controllers.HomeController | Filters applied successfully | 
+2018-06-26 09:54:42.9395 | INFO | Eshop.MvcApplication | Application Error | 
+2018-06-26 09:55:32.2249 | INFO | Eshop.MvcApplication | Application Dispose | 
+2018-06-26 09:55:58.1186 | INFO | Eshop.MvcApplication | Application Error | 
+2018-06-26 09:56:32.2272 | INFO | Eshop.MvcApplication | Application Dispose | 
+2018-06-26 09:58:19.9289 | INFO | Eshop.MvcApplication | Application Error | 
+2018-06-26 09:58:27.7903 | INFO | Eshop.MvcApplication | Application Error | 
+2018-06-26 09:58:40.4378 | INFO | Eshop.Controllers.HomeController | Get goods from category: All | 
+2018-06-26 09:58:40.9583 | INFO | Eshop.Controllers.HomeController | Try to apply filters | 
+2018-06-26 09:58:41.0081 | INFO | Eshop.Controllers.HomeController | Sort goods success | 
+2018-06-26 09:58:41.0081 | INFO | Eshop.Controllers.HomeController | Filters applied successfully | 
+2018-06-26 09:58:41.1028 | INFO | Eshop.MvcApplication | Application Init | 
+2018-06-26 09:58:41.1536 | INFO | Eshop.MvcApplication | Application Init | 
+2018-06-26 09:58:44.3099 | INFO | Eshop.MvcApplication | Application Error | 
+2018-06-26 09:58:52.2806 | INFO | Eshop.MvcApplication | Application Error | 
+2018-06-26 09:59:01.5356 | INFO | Eshop.Controllers.HomeController | Get goods from category: All | 
+2018-06-26 09:59:02.0854 | INFO | Eshop.Controllers.HomeController | Try to apply filters | 
+2018-06-26 09:59:02.1459 | INFO | Eshop.Controllers.HomeController | Sort goods success | 
+2018-06-26 09:59:02.1459 | INFO | Eshop.Controllers.HomeController | Filters applied successfully | 
+2018-06-26 10:00:02.2878 | INFO | Eshop.MvcApplication | Application Dispose | 
+2018-06-26 10:00:32.2899 | INFO | Eshop.MvcApplication | Application Dispose | 
+2018-06-26 10:15:34.2411 | INFO | Eshop.MvcApplication | Application Start | 
+2018-06-26 10:15:34.3427 | INFO | Eshop.MvcApplication | Application Init | 
+2018-06-26 10:15:34.3876 | INFO | Eshop.MvcApplication | Application Init | 
+2018-06-26 10:15:39.6454 | INFO | Eshop.Controllers.HomeController | Get goods from category: All | 
+2018-06-26 10:15:42.1103 | INFO | Eshop.Controllers.HomeController | Try to apply filters | 
+2018-06-26 10:15:42.2353 | INFO | Eshop.Controllers.HomeController | Sort goods success | 
+2018-06-26 10:15:42.2480 | INFO | Eshop.Controllers.HomeController | Filters applied successfully | 
+2018-06-26 10:15:42.3378 | INFO | Eshop.MvcApplication | Application Init | 
+2018-06-26 10:15:42.3378 | INFO | Eshop.MvcApplication | Application Init | 
+2018-06-26 10:16:03.3428 | INFO | Eshop.Controllers.HomeController | Get goods from category: All | 
+2018-06-26 10:16:03.7627 | INFO | Eshop.Controllers.HomeController | Try to apply filters | 
+2018-06-26 10:16:03.8106 | INFO | Eshop.Controllers.HomeController | Sort goods success | 
+2018-06-26 10:16:03.8213 | INFO | Eshop.Controllers.HomeController | Filters applied successfully | 
+2018-06-26 10:16:07.4688 | INFO | Eshop.Controllers.HomeController | Try to apply filters | 
+2018-06-26 10:16:07.5362 | INFO | Eshop.Controllers.HomeController | Sort goods success | 
+2018-06-26 10:16:07.5479 | INFO | Eshop.Controllers.HomeController | Filters applied successfully | 
+2018-06-26 10:16:17.6759 | INFO | Eshop.Controllers.HomeController | Get goods from category: All | 
+2018-06-26 10:16:18.0363 | INFO | Eshop.Controllers.HomeController | Try to apply filters | 
+2018-06-26 10:16:18.0792 | INFO | Eshop.Controllers.HomeController | Sort goods success | 
+2018-06-26 10:16:18.0900 | INFO | Eshop.Controllers.HomeController | Filters applied successfully | 
+2018-06-26 10:16:34.4055 | INFO | Eshop.Controllers.HomeController | Get goods from category: All | 
+2018-06-26 10:16:34.8117 | INFO | Eshop.Controllers.HomeController | Try to apply filters | 
+2018-06-26 10:16:34.8508 | INFO | Eshop.Controllers.HomeController | Sort goods success | 
+2018-06-26 10:16:34.8508 | INFO | Eshop.Controllers.HomeController | Filters applied successfully | 
+2018-06-26 10:16:42.3889 | INFO | Eshop.Controllers.HomeController | Get goods from category: All | 
+2018-06-26 10:16:42.8050 | INFO | Eshop.Controllers.HomeController | Try to apply filters | 
+2018-06-26 10:16:42.8528 | INFO | Eshop.Controllers.HomeController | Sort goods success | 
+2018-06-26 10:16:42.8655 | INFO | Eshop.Controllers.HomeController | Filters applied successfully | 
+2018-06-26 10:18:42.5283 | INFO | Eshop.MvcApplication | Application Start | 
+2018-06-26 10:18:43.4443 | INFO | Eshop.MvcApplication | Application Init | 
+2018-06-26 10:18:43.4707 | INFO | Eshop.MvcApplication | Application Init | 
+2018-06-26 10:18:46.8916 | INFO | Eshop.Controllers.HomeController | Get goods from category: All | 
+2018-06-26 10:18:51.7441 | INFO | Eshop.Controllers.HomeController | Try to apply filters | 
+2018-06-26 10:18:51.8838 | INFO | Eshop.Controllers.HomeController | Sort goods success | 
+2018-06-26 10:18:51.8994 | INFO | Eshop.Controllers.HomeController | Filters applied successfully | 
+2018-06-26 10:18:51.9551 | INFO | Eshop.MvcApplication | Application Init | 
+2018-06-26 10:19:01.0469 | INFO | Eshop.Controllers.HomeController | Get goods from category: Displays | 
+2018-06-26 10:19:01.4493 | INFO | Eshop.Controllers.HomeController | Try to apply filters | 
+2018-06-26 10:19:01.5352 | INFO | Eshop.Controllers.HomeController | Sort goods success | 
+2018-06-26 10:19:01.5528 | INFO | Eshop.Controllers.HomeController | Filters applied successfully | 
+2018-06-26 10:19:11.9659 | INFO | Eshop.Controllers.HomeController | Get goods from category: CellPhones | 
+2018-06-26 10:19:12.3693 | INFO | Eshop.Controllers.HomeController | Try to apply filters | 
+2018-06-26 10:19:12.4298 | INFO | Eshop.Controllers.HomeController | Sort goods success | 
+2018-06-26 10:19:12.4464 | INFO | Eshop.Controllers.HomeController | Filters applied successfully | 
+2018-06-26 10:19:14.2960 | INFO | Eshop.Controllers.HomeController | Get goods from category: All | 
+2018-06-26 10:19:14.7160 | INFO | Eshop.Controllers.HomeController | Try to apply filters | 
+2018-06-26 10:19:14.7609 | INFO | Eshop.Controllers.HomeController | Sort goods success | 
+2018-06-26 10:19:14.7736 | INFO | Eshop.Controllers.HomeController | Filters applied successfully | 
+2018-06-26 10:19:14.9298 | INFO | Eshop.MvcApplication | Application Init | 
+2018-06-26 10:19:15.1193 | INFO | Eshop.Controllers.HomeController | Get goods from category: Laptops | 
+2018-06-26 10:19:16.1330 | INFO | Eshop.Controllers.HomeController | Try to apply filters | 
+2018-06-26 10:19:16.1847 | INFO | Eshop.Controllers.HomeController | Sort goods success | 
+2018-06-26 10:19:16.1994 | INFO | Eshop.Controllers.HomeController | Filters applied successfully | 
+2018-06-26 10:19:37.1096 | INFO | Eshop.Controllers.HomeController | Get goods from category: Laptops | 
+2018-06-26 10:19:37.5061 | INFO | Eshop.Controllers.HomeController | Try to apply filters | 
+2018-06-26 10:19:37.5491 | INFO | Eshop.Controllers.HomeController | Sort goods success | 
+2018-06-26 10:19:37.5618 | INFO | Eshop.Controllers.HomeController | Filters applied successfully | 
+2018-06-26 10:31:39.2885 | INFO | Eshop.MvcApplication | Application Start | 
+2018-06-26 10:31:40.2475 | INFO | Eshop.MvcApplication | Application Init | 
+2018-06-26 10:31:40.2759 | INFO | Eshop.MvcApplication | Application Init | 
+2018-06-26 10:31:44.7856 | INFO | Eshop.Controllers.HomeController | Get goods from category: All | 
+2018-06-26 10:31:48.5962 | INFO | Eshop.Controllers.HomeController | Try to apply filters | 
+2018-06-26 10:31:48.7368 | INFO | Eshop.Controllers.HomeController | Sort goods success | 
+2018-06-26 10:31:48.7525 | INFO | Eshop.Controllers.HomeController | Filters applied successfully | 
+2018-06-26 10:31:48.8228 | INFO | Eshop.MvcApplication | Application Init | 
+2018-06-26 10:31:48.8228 | INFO | Eshop.MvcApplication | Application Init | 
+2018-06-26 10:31:51.8267 | INFO | Eshop.Controllers.HomeController | Get goods from category: All | 
+2018-06-26 10:31:52.2388 | INFO | Eshop.Controllers.HomeController | Try to apply filters | 
+2018-06-26 10:31:52.2857 | INFO | Eshop.Controllers.HomeController | Sort goods success | 
+2018-06-26 10:31:52.3023 | INFO | Eshop.Controllers.HomeController | Filters applied successfully | 
+2018-06-26 10:31:54.8414 | INFO | Eshop.Controllers.HomeController | Try to apply filters | 
+2018-06-26 10:31:54.8834 | INFO | Eshop.Controllers.HomeController | Sort goods success | 
+2018-06-26 10:31:54.8970 | INFO | Eshop.Controllers.HomeController | Filters applied successfully | 
+2018-06-26 10:32:02.2945 | INFO | Eshop.Controllers.HomeController | Try to apply filters | 
+2018-06-26 10:32:02.3414 | INFO | Eshop.Controllers.HomeController | Sort goods success | 
+2018-06-26 10:32:02.3570 | INFO | Eshop.Controllers.HomeController | Filters applied successfully | 
+2018-06-26 10:32:58.3837 | INFO | Eshop.Controllers.HomeController | Get goods from category: CellPhones | 
+2018-06-26 10:32:58.7919 | INFO | Eshop.Controllers.HomeController | Try to apply filters | 
+2018-06-26 10:32:58.8759 | INFO | Eshop.Controllers.HomeController | Sort goods success | 
+2018-06-26 10:32:58.8896 | INFO | Eshop.Controllers.HomeController | Filters applied successfully | 
+2018-06-26 10:33:04.3398 | INFO | Eshop.Controllers.HomeController | Get goods from category: All | 
+2018-06-26 10:33:04.7265 | INFO | Eshop.Controllers.HomeController | Try to apply filters | 
+2018-06-26 10:33:04.7744 | INFO | Eshop.Controllers.HomeController | Sort goods success | 
+2018-06-26 10:33:04.7881 | INFO | Eshop.Controllers.HomeController | Filters applied successfully | 
+2018-06-26 10:33:30.1759 | INFO | Eshop.Controllers.HomeController | Get goods from category: Laptops | 
+2018-06-26 10:33:30.5675 | INFO | Eshop.Controllers.HomeController | Try to apply filters | 
+2018-06-26 10:33:30.6154 | INFO | Eshop.Controllers.HomeController | Sort goods success | 
+2018-06-26 10:33:30.6154 | INFO | Eshop.Controllers.HomeController | Filters applied successfully | 
+2018-06-26 10:33:33.1212 | INFO | Eshop.Controllers.HomeController | Get goods from category: All | 
+2018-06-26 10:33:33.4845 | INFO | Eshop.Controllers.HomeController | Try to apply filters | 
+2018-06-26 10:33:33.5372 | INFO | Eshop.Controllers.HomeController | Sort goods success | 
+2018-06-26 10:33:33.5372 | INFO | Eshop.Controllers.HomeController | Filters applied successfully | 
+2018-06-26 10:46:09.2378 | INFO | Eshop.MvcApplication | Application Start | 
+2018-06-26 10:46:10.1597 | INFO | Eshop.MvcApplication | Application Init | 
+2018-06-26 10:46:10.1909 | INFO | Eshop.MvcApplication | Application Init | 
+2018-06-26 10:46:15.6421 | INFO | Eshop.Controllers.HomeController | Get goods from category: All | 
+2018-06-26 10:46:19.5738 | INFO | Eshop.Controllers.HomeController | Try to apply filters | 
+2018-06-26 10:46:19.7154 | INFO | Eshop.Controllers.HomeController | Sort goods success | 
+2018-06-26 10:46:19.7408 | INFO | Eshop.Controllers.HomeController | Filters applied successfully | 
+2018-06-26 10:46:19.7877 | INFO | Eshop.MvcApplication | Application Init | 
+2018-06-26 10:46:19.8091 | INFO | Eshop.MvcApplication | Application Init | 
+2018-06-26 10:46:26.9605 | INFO | Eshop.Controllers.HomeController | Get goods from category: All | 
+2018-06-26 10:46:27.3873 | INFO | Eshop.Controllers.HomeController | Try to apply filters | 
+2018-06-26 10:46:27.4498 | INFO | Eshop.Controllers.HomeController | Sort goods success | 
+2018-06-26 10:46:27.4635 | INFO | Eshop.Controllers.HomeController | Filters applied successfully | 
+2018-06-26 10:52:36.5066 | INFO | Eshop.MvcApplication | Application Start | 
+2018-06-26 10:52:37.4753 | INFO | Eshop.MvcApplication | Application Init | 
+2018-06-26 10:52:37.5056 | INFO | Eshop.MvcApplication | Application Init | 
+2018-06-26 10:52:42.4558 | INFO | Eshop.Controllers.HomeController | Get goods from category: All | 
+2018-06-26 10:52:46.4881 | INFO | Eshop.Controllers.HomeController | Try to apply filters | 
+2018-06-26 10:52:46.6277 | INFO | Eshop.Controllers.HomeController | Sort goods success | 
+2018-06-26 10:52:46.6424 | INFO | Eshop.Controllers.HomeController | Filters applied successfully | 
+2018-06-26 10:52:46.6990 | INFO | Eshop.MvcApplication | Application Init | 
+2018-06-26 10:52:46.7244 | INFO | Eshop.MvcApplication | Application Init | 
+2018-06-26 10:53:07.0819 | INFO | Eshop.Controllers.HomeController | Get goods from category: CellPhones | 
+2018-06-26 10:53:07.5897 | INFO | Eshop.Controllers.HomeController | Try to apply filters | 
+2018-06-26 10:53:07.6630 | INFO | Eshop.Controllers.HomeController | Sort goods success | 
+2018-06-26 10:53:07.6776 | INFO | Eshop.Controllers.HomeController | Filters applied successfully | 
+2018-06-26 10:53:09.1884 | INFO | Eshop.Controllers.HomeController | Try to apply filters | 
+2018-06-26 10:53:09.3857 | INFO | Eshop.Controllers.HomeController | Sort goods success | 
+2018-06-26 10:53:09.3993 | INFO | Eshop.Controllers.HomeController | Filters applied successfully | 
+2018-06-26 10:53:10.2284 | INFO | Eshop.Controllers.HomeController | Try to apply filters | 
+2018-06-26 10:53:10.2724 | INFO | Eshop.Controllers.HomeController | Sort goods success | 
+2018-06-26 10:53:10.2724 | INFO | Eshop.Controllers.HomeController | Filters applied successfully | 
+2018-06-26 10:53:10.8300 | INFO | Eshop.Controllers.HomeController | Try to apply filters | 
+2018-06-26 10:53:10.9921 | INFO | Eshop.Controllers.HomeController | Sort goods success | 
+2018-06-26 10:53:10.9921 | INFO | Eshop.Controllers.HomeController | Filters applied successfully | 
+2018-06-26 10:53:11.4970 | INFO | Eshop.Controllers.HomeController | Try to apply filters | 
+2018-06-26 10:53:11.5634 | INFO | Eshop.Controllers.HomeController | Sort goods success | 
+2018-06-26 10:53:11.5761 | INFO | Eshop.Controllers.HomeController | Filters applied successfully | 
+2018-06-26 10:53:30.3828 | INFO | Eshop.MvcApplication | Application Dispose | 
+2018-06-26 10:54:00.3996 | INFO | Eshop.MvcApplication | Application Dispose | 
+2018-06-26 10:59:34.0148 | INFO | Eshop.MvcApplication | Application Start | 
+2018-06-26 10:59:34.9465 | INFO | Eshop.MvcApplication | Application Init | 
+2018-06-26 10:59:34.9738 | INFO | Eshop.MvcApplication | Application Init | 
+2018-06-26 10:59:40.3254 | INFO | Eshop.Controllers.HomeController | Get goods from category: All | 
+2018-06-26 10:59:44.2883 | INFO | Eshop.Controllers.HomeController | Try to apply filters | 
+2018-06-26 10:59:44.4368 | INFO | Eshop.Controllers.HomeController | Sort goods success | 
+2018-06-26 10:59:44.4543 | INFO | Eshop.Controllers.HomeController | Filters applied successfully | 
+2018-06-26 10:59:44.5237 | INFO | Eshop.MvcApplication | Application Init | 
+2018-06-26 10:59:44.5413 | INFO | Eshop.MvcApplication | Application Init | 
+2018-06-26 10:59:52.4729 | ERROR | Eshop.Controllers.HomeController | Exception occured in index | System.NotImplementedException: The method or operation is not implemented.
+   at Eshop.Controllers.HomeController.Index(Int32 page) in C:\Users\Алексей\Desktop\Eshop -0626\Eshop\Controllers\HomeController.cs:line 35
+2018-06-26 11:00:04.8490 | INFO | Eshop.Controllers.HomeController | Try to apply filters | 
+2018-06-26 11:00:04.9027 | INFO | Eshop.Controllers.HomeController | Sort goods success | 
+2018-06-26 11:00:04.9183 | INFO | Eshop.Controllers.HomeController | Filters applied successfully | 
+2018-06-26 11:00:53.9518 | INFO | Eshop.MvcApplication | Application Start | 
+2018-06-26 11:00:54.8542 | INFO | Eshop.MvcApplication | Application Init | 
+2018-06-26 11:00:54.8844 | INFO | Eshop.MvcApplication | Application Init | 
+2018-06-26 11:00:58.2028 | INFO | Eshop.Controllers.HomeController | Get goods from category: All | 
+2018-06-26 11:01:02.1814 | INFO | Eshop.Controllers.HomeController | Try to apply filters | 
+2018-06-26 11:01:02.3220 | INFO | Eshop.Controllers.HomeController | Sort goods success | 
+2018-06-26 11:01:02.3366 | INFO | Eshop.Controllers.HomeController | Filters applied successfully | 
+2018-06-26 11:01:02.4050 | INFO | Eshop.MvcApplication | Application Init | 
+2018-06-26 11:01:02.4050 | INFO | Eshop.MvcApplication | Application Init | 
+2018-06-26 11:01:14.2800 | INFO | Eshop.Controllers.HomeController | Get goods from category: All | 
+2018-06-26 11:01:14.6570 | INFO | Eshop.Controllers.HomeController | Try to apply filters | 
+2018-06-26 11:01:14.7146 | INFO | Eshop.Controllers.HomeController | Sort goods success | 
+2018-06-26 11:01:14.7283 | INFO | Eshop.Controllers.HomeController | Filters applied successfully | 
+2018-06-26 11:01:20.3875 | INFO | Eshop.Controllers.HomeController | Get goods from category: CellPhones | 
+2018-06-26 11:01:20.8856 | INFO | Eshop.Controllers.HomeController | Try to apply filters | 
+2018-06-26 11:01:20.9832 | INFO | Eshop.Controllers.HomeController | Sort goods success | 
+2018-06-26 11:01:21.0037 | INFO | Eshop.Controllers.HomeController | Filters applied successfully | 
+2018-06-26 11:01:34.7724 | INFO | Eshop.MvcApplication | Application Error | 
+2018-06-26 11:01:40.0859 | INFO | Eshop.Controllers.HomeController | Try to apply filters | 
+2018-06-26 11:01:40.1532 | INFO | Eshop.Controllers.HomeController | Sort goods success | 
+2018-06-26 11:01:40.1738 | INFO | Eshop.Controllers.HomeController | Filters applied successfully | 
+2018-06-26 11:01:47.0009 | INFO | Eshop.Controllers.HomeController | Get goods from category: All | 
+2018-06-26 11:01:47.4277 | INFO | Eshop.Controllers.HomeController | Try to apply filters | 
+2018-06-26 11:01:47.4755 | INFO | Eshop.Controllers.HomeController | Sort goods success | 
+2018-06-26 11:01:47.4755 | INFO | Eshop.Controllers.HomeController | Filters applied successfully | 
+2018-06-26 11:01:50.4131 | ERROR | Eshop.Controllers.HomeController | Exception occured in index | System.NotImplementedException: The method or operation is not implemented.
+   at Eshop.Controllers.HomeController.Index(Int32 page) in C:\Users\Алексей\Desktop\Eshop -0626\Eshop\Controllers\HomeController.cs:line 35
+2018-06-26 11:05:07.5617 | INFO | Eshop.MvcApplication | Application Start | 
+2018-06-26 11:05:08.4767 | INFO | Eshop.MvcApplication | Application Init | 
+2018-06-26 11:05:08.5041 | INFO | Eshop.MvcApplication | Application Init | 
+2018-06-26 11:05:11.9015 | INFO | Eshop.Controllers.HomeController | Get goods from category: All | 
+2018-06-26 11:05:15.8342 | INFO | Eshop.Controllers.HomeController | Try to apply filters | 
+2018-06-26 11:05:15.9709 | INFO | Eshop.Controllers.HomeController | Sort goods success | 
+2018-06-26 11:05:15.9865 | INFO | Eshop.Controllers.HomeController | Filters applied successfully | 
+2018-06-26 11:05:16.1057 | INFO | Eshop.MvcApplication | Application Init | 
+2018-06-26 11:05:16.1057 | INFO | Eshop.MvcApplication | Application Init | 
+2018-06-26 11:05:24.2649 | INFO | Eshop.MvcApplication | Application Error | 
+2018-06-26 11:05:26.8528 | INFO | Eshop.Controllers.HomeController | Try to apply filters | 
+2018-06-26 11:05:26.8958 | INFO | Eshop.Controllers.HomeController | Sort goods success | 
+2018-06-26 11:05:26.8958 | INFO | Eshop.Controllers.HomeController | Filters applied successfully | 
+2018-06-26 11:05:33.1956 | ERROR | Eshop.Controllers.HomeController | Exception occured in index | System.NotImplementedException: The method or operation is not implemented.
+   at Eshop.Controllers.HomeController.Index(Int32 page) in C:\Users\Алексей\Desktop\Eshop -0626\Eshop\Controllers\HomeController.cs:line 35
+2018-06-26 11:05:36.4036 | INFO | Eshop.Controllers.HomeController | Try to apply filters | 
+2018-06-26 11:05:36.4661 | INFO | Eshop.Controllers.HomeController | Sort goods success | 
+2018-06-26 11:05:36.4818 | INFO | Eshop.Controllers.HomeController | Filters applied successfully | 
+2018-06-26 11:06:32.0114 | INFO | Eshop.MvcApplication | Application Dispose | 
+2018-06-26 11:08:00.6486 | INFO | Eshop.MvcApplication | Application Start | 
+2018-06-26 11:08:01.5783 | INFO | Eshop.MvcApplication | Application Init | 
+2018-06-26 11:08:01.6095 | INFO | Eshop.MvcApplication | Application Init | 
+2018-06-26 11:08:04.9562 | INFO | Eshop.Controllers.HomeController | Get goods from category: All | 
+2018-06-26 11:08:08.7346 | INFO | Eshop.Controllers.HomeController | Try to apply filters | 
+2018-06-26 11:08:08.8654 | INFO | Eshop.Controllers.HomeController | Sort goods success | 
+2018-06-26 11:08:08.8654 | INFO | Eshop.Controllers.HomeController | Filters applied successfully | 
+2018-06-26 11:08:08.9690 | INFO | Eshop.MvcApplication | Application Init | 
+2018-06-26 11:08:08.9690 | INFO | Eshop.MvcApplication | Application Init | 
+2018-06-26 11:08:55.6948 | INFO | Eshop.MvcApplication | Application Dispose | 
+2018-06-26 11:09:09.3521 | ERROR | Eshop.Controllers.HomeController | Exception occured in index | System.NotImplementedException: The method or operation is not implemented.
+   at Eshop.Controllers.HomeController.Index(Int32 page) in C:\Users\Алексей\Desktop\Eshop -0626\Eshop\Controllers\HomeController.cs:line 35
+2018-06-26 11:09:09.4390 | INFO | Eshop.MvcApplication | Application Error | 
+2018-06-26 11:13:18.1935 | INFO | Eshop.MvcApplication | Application Start | 
+2018-06-26 11:13:19.1378 | INFO | Eshop.MvcApplication | Application Init | 
+2018-06-26 11:13:19.1642 | INFO | Eshop.MvcApplication | Application Init | 
+2018-06-26 11:13:22.5079 | INFO | Eshop.Controllers.HomeController | Get goods from category: All | 
+2018-06-26 11:13:26.4708 | INFO | Eshop.Controllers.HomeController | Try to apply filters | 
+2018-06-26 11:13:26.6291 | INFO | Eshop.Controllers.HomeController | Sort goods success | 
+2018-06-26 11:13:26.6437 | INFO | Eshop.Controllers.HomeController | Filters applied successfully | 
+2018-06-26 11:13:26.7218 | INFO | Eshop.MvcApplication | Application Init | 
+2018-06-26 11:13:26.7218 | INFO | Eshop.MvcApplication | Application Init | 
+2018-06-26 11:14:12.2739 | INFO | Eshop.MvcApplication | Application Dispose | 
+2018-06-26 11:14:42.2750 | INFO | Eshop.MvcApplication | Application Dispose | 
+2018-06-26 11:18:53.5705 | INFO | Eshop.MvcApplication | Application Error | 
+2018-06-26 11:19:01.0188 | INFO | Eshop.Controllers.HomeController | Try to apply filters | 
+2018-06-26 11:19:01.0598 | INFO | Eshop.Controllers.HomeController | Sort goods success | 
+2018-06-26 11:19:01.0725 | INFO | Eshop.Controllers.HomeController | Filters applied successfully | 
+2018-06-26 11:19:01.1145 | INFO | Eshop.MvcApplication | Application Init | 
+2018-06-26 11:19:01.1145 | INFO | Eshop.MvcApplication | Application Init | 
+2018-06-26 11:19:08.5823 | INFO | Eshop.MvcApplication | Application Error | 
+2018-06-26 11:19:42.3501 | INFO | Eshop.MvcApplication | Application Dispose | 
+2018-06-26 11:20:12.3659 | INFO | Eshop.MvcApplication | Application Dispose | 
+2018-06-26 11:28:58.3935 | INFO | Eshop.Controllers.HomeController | Get goods from category: All | 
+2018-06-26 11:28:58.8983 | INFO | Eshop.Controllers.HomeController | Try to apply filters | 
+2018-06-26 11:28:58.9530 | INFO | Eshop.Controllers.HomeController | Sort goods success | 
+2018-06-26 11:28:58.9726 | INFO | Eshop.Controllers.HomeController | Filters applied successfully | 
+2018-06-26 11:28:59.0771 | INFO | Eshop.MvcApplication | Application Init | 
+2018-06-26 11:28:59.0771 | INFO | Eshop.MvcApplication | Application Init | 
+2018-06-26 11:29:03.1034 | INFO | Eshop.Controllers.HomeController | Get goods from category: All | 
+2018-06-26 11:29:03.5849 | INFO | Eshop.Controllers.HomeController | Try to apply filters | 
+2018-06-26 11:29:03.6669 | INFO | Eshop.Controllers.HomeController | Sort goods success | 
+2018-06-26 11:29:03.6806 | INFO | Eshop.Controllers.HomeController | Filters applied successfully | 
+2018-06-26 11:29:13.2607 | INFO | Eshop.Controllers.HomeController | Get goods from category: All | 
+2018-06-26 11:29:13.9189 | INFO | Eshop.Controllers.HomeController | Try to apply filters | 
+2018-06-26 11:29:14.0410 | INFO | Eshop.Controllers.HomeController | Sort goods success | 
+2018-06-26 11:29:14.0586 | INFO | Eshop.Controllers.HomeController | Filters applied successfully | 
+2018-06-26 11:31:23.3201 | INFO | Eshop.MvcApplication | Application Start | 
+2018-06-26 11:31:23.3953 | INFO | Eshop.MvcApplication | Application Init | 
+2018-06-26 11:31:23.4285 | INFO | Eshop.MvcApplication | Application Init | 
+2018-06-26 11:33:54.5544 | INFO | Eshop.MvcApplication | Application Dispose | 
+2018-06-26 11:33:54.5749 | INFO | Eshop.MvcApplication | Application End | 
+2018-06-26 11:33:54.5925 | INFO | Eshop.MvcApplication | Application Dispose | 
+2018-06-26 11:34:08.6980 | INFO | Eshop.MvcApplication | Application Start | 
+2018-06-26 11:34:09.9187 | INFO | Eshop.MvcApplication | Application Init | 
+2018-06-26 11:34:09.9461 | INFO | Eshop.MvcApplication | Application Init | 
+2018-06-26 11:34:13.7049 | INFO | Eshop.Controllers.HomeController | Get goods from category: All | 
+2018-06-26 11:34:18.0037 | INFO | Eshop.Controllers.HomeController | Try to apply filters | 
+2018-06-26 11:34:18.1629 | INFO | Eshop.Controllers.HomeController | Sort goods success | 
+2018-06-26 11:34:18.1776 | INFO | Eshop.Controllers.HomeController | Filters applied successfully | 
+2018-06-26 11:34:18.2713 | INFO | Eshop.MvcApplication | Application Init | 
+2018-06-26 11:34:18.3113 | INFO | Eshop.MvcApplication | Application Init | 
+2018-06-26 11:34:50.1768 | INFO | Eshop.Controllers.HomeController | Get goods from category: All | 
+2018-06-26 11:34:52.0908 | INFO | Eshop.Controllers.HomeController | Try to apply filters | 
+2018-06-26 11:34:52.1358 | INFO | Eshop.Controllers.HomeController | Sort goods success | 
+2018-06-26 11:34:52.1465 | INFO | Eshop.Controllers.HomeController | Filters applied successfully | 
+2018-06-26 11:35:31.5989 | INFO | Eshop.MvcApplication | Application Dispose | 
+2018-06-26 11:36:06.1274 | INFO | Eshop.Controllers.HomeController | Get goods from category: All | 
+2018-06-26 11:36:06.5200 | INFO | Eshop.Controllers.HomeController | Try to apply filters | 
+2018-06-26 11:36:06.5620 | INFO | Eshop.Controllers.HomeController | Sort goods success | 
+2018-06-26 11:36:06.5727 | INFO | Eshop.Controllers.HomeController | Filters applied successfully | 
+2018-06-26 11:36:06.6440 | INFO | Eshop.MvcApplication | Application Init | 
+2018-06-26 11:36:09.6860 | INFO | Eshop.Controllers.HomeController | Get goods from category: All | 
+2018-06-26 11:36:10.0454 | INFO | Eshop.Controllers.HomeController | Try to apply filters | 
+2018-06-26 11:36:10.0932 | INFO | Eshop.Controllers.HomeController | Sort goods success | 
+2018-06-26 11:36:10.1040 | INFO | Eshop.Controllers.HomeController | Filters applied successfully | 
+2018-06-26 11:36:15.0923 | INFO | Eshop.Controllers.HomeController | Get goods from category: All | 
+2018-06-26 11:36:15.5054 | INFO | Eshop.Controllers.HomeController | Try to apply filters | 
+2018-06-26 11:36:15.5503 | INFO | Eshop.Controllers.HomeController | Sort goods success | 
+2018-06-26 11:36:15.5620 | INFO | Eshop.Controllers.HomeController | Filters applied successfully | 
+2018-06-26 11:36:16.4829 | INFO | Eshop.Controllers.HomeController | Get goods from category: All | 
+2018-06-26 11:36:16.9829 | INFO | Eshop.Controllers.HomeController | Try to apply filters | 
+2018-06-26 11:36:17.0239 | INFO | Eshop.Controllers.HomeController | Sort goods success | 
+2018-06-26 11:36:17.0239 | INFO | Eshop.Controllers.HomeController | Filters applied successfully | 
+2018-06-26 11:36:29.8824 | INFO | Eshop.Controllers.HomeController | Get goods from category: All | 
+2018-06-26 11:36:30.3023 | INFO | Eshop.Controllers.HomeController | Try to apply filters | 
+2018-06-26 11:36:30.3502 | INFO | Eshop.Controllers.HomeController | Sort goods success | 
+2018-06-26 11:36:30.3502 | INFO | Eshop.Controllers.HomeController | Filters applied successfully | 
+2018-06-26 11:36:33.7779 | INFO | Eshop.Controllers.HomeController | Get goods from category: All | 
+2018-06-26 11:36:34.1774 | INFO | Eshop.Controllers.HomeController | Try to apply filters | 
+2018-06-26 11:36:34.2194 | INFO | Eshop.Controllers.HomeController | Sort goods success | 
+2018-06-26 11:36:34.2311 | INFO | Eshop.Controllers.HomeController | Filters applied successfully | 
+2018-06-26 11:37:31.6171 | INFO | Eshop.MvcApplication | Application Dispose | 
+2018-06-26 11:37:43.1787 | INFO | Eshop.Controllers.HomeController | Get goods from category: All | 
+2018-06-26 11:37:43.6152 | INFO | Eshop.Controllers.HomeController | Try to apply filters | 
+2018-06-26 11:37:43.6563 | INFO | Eshop.Controllers.HomeController | Sort goods success | 
+2018-06-26 11:37:43.6680 | INFO | Eshop.Controllers.HomeController | Filters applied successfully | 
+2018-06-26 11:37:43.7197 | INFO | Eshop.MvcApplication | Application Init | 
+2018-06-26 11:37:46.5235 | INFO | Eshop.Controllers.HomeController | Try to apply filters | 
+2018-06-26 11:37:46.5752 | INFO | Eshop.Controllers.HomeController | Sort goods success | 
+2018-06-26 11:37:46.5869 | INFO | Eshop.Controllers.HomeController | Filters applied successfully | 
+2018-06-26 11:38:31.6429 | INFO | Eshop.MvcApplication | Application Dispose | 
+2018-06-26 11:39:31.6647 | INFO | Eshop.MvcApplication | Application Dispose | 
+2018-06-26 11:40:06.4705 | INFO | Eshop.Controllers.HomeController | Get goods from category: All | 
+2018-06-26 11:40:06.9793 | INFO | Eshop.Controllers.HomeController | Try to apply filters | 
+2018-06-26 11:40:07.0457 | INFO | Eshop.Controllers.HomeController | Sort goods success | 
+2018-06-26 11:40:07.0565 | INFO | Eshop.Controllers.HomeController | Filters applied successfully | 
+2018-06-26 11:40:07.1288 | INFO | Eshop.MvcApplication | Application Init | 
+2018-06-26 11:40:07.1288 | INFO | Eshop.MvcApplication | Application Init | 
+2018-06-26 11:40:08.1834 | INFO | Eshop.Controllers.HomeController | Get goods from category: All | 
+2018-06-26 11:40:08.6541 | INFO | Eshop.Controllers.HomeController | Try to apply filters | 
+2018-06-26 11:40:08.7108 | INFO | Eshop.Controllers.HomeController | Sort goods success | 
+2018-06-26 11:40:08.7108 | INFO | Eshop.Controllers.HomeController | Filters applied successfully | 
+2018-06-26 11:41:01.6779 | INFO | Eshop.MvcApplication | Application Dispose | 
+2018-06-26 11:41:19.6125 | INFO | Eshop.Controllers.HomeController | Get goods from category: All | 
+2018-06-26 11:41:20.1663 | INFO | Eshop.Controllers.HomeController | Try to apply filters | 
+2018-06-26 11:41:20.2200 | INFO | Eshop.Controllers.HomeController | Sort goods success | 
+2018-06-26 11:41:20.2356 | INFO | Eshop.Controllers.HomeController | Filters applied successfully | 
+2018-06-26 11:41:20.3235 | INFO | Eshop.MvcApplication | Application Init | 
+2018-06-26 11:41:25.7141 | INFO | Eshop.Controllers.HomeController | Try to apply filters | 
+2018-06-26 11:41:25.7610 | INFO | Eshop.Controllers.HomeController | Sort goods success | 
+2018-06-26 11:41:25.7727 | INFO | Eshop.Controllers.HomeController | Filters applied successfully | 
+2018-06-26 11:41:42.8822 | INFO | Eshop.Controllers.HomeController | Get goods from category: Displays | 
+2018-06-26 11:41:43.6166 | INFO | Eshop.Controllers.HomeController | Try to apply filters | 
+2018-06-26 11:41:43.7025 | INFO | Eshop.Controllers.HomeController | Sort goods success | 
+2018-06-26 11:41:43.7142 | INFO | Eshop.Controllers.HomeController | Filters applied successfully | 
+2018-06-26 11:42:31.7096 | INFO | Eshop.MvcApplication | Application Dispose | 
+2018-06-26 11:42:53.3689 | INFO | Eshop.Controllers.HomeController | Get goods from category: Laptops | 
+2018-06-26 11:42:53.8279 | INFO | Eshop.Controllers.HomeController | Try to apply filters | 
+2018-06-26 11:42:53.8797 | INFO | Eshop.Controllers.HomeController | Sort goods success | 
+2018-06-26 11:42:53.8924 | INFO | Eshop.Controllers.HomeController | Filters applied successfully | 
+2018-06-26 11:43:12.1981 | INFO | Eshop.Controllers.HomeController | Get goods from category: All | 
+2018-06-26 11:43:12.6796 | INFO | Eshop.Controllers.HomeController | Try to apply filters | 
+2018-06-26 11:43:12.7216 | INFO | Eshop.Controllers.HomeController | Sort goods success | 
+2018-06-26 11:43:12.7333 | INFO | Eshop.Controllers.HomeController | Filters applied successfully | 
+2018-06-26 11:43:12.7870 | INFO | Eshop.MvcApplication | Application Init | 
+2018-06-26 11:43:20.2118 | INFO | Eshop.Controllers.HomeController | Get goods from category: All | 
+2018-06-26 11:43:20.7743 | INFO | Eshop.Controllers.HomeController | Try to apply filters | 
+2018-06-26 11:43:20.8251 | INFO | Eshop.Controllers.HomeController | Sort goods success | 
+2018-06-26 11:43:20.8388 | INFO | Eshop.Controllers.HomeController | Filters applied successfully | 
+2018-06-26 11:43:37.5274 | INFO | Eshop.Controllers.HomeController | Get goods from category: All | 
+2018-06-26 11:43:37.9707 | INFO | Eshop.Controllers.HomeController | Try to apply filters | 
+2018-06-26 11:43:38.0411 | INFO | Eshop.Controllers.HomeController | Sort goods success | 
+2018-06-26 11:43:38.0557 | INFO | Eshop.Controllers.HomeController | Filters applied successfully | 
+2018-06-26 11:45:08.7086 | INFO | Eshop.MvcApplication | Application Start | 
+2018-06-26 11:45:09.7174 | INFO | Eshop.MvcApplication | Application Init | 
+2018-06-26 11:45:09.7555 | INFO | Eshop.MvcApplication | Application Init | 
+2018-06-26 11:45:13.4469 | INFO | Eshop.Controllers.HomeController | Get goods from category: All | 
+2018-06-26 11:45:18.7125 | INFO | Eshop.Controllers.HomeController | Try to apply filters | 
+2018-06-26 11:45:18.8698 | INFO | Eshop.Controllers.HomeController | Sort goods success | 
+2018-06-26 11:45:18.8844 | INFO | Eshop.Controllers.HomeController | Filters applied successfully | 
+2018-06-26 11:45:18.9362 | INFO | Eshop.MvcApplication | Application Init | 
+2018-06-26 11:45:18.9606 | INFO | Eshop.MvcApplication | Application Init | 
+2018-06-26 11:45:58.5067 | INFO | Eshop.Controllers.HomeController | Get goods from category: All | 
+2018-06-26 11:45:58.9491 | INFO | Eshop.Controllers.HomeController | Try to apply filters | 
+2018-06-26 11:45:59.0009 | INFO | Eshop.Controllers.HomeController | Sort goods success | 
+2018-06-26 11:45:59.0126 | INFO | Eshop.Controllers.HomeController | Filters applied successfully | 
+2018-06-26 11:46:13.4502 | INFO | Eshop.Controllers.HomeController | Get goods from category: All | 
+2018-06-26 11:46:13.9961 | INFO | Eshop.Controllers.HomeController | Try to apply filters | 
+2018-06-26 11:46:14.0547 | INFO | Eshop.Controllers.HomeController | Sort goods success | 
+2018-06-26 11:46:14.0693 | INFO | Eshop.Controllers.HomeController | Filters applied successfully | 
+2018-06-26 11:46:29.0206 | INFO | Eshop.Controllers.HomeController | Get goods from category: CellPhones | 
+2018-06-26 11:46:29.5001 | INFO | Eshop.Controllers.HomeController | Try to apply filters | 
+2018-06-26 11:46:29.6182 | INFO | Eshop.Controllers.HomeController | Sort goods success | 
+2018-06-26 11:46:29.6368 | INFO | Eshop.Controllers.HomeController | Filters applied successfully | 
+2018-06-26 11:46:32.5636 | INFO | Eshop.Controllers.HomeController | Get goods from category: All | 
+2018-06-26 11:46:32.9737 | INFO | Eshop.Controllers.HomeController | Try to apply filters | 
+2018-06-26 11:46:33.0157 | INFO | Eshop.Controllers.HomeController | Sort goods success | 
+2018-06-26 11:46:33.0284 | INFO | Eshop.Controllers.HomeController | Filters applied successfully | 
+2018-06-26 11:58:16.5042 | INFO | Eshop.MvcApplication | Application Start | 
+2018-06-26 11:58:17.4720 | INFO | Eshop.MvcApplication | Application Init | 
+2018-06-26 11:58:17.5013 | INFO | Eshop.MvcApplication | Application Init | 
+2018-06-26 11:58:25.0648 | INFO | Eshop.Controllers.HomeController | Get goods from category: All | 
+2018-06-26 11:58:30.0297 | INFO | Eshop.Controllers.HomeController | Try to apply filters | 
+2018-06-26 11:58:30.1117 | INFO | Eshop.Controllers.HomeController | Sort goods success | 
+2018-06-26 11:58:30.1264 | INFO | Eshop.Controllers.HomeController | Filters applied successfully | 
+2018-06-26 11:58:30.1752 | INFO | Eshop.MvcApplication | Application Init | 
+2018-06-26 11:58:30.1752 | INFO | Eshop.MvcApplication | Application Init | 
+2018-06-26 11:58:30.1772 | INFO | Eshop.MvcApplication | Application Init | 
+2018-06-26 11:58:34.2192 | INFO | Eshop.Controllers.HomeController | Get goods from category: CellPhones | 
+2018-06-26 11:58:34.6625 | INFO | Eshop.Controllers.HomeController | Try to apply filters | 
+2018-06-26 11:58:34.7544 | INFO | Eshop.Controllers.HomeController | Sort goods success | 
+2018-06-26 11:58:34.7690 | INFO | Eshop.Controllers.HomeController | Filters applied successfully | 
+2018-06-26 11:59:34.5379 | INFO | Eshop.MvcApplication | Application Dispose | 
+2018-06-26 12:00:04.5380 | INFO | Eshop.MvcApplication | Application Dispose | 
+2018-06-26 12:00:34.5529 | INFO | Eshop.MvcApplication | Application Dispose | 
+2018-06-26 12:03:46.7747 | INFO | Eshop.Controllers.HomeController | Get goods from category: All | 
+2018-06-26 12:03:47.2181 | INFO | Eshop.Controllers.HomeController | Try to apply filters | 
+2018-06-26 12:03:47.2562 | INFO | Eshop.Controllers.HomeController | Sort goods success | 
+2018-06-26 12:03:47.2562 | INFO | Eshop.Controllers.HomeController | Filters applied successfully | 
+2018-06-26 12:03:47.3040 | INFO | Eshop.MvcApplication | Application Init | 
+2018-06-26 12:03:47.3040 | INFO | Eshop.MvcApplication | Application Init | 
+2018-06-26 12:03:47.3040 | INFO | Eshop.MvcApplication | Application Init | 
+2018-06-26 12:03:48.8929 | INFO | Eshop.Controllers.HomeController | Get goods from category: Monitors | 
+2018-06-26 12:03:49.4056 | INFO | Eshop.Controllers.HomeController | Try to apply filters | 
+2018-06-26 12:03:49.4661 | INFO | Eshop.Controllers.HomeController | Sort goods success | 
+2018-06-26 12:03:49.4837 | INFO | Eshop.Controllers.HomeController | Filters applied successfully | 
+2018-06-26 12:03:49.7474 | INFO | Eshop.Controllers.HomeController | Get goods from category: All | 
+2018-06-26 12:03:50.4320 | INFO | Eshop.Controllers.HomeController | Try to apply filters | 
+2018-06-26 12:03:50.4759 | INFO | Eshop.Controllers.HomeController | Sort goods success | 
+2018-06-26 12:03:50.4759 | INFO | Eshop.Controllers.HomeController | Filters applied successfully | 
+2018-06-26 12:04:24.1988 | INFO | Eshop.Controllers.HomeController | Get goods from category: Monitors | 
+2018-06-26 12:04:24.5992 | INFO | Eshop.Controllers.HomeController | Try to apply filters | 
+2018-06-26 12:04:24.6421 | INFO | Eshop.Controllers.HomeController | Sort goods success | 
+2018-06-26 12:04:24.6529 | INFO | Eshop.Controllers.HomeController | Filters applied successfully | 
+2018-06-26 12:04:26.2164 | INFO | Eshop.Controllers.HomeController | Get goods from category: All | 
+2018-06-26 12:04:26.6431 | INFO | Eshop.Controllers.HomeController | Try to apply filters | 
+2018-06-26 12:04:26.6851 | INFO | Eshop.Controllers.HomeController | Sort goods success | 
+2018-06-26 12:04:26.6959 | INFO | Eshop.Controllers.HomeController | Filters applied successfully | 
+2018-06-26 12:04:26.7584 | INFO | Eshop.MvcApplication | Application Init | 
+2018-06-26 12:04:27.6099 | INFO | Eshop.Controllers.HomeController | Get goods from category: All | 
+2018-06-26 12:04:28.1685 | INFO | Eshop.Controllers.HomeController | Try to apply filters | 
+2018-06-26 12:04:28.2056 | INFO | Eshop.Controllers.HomeController | Sort goods success | 
+2018-06-26 12:04:28.2154 | INFO | Eshop.Controllers.HomeController | Filters applied successfully | 
+2018-06-26 12:04:31.5494 | INFO | Eshop.Controllers.HomeController | Try to apply filters | 
+2018-06-26 12:04:31.5953 | INFO | Eshop.Controllers.HomeController | Sort goods success | 
+2018-06-26 12:04:31.6070 | INFO | Eshop.Controllers.HomeController | Filters applied successfully | 
+2018-06-26 12:04:33.1686 | INFO | Eshop.Controllers.HomeController | Try to apply filters | 
+2018-06-26 12:04:33.2047 | INFO | Eshop.Controllers.HomeController | Sort goods success | 
+2018-06-26 12:04:33.2154 | INFO | Eshop.Controllers.HomeController | Filters applied successfully | 
+2018-06-26 12:04:33.7848 | INFO | Eshop.Controllers.HomeController | Get goods from category: Monitors | 
+2018-06-26 12:04:34.4010 | INFO | Eshop.Controllers.HomeController | Try to apply filters | 
+2018-06-26 12:04:34.4430 | INFO | Eshop.Controllers.HomeController | Sort goods success | 
+2018-06-26 12:04:34.4430 | INFO | Eshop.Controllers.HomeController | Filters applied successfully | 
+2018-06-26 12:04:36.0055 | INFO | Eshop.Controllers.HomeController | Get goods from category: Monitors | 
+2018-06-26 12:04:36.3863 | INFO | Eshop.Controllers.HomeController | Try to apply filters | 
+2018-06-26 12:04:36.4401 | INFO | Eshop.Controllers.HomeController | Sort goods success | 
+2018-06-26 12:04:36.4547 | INFO | Eshop.Controllers.HomeController | Filters applied successfully | 
+2018-06-26 12:04:49.4665 | INFO | Eshop.Controllers.HomeController | Try to apply filters | 
+2018-06-26 12:04:49.6921 | INFO | Eshop.Controllers.HomeController | Sort goods success | 
+2018-06-26 12:04:49.7048 | INFO | Eshop.Controllers.HomeController | Filters applied successfully | 
+2018-06-26 12:04:50.8122 | INFO | Eshop.Controllers.HomeController | Try to apply filters | 
+2018-06-26 12:04:50.8532 | INFO | Eshop.Controllers.HomeController | Sort goods success | 
+2018-06-26 12:04:50.8659 | INFO | Eshop.Controllers.HomeController | Filters applied successfully | 
+2018-06-26 12:04:59.4441 | INFO | Eshop.Controllers.HomeController | Get goods from category: All | 
+2018-06-26 12:04:59.9187 | INFO | Eshop.Controllers.HomeController | Try to apply filters | 
+2018-06-26 12:04:59.9715 | INFO | Eshop.Controllers.HomeController | Sort goods success | 
+2018-06-26 12:04:59.9841 | INFO | Eshop.Controllers.HomeController | Filters applied successfully | 
+2018-06-26 12:05:02.2371 | INFO | Eshop.Controllers.HomeController | Get goods from category: Monitors | 
+2018-06-26 12:05:02.7381 | INFO | Eshop.Controllers.HomeController | Try to apply filters | 
+2018-06-26 12:05:02.8055 | INFO | Eshop.Controllers.HomeController | Sort goods success | 
+2018-06-26 12:05:02.8201 | INFO | Eshop.Controllers.HomeController | Filters applied successfully | 
+2018-06-26 12:05:03.6551 | INFO | Eshop.Controllers.HomeController | Try to apply filters | 
+2018-06-26 12:05:03.8680 | INFO | Eshop.Controllers.HomeController | Sort goods success | 
+2018-06-26 12:05:03.8934 | INFO | Eshop.Controllers.HomeController | Filters applied successfully | 
+2018-06-26 12:05:04.1228 | INFO | Eshop.Controllers.HomeController | Try to apply filters | 
+2018-06-26 12:05:04.2713 | INFO | Eshop.Controllers.HomeController | Sort goods success | 
+2018-06-26 12:05:04.2713 | INFO | Eshop.Controllers.HomeController | Filters applied successfully | 
+2018-06-26 12:05:08.5985 | INFO | Eshop.Controllers.HomeController | Try to apply filters | 
+2018-06-26 12:05:08.6990 | INFO | Eshop.Controllers.HomeController | Sort goods success | 
+2018-06-26 12:05:08.7147 | INFO | Eshop.Controllers.HomeController | Filters applied successfully | 
+2018-06-26 12:05:11.5809 | INFO | Eshop.Controllers.HomeController | Try to apply filters | 
+2018-06-26 12:05:11.6952 | INFO | Eshop.Controllers.HomeController | Sort goods success | 
+2018-06-26 12:05:11.6952 | INFO | Eshop.Controllers.HomeController | Filters applied successfully | 
+2018-06-26 12:05:34.6230 | INFO | Eshop.MvcApplication | Application Dispose | 
+2018-06-26 12:06:08.0236 | INFO | Eshop.Controllers.HomeController | Try to apply filters | 
+2018-06-26 12:06:08.1359 | INFO | Eshop.Controllers.HomeController | Sort goods success | 
+2018-06-26 12:06:08.1496 | INFO | Eshop.Controllers.HomeController | Filters applied successfully | 
+2018-06-26 12:06:09.4006 | INFO | Eshop.Controllers.HomeController | Try to apply filters | 
+2018-06-26 12:06:09.5324 | INFO | Eshop.Controllers.HomeController | Sort goods success | 
+2018-06-26 12:06:09.5471 | INFO | Eshop.Controllers.HomeController | Filters applied successfully | 
+2018-06-26 12:06:11.5305 | INFO | Eshop.Controllers.HomeController | Try to apply filters | 
+2018-06-26 12:06:11.6418 | INFO | Eshop.Controllers.HomeController | Sort goods success | 
+2018-06-26 12:06:11.6545 | INFO | Eshop.Controllers.HomeController | Filters applied successfully | 
+2018-06-26 12:06:12.1975 | INFO | Eshop.Controllers.HomeController | Try to apply filters | 
+2018-06-26 12:06:12.3264 | INFO | Eshop.Controllers.HomeController | Sort goods success | 
+2018-06-26 12:06:12.3401 | INFO | Eshop.Controllers.HomeController | Filters applied successfully | 
+2018-06-26 12:06:34.6468 | INFO | Eshop.MvcApplication | Application Dispose | 
+2018-06-26 12:07:04.6519 | INFO | Eshop.MvcApplication | Application Dispose | 
+2018-06-26 12:07:07.4429 | INFO | Eshop.Controllers.HomeController | Try to apply filters | 
+2018-06-26 12:07:07.5552 | INFO | Eshop.Controllers.HomeController | Sort goods success | 
+2018-06-26 12:07:07.5689 | INFO | Eshop.Controllers.HomeController | Filters applied successfully | 
+2018-06-26 12:07:18.2672 | INFO | Eshop.Controllers.HomeController | Get goods from category: All | 
+2018-06-26 12:07:18.6832 | INFO | Eshop.Controllers.HomeController | Try to apply filters | 
+2018-06-26 12:07:18.7233 | INFO | Eshop.Controllers.HomeController | Sort goods success | 
+2018-06-26 12:07:18.7369 | INFO | Eshop.Controllers.HomeController | Filters applied successfully | 
+2018-06-26 12:07:18.7946 | INFO | Eshop.MvcApplication | Application Init | 
+2018-06-26 12:07:18.7946 | INFO | Eshop.MvcApplication | Application Init | 
+2018-06-26 12:07:18.7946 | INFO | Eshop.MvcApplication | Application Init | 
+2018-06-26 12:07:20.0006 | INFO | Eshop.Controllers.HomeController | Get goods from category: Monitors | 
+2018-06-26 12:07:20.4508 | INFO | Eshop.Controllers.HomeController | Try to apply filters | 
+2018-06-26 12:07:20.5104 | INFO | Eshop.Controllers.HomeController | Sort goods success | 
+2018-06-26 12:07:20.5250 | INFO | Eshop.Controllers.HomeController | Filters applied successfully | 
+2018-06-26 12:07:22.4069 | INFO | Eshop.Controllers.HomeController | Get goods from category: CellPhones | 
+2018-06-26 12:07:22.8083 | INFO | Eshop.Controllers.HomeController | Try to apply filters | 
+2018-06-26 12:07:22.8600 | INFO | Eshop.Controllers.HomeController | Sort goods success | 
+2018-06-26 12:07:22.8756 | INFO | Eshop.Controllers.HomeController | Filters applied successfully | 
+2018-06-26 12:07:25.5348 | INFO | Eshop.Controllers.HomeController | Try to apply filters | 
+2018-06-26 12:07:25.5778 | INFO | Eshop.Controllers.HomeController | Sort goods success | 
+2018-06-26 12:07:25.5915 | INFO | Eshop.Controllers.HomeController | Filters applied successfully | 
+2018-06-26 12:07:27.6462 | INFO | Eshop.Controllers.HomeController | Try to apply filters | 
+2018-06-26 12:07:27.7009 | INFO | Eshop.Controllers.HomeController | Sort goods success | 
+2018-06-26 12:07:27.7145 | INFO | Eshop.Controllers.HomeController | Filters applied successfully | 
+2018-06-26 12:07:28.1589 | INFO | Eshop.Controllers.HomeController | Try to apply filters | 
+2018-06-26 12:07:28.2038 | INFO | Eshop.Controllers.HomeController | Sort goods success | 
+2018-06-26 12:07:28.2175 | INFO | Eshop.Controllers.HomeController | Filters applied successfully | 
+2018-06-26 12:07:28.6745 | INFO | Eshop.Controllers.HomeController | Try to apply filters | 
+2018-06-26 12:07:28.7263 | INFO | Eshop.Controllers.HomeController | Sort goods success | 
+2018-06-26 12:07:28.7458 | INFO | Eshop.Controllers.HomeController | Filters applied successfully | 
+2018-06-26 12:07:29.7810 | INFO | Eshop.Controllers.HomeController | Try to apply filters | 
+2018-06-26 12:07:29.8220 | INFO | Eshop.Controllers.HomeController | Sort goods success | 
+2018-06-26 12:07:29.8347 | INFO | Eshop.Controllers.HomeController | Filters applied successfully | 
+2018-06-26 12:07:30.6521 | INFO | Eshop.Controllers.HomeController | Try to apply filters | 
+2018-06-26 12:07:30.6950 | INFO | Eshop.Controllers.HomeController | Sort goods success | 
+2018-06-26 12:07:30.7097 | INFO | Eshop.Controllers.HomeController | Filters applied successfully | 
+2018-06-26 12:07:31.0984 | INFO | Eshop.Controllers.HomeController | Try to apply filters | 
+2018-06-26 12:07:31.1384 | INFO | Eshop.Controllers.HomeController | Sort goods success | 
+2018-06-26 12:07:31.1540 | INFO | Eshop.Controllers.HomeController | Filters applied successfully | 
+2018-06-26 12:07:33.3396 | INFO | Eshop.Controllers.HomeController | Try to apply filters | 
+2018-06-26 12:07:33.4490 | INFO | Eshop.Controllers.HomeController | Sort goods success | 
+2018-06-26 12:07:33.4617 | INFO | Eshop.Controllers.HomeController | Filters applied successfully | 
+2018-06-26 12:07:34.5242 | INFO | Eshop.Controllers.HomeController | Try to apply filters | 
+2018-06-26 12:07:34.6619 | INFO | Eshop.Controllers.HomeController | Sort goods success | 
+2018-06-26 12:07:34.6619 | INFO | Eshop.Controllers.HomeController | Filters applied successfully | 
+2018-06-26 12:07:35.7966 | INFO | Eshop.Controllers.HomeController | Try to apply filters | 
+2018-06-26 12:07:35.8982 | INFO | Eshop.Controllers.HomeController | Sort goods success | 
+2018-06-26 12:07:35.8982 | INFO | Eshop.Controllers.HomeController | Filters applied successfully | 
+2018-06-26 12:07:38.7254 | INFO | Eshop.Controllers.HomeController | Try to apply filters | 
+2018-06-26 12:07:38.8377 | INFO | Eshop.Controllers.HomeController | Sort goods success | 
+2018-06-26 12:07:38.8377 | INFO | Eshop.Controllers.HomeController | Filters applied successfully | 
+2018-06-26 12:08:04.6640 | INFO | Eshop.MvcApplication | Application Dispose | 
+2018-06-26 12:08:17.7139 | INFO | Eshop.Controllers.HomeController | Get goods from category: All | 
+2018-06-26 12:08:18.1289 | INFO | Eshop.Controllers.HomeController | Try to apply filters | 
+2018-06-26 12:08:18.1670 | INFO | Eshop.Controllers.HomeController | Sort goods success | 
+2018-06-26 12:08:18.1787 | INFO | Eshop.Controllers.HomeController | Filters applied successfully | 
+2018-06-26 12:09:04.6780 | INFO | Eshop.MvcApplication | Application Dispose | 
+2018-06-26 12:09:17.6605 | INFO | Eshop.Controllers.HomeController | Get goods from category: CellPhones | 
+2018-06-26 12:09:18.1019 | INFO | Eshop.Controllers.HomeController | Try to apply filters | 
+2018-06-26 12:09:18.1537 | INFO | Eshop.Controllers.HomeController | Sort goods success | 
+2018-06-26 12:09:18.1674 | INFO | Eshop.Controllers.HomeController | Filters applied successfully | 
+2018-06-26 12:09:18.2328 | INFO | Eshop.MvcApplication | Application Init | 
+2018-06-26 12:09:20.3539 | INFO | Eshop.Controllers.HomeController | Try to apply filters | 
+2018-06-26 12:09:20.4643 | INFO | Eshop.Controllers.HomeController | Sort goods success | 
+2018-06-26 12:09:20.4750 | INFO | Eshop.Controllers.HomeController | Filters applied successfully | 
+2018-06-26 12:09:23.9203 | INFO | Eshop.Controllers.HomeController | Try to apply filters | 
+2018-06-26 12:09:23.9760 | INFO | Eshop.Controllers.HomeController | Sort goods success | 
+2018-06-26 12:09:23.9760 | INFO | Eshop.Controllers.HomeController | Filters applied successfully | 
+2018-06-26 12:09:31.7534 | INFO | Eshop.Controllers.HomeController | Try to apply filters | 
+2018-06-26 12:09:31.7915 | INFO | Eshop.Controllers.HomeController | Sort goods success | 
+2018-06-26 12:09:31.8032 | INFO | Eshop.Controllers.HomeController | Filters applied successfully | 
+2018-06-26 12:09:33.4106 | INFO | Eshop.Controllers.HomeController | Try to apply filters | 
+2018-06-26 12:09:33.4516 | INFO | Eshop.Controllers.HomeController | Sort goods success | 
+2018-06-26 12:09:33.4634 | INFO | Eshop.Controllers.HomeController | Filters applied successfully | 
+2018-06-26 12:10:04.6931 | INFO | Eshop.MvcApplication | Application Dispose | 
+2018-06-26 12:10:34.6991 | INFO | Eshop.MvcApplication | Application Dispose | 
+2018-06-26 12:11:04.8272 | INFO | Eshop.Controllers.HomeController | Get goods from category: All | 
+2018-06-26 12:11:05.1065 | INFO | Eshop.Controllers.HomeController | Try to apply filters | 
+2018-06-26 12:11:05.1466 | INFO | Eshop.Controllers.HomeController | Sort goods success | 
+2018-06-26 12:11:05.1466 | INFO | Eshop.Controllers.HomeController | Filters applied successfully | 
+2018-06-26 12:11:05.1983 | INFO | Eshop.MvcApplication | Application Init | 
+2018-06-26 12:11:05.2237 | INFO | Eshop.MvcApplication | Application Init | 
+2018-06-26 12:11:06.9698 | INFO | Eshop.Controllers.HomeController | Get goods from category: All | 
+2018-06-26 12:11:07.2159 | INFO | Eshop.Controllers.HomeController | Try to apply filters | 
+2018-06-26 12:11:07.2550 | INFO | Eshop.Controllers.HomeController | Sort goods success | 
+2018-06-26 12:11:07.2550 | INFO | Eshop.Controllers.HomeController | Filters applied successfully | 
+2018-06-26 12:11:24.3478 | INFO | Eshop.Controllers.HomeController | Get goods from category: All | 
+2018-06-26 12:11:24.6154 | INFO | Eshop.Controllers.HomeController | Try to apply filters | 
+2018-06-26 12:11:24.6799 | INFO | Eshop.Controllers.HomeController | Sort goods success | 
+2018-06-26 12:11:24.6935 | INFO | Eshop.Controllers.HomeController | Filters applied successfully | 
+2018-06-26 12:11:24.8039 | INFO | Eshop.MvcApplication | Application Init | 
+2018-06-26 12:12:01.5756 | INFO | Eshop.Controllers.HomeController | Get goods from category: All | 
+2018-06-26 12:12:02.0639 | INFO | Eshop.Controllers.HomeController | Try to apply filters | 
+2018-06-26 12:12:02.1147 | INFO | Eshop.Controllers.HomeController | Sort goods success | 
+2018-06-26 12:12:02.1147 | INFO | Eshop.Controllers.HomeController | Filters applied successfully | 
+2018-06-26 12:12:28.1314 | INFO | Eshop.Controllers.HomeController | Get goods from category: All | 
+2018-06-26 12:12:28.5475 | INFO | Eshop.Controllers.HomeController | Try to apply filters | 
+2018-06-26 12:12:28.5855 | INFO | Eshop.Controllers.HomeController | Sort goods success | 
+2018-06-26 12:12:28.5855 | INFO | Eshop.Controllers.HomeController | Filters applied successfully | 
+2018-06-26 12:12:30.4586 | INFO | Eshop.Controllers.HomeController | Get goods from category: All | 
+2018-06-26 12:12:30.8668 | INFO | Eshop.Controllers.HomeController | Try to apply filters | 
+2018-06-26 12:12:30.9088 | INFO | Eshop.Controllers.HomeController | Sort goods success | 
+2018-06-26 12:12:30.9234 | INFO | Eshop.Controllers.HomeController | Filters applied successfully | 
+2018-06-26 12:12:36.9958 | INFO | Eshop.Controllers.HomeController | Get goods from category: All | 
+2018-06-26 12:12:37.3932 | INFO | Eshop.Controllers.HomeController | Try to apply filters | 
+2018-06-26 12:12:37.4499 | INFO | Eshop.Controllers.HomeController | Sort goods success | 
+2018-06-26 12:12:37.4626 | INFO | Eshop.Controllers.HomeController | Filters applied successfully | 
+2018-06-26 12:13:05.8065 | INFO | Eshop.Controllers.HomeController | Get goods from category: All | 
+2018-06-26 12:13:06.0467 | INFO | Eshop.Controllers.HomeController | Try to apply filters | 
+2018-06-26 12:13:06.0848 | INFO | Eshop.Controllers.HomeController | Sort goods success | 
+2018-06-26 12:13:06.0848 | INFO | Eshop.Controllers.HomeController | Filters applied successfully | 
+2018-06-26 12:13:07.6815 | INFO | Eshop.Controllers.HomeController | Get goods from category: All | 
+2018-06-26 12:13:07.9256 | INFO | Eshop.Controllers.HomeController | Try to apply filters | 
+2018-06-26 12:13:07.9666 | INFO | Eshop.Controllers.HomeController | Sort goods success | 
+2018-06-26 12:13:07.9774 | INFO | Eshop.Controllers.HomeController | Filters applied successfully | 
+2018-06-26 12:13:16.9579 | INFO | Eshop.Controllers.HomeController | Get goods from category: All | 
+2018-06-26 12:13:17.1855 | INFO | Eshop.Controllers.HomeController | Try to apply filters | 
+2018-06-26 12:13:17.2235 | INFO | Eshop.Controllers.HomeController | Sort goods success | 
+2018-06-26 12:13:17.2333 | INFO | Eshop.Controllers.HomeController | Filters applied successfully | 
+2018-06-26 12:13:23.8417 | INFO | Eshop.Controllers.HomeController | Get goods from category: All | 
+2018-06-26 12:13:24.0703 | INFO | Eshop.Controllers.HomeController | Try to apply filters | 
+2018-06-26 12:13:24.1171 | INFO | Eshop.Controllers.HomeController | Sort goods success | 
+2018-06-26 12:13:24.1171 | INFO | Eshop.Controllers.HomeController | Filters applied successfully | 
+2018-06-26 12:14:04.7570 | INFO | Eshop.MvcApplication | Application Dispose | 
+2018-06-26 12:15:04.7720 | INFO | Eshop.MvcApplication | Application Dispose | 
+2018-06-26 12:15:34.7732 | INFO | Eshop.MvcApplication | Application Dispose | 
+2018-06-26 12:16:36.7472 | INFO | Eshop.MvcApplication | Application Error | 
+2018-06-26 12:16:46.0275 | INFO | Eshop.Controllers.HomeController | Get goods from category: All | 
+2018-06-26 12:16:46.4240 | INFO | Eshop.Controllers.HomeController | Try to apply filters | 
+2018-06-26 12:16:46.4728 | INFO | Eshop.Controllers.HomeController | Sort goods success | 
+2018-06-26 12:16:46.4865 | INFO | Eshop.Controllers.HomeController | Filters applied successfully | 
+2018-06-26 12:16:46.5353 | INFO | Eshop.MvcApplication | Application Init | 
+2018-06-26 12:16:46.5607 | INFO | Eshop.MvcApplication | Application Init | 
+2018-06-26 12:17:00.9963 | INFO | Eshop.Controllers.HomeController | Get goods from category: All | 
+2018-06-26 12:17:01.4211 | INFO | Eshop.Controllers.HomeController | Try to apply filters | 
+2018-06-26 12:17:01.4602 | INFO | Eshop.Controllers.HomeController | Sort goods success | 
+2018-06-26 12:17:01.4739 | INFO | Eshop.Controllers.HomeController | Filters applied successfully | 
+2018-06-26 12:17:44.7867 | INFO | Eshop.MvcApplication | Application Dispose | 
+2018-06-26 12:17:48.1939 | INFO | Eshop.Controllers.HomeController | Get goods from category: Laptops | 
+2018-06-26 12:17:48.4322 | INFO | Eshop.Controllers.HomeController | Try to apply filters | 
+2018-06-26 12:17:48.4781 | INFO | Eshop.Controllers.HomeController | Sort goods success | 
+2018-06-26 12:17:48.4908 | INFO | Eshop.Controllers.HomeController | Filters applied successfully | 
+2018-06-26 12:18:14.7868 | INFO | Eshop.MvcApplication | Application Dispose | 
+2018-06-26 12:19:11.6495 | INFO | Eshop.Controllers.HomeController | Get goods from category: All | 
+2018-06-26 12:19:11.9024 | INFO | Eshop.Controllers.HomeController | Try to apply filters | 
+2018-06-26 12:19:11.9464 | INFO | Eshop.Controllers.HomeController | Sort goods success | 
+2018-06-26 12:19:11.9610 | INFO | Eshop.Controllers.HomeController | Filters applied successfully | 
+2018-06-26 12:19:12.0098 | INFO | Eshop.MvcApplication | Application Init | 
+2018-06-26 12:19:12.0098 | INFO | Eshop.MvcApplication | Application Init | 
+2018-06-26 12:19:19.9454 | INFO | Eshop.Controllers.HomeController | Get goods from category: All | 
+2018-06-26 12:19:20.1906 | INFO | Eshop.Controllers.HomeController | Try to apply filters | 
+2018-06-26 12:19:20.2277 | INFO | Eshop.Controllers.HomeController | Sort goods success | 
+2018-06-26 12:19:20.2404 | INFO | Eshop.Controllers.HomeController | Filters applied successfully | 
+2018-06-26 12:19:25.9699 | INFO | Eshop.Controllers.HomeController | Try to apply filters | 
+2018-06-26 12:19:26.0187 | INFO | Eshop.Controllers.HomeController | Sort goods success | 
+2018-06-26 12:19:26.0314 | INFO | Eshop.Controllers.HomeController | Filters applied successfully | 
+2018-06-26 12:19:27.9445 | INFO | Eshop.Controllers.HomeController | Get goods from category: All | 
+2018-06-26 12:19:28.1769 | INFO | Eshop.Controllers.HomeController | Try to apply filters | 
+2018-06-26 12:19:28.2160 | INFO | Eshop.Controllers.HomeController | Sort goods success | 
+2018-06-26 12:19:28.2287 | INFO | Eshop.Controllers.HomeController | Filters applied successfully | 
+2018-06-26 12:19:36.3196 | INFO | Eshop.MvcApplication | Application Error | 
+2018-06-26 12:19:38.3039 | INFO | Eshop.Controllers.HomeController | Try to apply filters | 
+2018-06-26 12:19:38.3450 | INFO | Eshop.Controllers.HomeController | Sort goods success | 
+2018-06-26 12:19:38.3577 | INFO | Eshop.Controllers.HomeController | Filters applied successfully | 
+2018-06-26 12:19:40.5676 | INFO | Eshop.MvcApplication | Application Error | 
+2018-06-26 12:19:46.6673 | INFO | Eshop.Controllers.HomeController | Try to apply filters | 
+2018-06-26 12:19:46.7073 | INFO | Eshop.Controllers.HomeController | Sort goods success | 
+2018-06-26 12:19:46.7210 | INFO | Eshop.Controllers.HomeController | Filters applied successfully | 
+2018-06-26 12:19:50.3450 | INFO | Eshop.MvcApplication | Application Error | 
+2018-06-26 12:19:54.3851 | INFO | Eshop.MvcApplication | Application Error | 
+2018-06-26 12:19:59.5736 | INFO | Eshop.Controllers.HomeController | Try to apply filters | 
+2018-06-26 12:19:59.6136 | INFO | Eshop.Controllers.HomeController | Sort goods success | 
+2018-06-26 12:19:59.6254 | INFO | Eshop.Controllers.HomeController | Filters applied successfully | 
+2018-06-26 12:20:44.8053 | INFO | Eshop.MvcApplication | Application Dispose | 
+2018-06-26 12:21:14.8192 | INFO | Eshop.MvcApplication | Application Dispose | 
+2018-06-26 12:21:44.8203 | INFO | Eshop.MvcApplication | Application Dispose | 
+2018-06-26 12:38:27.0500 | INFO | Eshop.MvcApplication | Application Start | 
+2018-06-26 12:38:28.0148 | INFO | Eshop.MvcApplication | Application Init | 
+2018-06-26 12:38:28.0461 | INFO | Eshop.MvcApplication | Application Init | 
+2018-06-26 12:38:35.7913 | INFO | Eshop.Controllers.HomeController | Get goods from category: All | 
+2018-06-26 12:38:40.7835 | INFO | Eshop.Controllers.HomeController | Try to apply filters | 
+2018-06-26 12:38:40.8753 | INFO | Eshop.Controllers.HomeController | Sort goods success | 
+2018-06-26 12:38:40.8997 | INFO | Eshop.Controllers.HomeController | Filters applied successfully | 
+2018-06-26 12:38:40.9690 | INFO | Eshop.MvcApplication | Application Init | 
+2018-06-26 12:38:40.9690 | INFO | Eshop.MvcApplication | Application Init | 
+2018-06-26 12:38:40.9690 | INFO | Eshop.MvcApplication | Application Init | 
+2018-06-26 12:38:41.0218 | INFO | Eshop.MvcApplication | Application Init | 
+2018-06-26 12:38:45.9612 | INFO | Eshop.Controllers.HomeController | Get goods from category: All | 
+2018-06-26 12:38:46.3636 | INFO | Eshop.Controllers.HomeController | Try to apply filters | 
+2018-06-26 12:38:46.4232 | INFO | Eshop.Controllers.HomeController | Sort goods success | 
+2018-06-26 12:38:46.4417 | INFO | Eshop.Controllers.HomeController | Filters applied successfully | 
+2018-06-26 12:39:04.7709 | INFO | Eshop.Controllers.ManageController | Specification id = 4 updated: set name = Displays | 
+2018-06-26 12:39:12.7222 | INFO | Eshop.Controllers.ManageController | Specification id = 5 updated: set name = 2111 | 
+2018-06-26 12:39:17.9927 | INFO | Eshop.MvcApplication | Application Dispose | 
+2018-06-26 12:39:20.7144 | INFO | Eshop.Controllers.ManageController | Category id = 1 updated: set name = SAM | 
+2018-06-26 12:39:26.7320 | INFO | Eshop.Controllers.ManageController | Property id = 2 updated: set name = screen_size | 
+2018-06-26 12:39:48.0056 | INFO | Eshop.MvcApplication | Application Dispose | 
+2018-06-26 12:40:18.0185 | INFO | Eshop.MvcApplication | Application Dispose | 
+2018-06-26 12:40:48.0216 | INFO | Eshop.MvcApplication | Application Dispose | 
+2018-06-26 12:40:58.9367 | ERROR | Eshop.Controllers.HomeController | Exception occured in index | System.NotImplementedException: The method or operation is not implemented.
+   at Eshop.Controllers.HomeController.Index() in C:\Users\Алексей\Desktop\Eshop -0626\Eshop\Controllers\HomeController.cs:line 34
+2018-06-26 12:40:59.0314 | INFO | Eshop.MvcApplication | Application Error | 
+2018-06-26 12:41:06.7541 | INFO | Eshop.Controllers.HomeController | Get goods from category: All | 
+2018-06-26 12:41:07.0031 | INFO | Eshop.Controllers.HomeController | Try to apply filters | 
+2018-06-26 12:41:07.0461 | INFO | Eshop.Controllers.HomeController | Sort goods success | 
+2018-06-26 12:41:07.0695 | INFO | Eshop.Controllers.HomeController | Filters applied successfully | 
+2018-06-26 12:41:07.1281 | INFO | Eshop.MvcApplication | Application Init | 
+2018-06-26 12:41:07.1281 | INFO | Eshop.MvcApplication | Application Init | 
+2018-06-26 12:41:07.1281 | INFO | Eshop.MvcApplication | Application Init | 
+2018-06-26 12:41:07.1672 | INFO | Eshop.MvcApplication | Application Init | 
+2018-06-26 12:41:07.1672 | INFO | Eshop.MvcApplication | Application Init | 
+2018-06-26 12:41:37.0511 | INFO | Eshop.Controllers.ManageController | order id = 1 updated: set status = 2 | 
+2018-06-26 12:41:42.1215 | INFO | Eshop.Controllers.HomeController | Get goods from category: All | 
+2018-06-26 12:41:42.4476 | INFO | Eshop.Controllers.HomeController | Try to apply filters | 
+2018-06-26 12:41:42.5004 | INFO | Eshop.Controllers.HomeController | Sort goods success | 
+2018-06-26 12:41:42.5258 | INFO | Eshop.Controllers.HomeController | Filters applied successfully | 

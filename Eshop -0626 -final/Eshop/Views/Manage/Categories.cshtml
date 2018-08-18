@@ -1,0 +1,100 @@
+﻿@model System.Collections.Generic.List<Eshop.Domain.Entities.Goods.Category>
+
+@{
+    ViewBag.Title = "Manage Categories/Properties/Specifications";
+}
+
+<style>
+    .table-categories td {
+        text-align: center;
+        border: 1px solid black;
+    }
+</style>
+<table class="table-categories">
+
+    @foreach (var categ in Model)
+    {
+        <tr>
+            <td>@categ.Name</td>
+            <td>
+                @Html.ActionLink("Edit", "Category", "Manage", new { id = categ.Id }, null) <br />
+            @Html.ActionLink("Delete", "DeleteCategory", "Manage", new { id = categ.Id }, null)
+        </td>
+        <td>
+            <table class="table table-bordered">
+
+                @foreach (var prop in categ.Properties)
+                {
+                    <tr>
+                        <td>
+                            @prop.Name
+                        </td>
+                        <td>
+                            @Html.ActionLink("Edit", "Property", "Manage", new { id = prop.Id }, null)
+                            <br/>
+                            @Html.ActionLink("Delete", "DeleteProperty", "Manage", new { id = prop.Id }, null)
+
+                        </td>
+                        <td>
+                            <table class="table table-bordered">
+                                <tr>
+                                    <th>Specifications</th>
+                                </tr>
+                                @foreach (var spec in prop.Specifications)
+                                {
+                                    <tr>
+                                        <td>@spec.Name</td>
+                                        <td>
+                                            @Html.ActionLink("Edit", "Specification", "Manage", new { id = spec.Id }, null)
+                                            <br />
+                                            @Html.ActionLink("Delete", "DeleteSpecification", "Manage", new { id = spec.Id }, null)
+                                        </td>
+                                    </tr>
+                                }
+                                <tr>
+                                    @using (Html.BeginForm("AddSpecification", "Manage"))
+                                    {
+                                        <td>
+                                            <input type="hidden" name="propertyId" value="@prop.Id" />
+                                            <input name="specificationName" placeholder="Specification name" type="text" />
+                                        </td>
+                                        <td>
+                                            <button class="btn btn-primary" type="submit">Add</button>
+                                        </td>
+                                    }
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                }
+                <tr>
+                    @using (Html.BeginForm("AddProperty", "Manage"))
+                    {
+                        <td>
+                            <input type="hidden" name="categoryId" value="@categ.Id" />
+                            <input name="propertyName" placeholder="Property name" type="text" />
+                        </td>
+                        <td>
+                            <button class="btn btn-primary" type="submit">Add</button>
+                        </td>
+                    }
+
+                </tr>
+            </table>
+        </td>
+
+    </tr>
+
+}
+    <tr>
+        @using (Html.BeginForm("AddCategory", "Manage"))
+        {
+            <td>
+                <input name="categoryName" placeholder="Catalog Name" type="text" />
+            </td>
+            <td>
+                <button class="btn btn-primary" type="submit">Add</button>
+            </td>
+        }
+    </tr>
+</table>

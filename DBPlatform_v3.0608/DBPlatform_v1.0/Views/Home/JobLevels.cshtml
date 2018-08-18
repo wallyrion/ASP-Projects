@@ -1,0 +1,31 @@
+﻿@model IEnumerable<DBPlatform_v1._0.Models.Companies.JobLevel>
+@{
+    ViewBag.Title = "Job Levels";
+}
+
+<h2>Job Levels</h2>
+
+@using (Html.BeginForm())
+{
+    <table>
+        <tr>
+            <th>Job level</th>
+            <th>Int level</th>
+            <th></th>
+        </tr>
+        @foreach (DBPlatform_v1._0.Models.Companies.JobLevel item in Model)
+        {
+            <tr>
+                <td>@item.Name</td>
+                <td>@item.level</td>
+                <td>@Html.ActionLink("Delete", "DeleteJobLevel",new {id = item.Id})</td>
+            </tr>
+        }
+    </table>
+
+    <label>New Level Name</label>
+    <p><input type="text" size="100"placeholder="Level Name"name="newName" /></p>
+    <label>New Level number</label>
+    <p><input type="text" size="100" placeholder="Level number (from 0 to @Model.Count())" name="newLevel" /></p>
+    <p><button class="btn btn-success" type="submit" value="Add">Add</button></p>
+}

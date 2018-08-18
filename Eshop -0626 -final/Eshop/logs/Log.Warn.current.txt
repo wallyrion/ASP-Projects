@@ -1,0 +1,1 @@
+2018-06-25 11:47:34.2993 Eshop.MvcApplication.Application_Start Warn: warn message  RuntimeMethodInfo.UnsafeInvokeInternal => RuntimeMethodHandle.InvokeMethod => MvcApplication.Application_Start

@@ -1,0 +1,33 @@
+﻿.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.form-create{
+    width:600px;
+    float:left; 
+    clear:both;
+}
+.form-create label{
+    width:30%;
+}
+.form-create input[type=text]{
+    width:50%;
+}
+.list-selectlist {
+    width: 40%;
+    float: left;
+}
+.save-btn{
+    display:block;
+    margin:auto;
+    clear:both;
+}
+footer{
+    clear:both;
+    text-align:center;
+}
+.validation-summary-errors {
+    color: red;
+}

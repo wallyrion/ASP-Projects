@@ -1,0 +1,98 @@
+﻿@model IEnumerable<Eshop.Domain.Entities.Order>
+@{
+    ViewBag.Title = "Orders";
+}
+
+<style>
+    .order {
+        width: 60%;
+    }
+
+    .order-good {
+        overflow: hidden;
+    }
+
+    .order-description {
+        width: 70%;
+        float: left;
+    }
+
+    .good-image {
+        float: right;
+        width: 100px;
+        height: 100px;
+    }
+    hr {
+        color: black;
+        background-color: black;
+    }
+
+</style>
+@if (Model == null || !Model.Any())
+{
+    <h2>You have no orders</h2>
+}
+else
+{
+    <div class="all-orders">
+
+        @foreach (var order in Model)
+        {
+            <div class="well order">
+                @Html.LabelFor(g => order.Date)
+                <p>@Html.DisplayTextFor(g => order.Date)</p>
+
+                
+                @{
+                   
+                    var status = "";
+
+                    if (order.Status == 0)
+                    {
+                        status = "Canceled";
+                    }
+                    else if (order.Status == 1)
+                    {
+                        status = "Registered";
+                    }
+                    else
+                    {
+                        status = "Paid";
+                    }
+                }
+                @*
+                <p>@Html.DisplayText(order.GoodsQuantities.Sum(o => o.TotalPrice).ToString())</p>
+                *@
+                @Html.Label("Status:")
+                <span>@status</span>
+
+                <h4><label for="totalPrice">Total Price: </label>@order.GoodsQuantities.Sum(o => o.TotalPrice)<span>$</span></h4>
+                <div class="well order-goods">
+                    @foreach (var good in order.GoodsQuantities)
+                    {
+                        <p>@Html.ActionLink("More info","Description","Good", new{ id=good.PurchasedGoodId },new{@class="btn btn-info"})</p>
+
+                        <div class="order-good">
+                            <div class="order-description">
+                                <p>@Html.DisplayTextFor(g => good.GoodName)</p>
+                                <h4>@Html.DisplayTextFor(g => good.TotalPrice)<span>$</span></h4>  
+                                <p>
+                                    <label>Quantity</label>
+                                    @Html.DisplayTextFor(g => good.GoodCount)
+                                </p>
+                            </div>
+                            <div class="good-image">
+                                <img alt="NO IMAGE" width="100" height="100" src='@Url.Action("GetImage", "Good", new {id = good.PurchasedGoodId})' />
+
+                            </div>
+
+                        </div>
+                        <hr />
+                    }
+                </div>
+
+            </div>
+        }
+
+    </div>
+}

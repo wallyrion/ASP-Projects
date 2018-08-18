@@ -1,0 +1,107 @@
+﻿@model IEnumerable<DBPlatform_v1._0.Models.Companies.JobArea>
+@{
+    ViewBag.Title = "Job Areas";
+}
+
+<h2>Job Areas</h2>
+
+<style>
+
+    #jobAreaName {
+        max-width: none;
+        width: 40%;
+    }
+    #btnAdd, #jobAreaName {
+        display: inline-block;
+    }
+</style>
+<div class="container-jobAreas">
+    <input type="text" class="form-group input-lg" placeholder="Job Area Name"id="jobAreaName" name="jobAreaName" required="" />
+    <button class="btn btn-primary btn-lg" id="btnAdd" type="button" value="Add">Add</button>
+    <table id="tblJobAreas" class="table table-hover table-striped">
+        <thead class="thread-dark">
+            <tr>
+                <th class="jobAreaTh">Name</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+</div>
+<br />
+
+
+@section Scripts
+{
+    <script type="text/javascript">
+
+    $(function () {
+        LoadData();
+        $("#btnAdd").click(function () {
+            //alert("");
+            var jobArea = {};
+            jobArea.Name = $("#jobAreaName").val();
+            $.ajax({
+                type: "POST",
+                url: '@Url.Action("CreateJobArea")',
+                data: '{jobArea: ' + JSON.stringify(jobArea) + '}',
+                dataType: "json",
+                contentType: "application/json; charset=utf-8",
+                success: function () {
+                   // alert("Data has been added successfully.");
+                    LoadData();
+                },
+                error: function () {
+                    alert("Error while inserting data");
+                }
+            });
+            return false;
+        });
+    });
+
+    function LoadData() {
+        $("#tblJobAreas tbody tr").remove();
+
+        $.ajax({
+
+            type: 'GET',
+            url: '@Url.Action("GetJobareas")',
+            dataType: 'json',
+            data: { id: '' },
+
+            success: function (data) {
+                console.log("success", data);
+                var items = '';
+                $.each(data, function (i, item) {
+                    var rows = "<tr>"
+                        + "<td class='jobAreaTd'>" + item.Name + "</td>" + "<td><button onclick='deleteJobArea(" + item.Id + ")' class='btn btn-warning btn-xs' type='button'>delete</button></td>"
+                    + "</tr>";
+                    $('#tblJobAreas tbody').append(rows);
+                });
+            },
+            error: function (ex) {
+                console.log('error ');
+            }
+
+        });
+        return false;
+        }
+        function deleteJobArea(id) {
+            $.ajax({
+                type: "POST",
+                url: '@Url.Action("DeleteJobArea")',
+                data: '{id: ' + id + '}',
+                dataType: "json",
+                contentType: "application/json; charset=utf-8",
+                success: function () {
+                    console.log('success');
+                    // alert("Data has been added successfully.");
+                    LoadData();
+                },
+                error: function () {
+                    alert("Error while inserting data");
+                }
+            });
+        }
+    </script>
+}  

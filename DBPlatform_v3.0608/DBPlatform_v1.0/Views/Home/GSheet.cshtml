@@ -1,0 +1,20 @@
+﻿@model IEnumerable<IEnumerable<Object>>
+@{
+    ViewBag.Title = "Sheet";
+}
+
+<h2>Sheet</h2>
+
+<table border="1">
+    @foreach (var item in Model)
+    {
+        <tr>
+            @foreach (var item2 in item)
+            {
+                <td>@item2</td>
+            }
+
+        </tr>
+    }
+
+</table>
